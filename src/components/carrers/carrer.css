@@ -1,0 +1,54 @@
+.carrer {
+    color: white;
+    padding: 4rem clamp(1rem, 7vw, 10rem);
+    background: hsl(217, 73%, 12%);
+    text-align: center;
+    margin-bottom: 30%;
+}
+
+.carrer h1 {
+    font-size: 3.5rem;
+    margin: 2rem auto;
+}
+
+.carrer p {
+    width: clamp(100px, 100%, 900px);
+    margin: auto;
+}
+
+.carrer div {
+    background: white;
+    width: 100%;
+    height: 500px;
+    border-radius: 5px;
+    padding: 1rem;
+    margin: 4rem 0 -30% 0;
+    box-shadow: 5px 15px 45px rgba(0, 0, 0, 0.03);
+}
+
+.carrer h2 {
+    color: hsl(217, 73%, 12%);
+    text-align: left;
+}
+
+@media(max-width: 950px) {
+    .carrer {
+        margin-bottom: 55%;
+    }
+
+    .carrer div {
+        margin: 6rem 0 -70% 0;
+    }
+
+}
+
+@media(max-width: 650px) {
+    .carrer {
+        margin-bottom: 85%;
+    }
+
+    .carrer div {
+        margin: 6rem 0 -100% 0;
+    }
+
+}
