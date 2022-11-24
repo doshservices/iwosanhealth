@@ -2,7 +2,7 @@ import "./contact.css";
 const Contact = () => {
   return (
     <>
-      <div className="intro">
+      <div className="contact-Us">
         <h1>Contact Us</h1>
         <p>
           Iwosan Investments Limited is a privately held healthcare asset and

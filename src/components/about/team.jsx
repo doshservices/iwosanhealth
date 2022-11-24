@@ -1,4 +1,5 @@
 import "./about.css";
+import "./staff.css";
 import investmentbg from "../../images/investment-hero.png";
 import border from "../../images/border.svg";
 import staffData from "./staffData";
@@ -6,7 +7,7 @@ import { useState } from "react";
 
 const Team = () => {
   const [focus, setFocus] = useState(false);
-  const handleFocus = () => {
+  const handleClick = (id) => {
     setFocus((current) => !current);
   };
 
@@ -59,9 +60,21 @@ const Team = () => {
             <h3>Medical Advisory Council</h3>
           </div>
         </div>
+        <div className="modal">
+          <div>
+            <button>x</button>
+            <img src={investmentbg} alt="" />
+            <h3>bvcdvcdvcd</h3>
+            <h4> cbfbcfbchfdbcfdc</h4>
+            <p>
+              The best doctors and medical personnel from around the world with
+              international certificates and also extraordinary experiences
+            </p>
+          </div>
+        </div>
         <section className="staffs">
           {staffData.staffs.map((data) => (
-            <div className="staff" key={data.id}>
+            <div className="staff" key={data.id} id={data.id}>
               <figure>
                 <img src={data.img} alt={data.name} />
               </figure>

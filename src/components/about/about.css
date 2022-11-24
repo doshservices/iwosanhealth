@@ -3,7 +3,7 @@
     color: white;
     text-align: center;
     padding: 4rem clamp(1rem, 7vw, 10rem);
-    margin-bottom: 4rem;
+    margin-bottom: 5rem;
 }
 
 .intro h1 {
@@ -12,7 +12,7 @@
 }
 
 .intro p {
-    width: clamp(100px, 100%, 900px);
+    max-width: 900px;
     margin: auto;
 }
 
@@ -41,8 +41,9 @@
     align-items: center;
     gap: 3rem;
     padding: 3rem clamp(1rem, 7vw, 10rem);
-    margin-top: 9rem;
+    padding-top: 4rem;
 }
+
 
 .record div,
 .leadership div,
@@ -313,6 +314,16 @@
 
 }
 
+@media(min-width: 1200px) {
+    .record {
+        margin-top: 9rem;
+    }
+
+    .sustain {
+        margin-top: 9rem;
+    }
+}
+
 @media (max-width: 750px) {
     .intro img {
         margin: 6rem 0 -30% 0;
@@ -324,6 +335,10 @@
 }
 
 @media(max-width: 450px) {
+    .record {
+        margin-top: 4rem;
+    }
+
     .mail .email {
         background: transparent;
     }

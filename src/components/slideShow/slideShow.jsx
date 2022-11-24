@@ -1,8 +1,8 @@
-import { useState, useEffect, useRef } from 'react';
+import { useState, useEffect, useRef } from "react";
 import Slide1 from "../../images/slide1.svg";
 import Slide2 from "../../images/slide2.svg";
 import Slide3 from "../../images/slide3.svg";
-import "./slideshow.css"
+import "./slideshow.css";
 
 const slideImages = [Slide1, Slide2, Slide3];
 const delay = 4500;
@@ -15,7 +15,7 @@ const Slideshow = () => {
     if (timeoutRef.current) {
       clearTimeout(timeoutRef.current);
     }
-  }
+  };
 
   useEffect(() => {
     resetTimeout();
@@ -39,14 +39,10 @@ const Slideshow = () => {
         style={{ transform: `translate3d(${-index * 100}%, 0, 0)` }}
       >
         {slideImages.map((slideImages, index) => (
-          <img
-            className="slide"
-            key={index}
-            src={slideImages}
-          />
+          <img className="slide" key={index} src={slideImages} />
         ))}
       </div>
     </div>
   );
-}
+};
 export default Slideshow;

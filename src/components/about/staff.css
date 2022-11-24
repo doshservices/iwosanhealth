@@ -1,0 +1,41 @@
+.modal {
+    position: fixed;
+    z-index: 1;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    max-width: 350px;
+    min-width: 250px;
+    background: hsla(121, 44%, 49%, 1);
+    padding: 1rem;
+    border-radius: 3px;
+    display: none;
+}
+
+.modal img {
+    width: 100%;
+}
+
+.modal p {
+    font-size: .9rem;
+    line-height: 1.4rem;
+    margin: 1rem 0;
+}
+
+.modal div {
+    position: relative;
+}
+
+.modal button {
+    color: white;
+    background: hsla(217, 73%, 12%, 1);
+    height: 30px;
+    width: 25px;
+    font-size: 1.5rem;
+    border-radius: 50%;
+    border: none;
+    position: absolute;
+    top: -30px;
+    right: -28px;
+    cursor: pointer;
+}

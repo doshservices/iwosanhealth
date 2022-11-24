@@ -26,25 +26,31 @@
     flex-basis: 450px;
     flex-grow: 1;
 }
+
 .flex-400-item {
     flex-basis: 400px;
     flex-grow: 1;
 }
+
 .about-us {
     padding: 1rem 0;
 }
+
 .about-us div {
     padding: 0 clamp(1rem, 7vw, 8rem);
 }
-.about-us figure img:nth-child(1){
+
+.about-us figure img:nth-child(1) {
     width: 100%;
     border-radius: 0 5px 5px 0;
 }
-.about-us figure img:nth-child(2){
+
+.about-us figure img:nth-child(2) {
     width: 50%;
     transform: translate(120%, -70%);
     border-radius: 5px;
 }
+
 .about-us h2,
 .what-we-do h2,
 .join h2 {
@@ -149,36 +155,6 @@
     font-weight: 500;
 }
 
-.count {
-    background: hsl(191, 100%, 43%);
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
-    color: white;
-    text-align: center;
-    padding: 2rem clamp(1rem, 7vw, 8rem);
-}
-
-.count p {
-    font-size: 3rem;
-    font-weight: 700;
-    font-family: "Work Sans";
-    line-height: .8rem;
-    flex-grow: 1;
-    flex-basis: 200px;
-    margin: 2rem 0;
-}
-
-.count span {
-    font-size: 1rem;
-    font-weight: 500;
-}
-
-.count small {
-    font-size: 1rem;
-    font-weight: 200;
-}
-
 .testimony {
     color: white;
     padding: 6rem 0 2rem clamp(1rem, 7vw, 8rem);
@@ -191,14 +167,15 @@
 }
 
 .testimony>div {
-    margin-right:clamp(1rem, 7vw, 8rem);
+    margin-right: clamp(1rem, 7vw, 8rem);
     margin-bottom: 2rem;
 }
 
 .testimony>div div {
     margin-top: 5rem;
 }
-.testimony figure img{
+
+.testimony figure img {
     width: 100%;
 }
 
@@ -220,9 +197,21 @@
         border: 0px;
     }
 }
-@media(max-width: 916px){
+
+@media(max-width: 900px) {
     .about-us figure img:nth-child(2) {
         width: 50%;
         transform: translate(100%, -70%);
-      }
+    }
+}
+
+@media(max-width: 916px) {
+    .about-us div {
+        margin-top: -5rem;
+    }
+
+    .about-us figure img:nth-child(2) {
+        width: 50%;
+        transform: translate(100%, -70%);
+    }
 }

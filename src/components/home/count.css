@@ -1,0 +1,32 @@
+.counter {
+    background: hsl(191, 100%, 43%);
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    color: white;
+    text-align: center;
+    padding: 1rem clamp(1rem, 7vw, 8rem) 3rem clamp(1rem, 7vw, 8rem);
+}
+
+.counter span {
+    font-size: 3rem;
+    font-weight: 700;
+    font-family: "Work Sans";
+    line-height: .8rem;
+    flex-grow: 1;
+    flex-basis: 200px;
+    display: inline-block;
+    margin-top: 1.5rem;
+}
+
+.counter p {
+    font-size: 1rem;
+    font-weight: 500;
+    margin: 1rem 0 -1rem 0;
+}
+
+.counter small {
+    font-size: 1rem;
+    font-weight: 200;
+    margin: 0;
+}

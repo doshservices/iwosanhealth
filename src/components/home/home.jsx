@@ -1,19 +1,22 @@
-import Slideshow from "../slideShow/slideShow"
-import "./home.css"
+import Slideshow from "../slideShow/slideShow";
+import "./home.css";
 import Bordergreen from "../../images/border.svg";
 import Verified from "../../images/verified.svg";
 import Innovative from "../../images/innovative.svg";
 import Patient from "../../images/patient.svg";
 import Testimony from "../testimonial";
 import Femaleworker from "../../images/female-team.png";
-import Maleworker from "../../images/male-team.png"
+import Maleworker from "../../images/male-team.png";
+import Count from "./count";
 
 const Home = () => {
   return (
     <>
       <main>
         <Slideshow />
+
         <div className="blue-bg"></div>
+
         <section className="about-us flex">
           <figure className="flex-450-item">
             <img src={Maleworker} />
@@ -23,14 +26,16 @@ const Home = () => {
             <h2>Here is a little about who we are.</h2>
             <img src={Bordergreen} alt="border" />
             <p>
-              Iwosan Investments Limited is a privately held healthcare asset and
-              investment company dedicated to financing and developing brownfield
-              and greenfield multi-specialist healthcare facilities in West
-              Africa. Established in 2021, the group has set out to transform the
-              standards of healthcare delivery and administration in Nigeria in
-              keeping with global best practices.
+              Iwosan Investments Limited is a privately held healthcare asset
+              and investment company dedicated to financing and developing
+              brownfield and greenfield multi-specialist healthcare facilities
+              in West Africa. Established in 2021, the group has set out to
+              transform the standards of healthcare delivery and administration
+              in Nigeria in keeping with global best practices.
             </p>
-            <a href="" className="contact-btn" role="button">Contact Us</a>
+            <a href="" className="contact-btn" role="button">
+              Contact Us
+            </a>
           </div>
         </section>
         <section className="what-we-do">
@@ -58,7 +63,10 @@ const Home = () => {
             </div>
             <div className="flex-280-item">
               <img src={Verified} alt="" />
-              <h3>We are Innovative <br />and so much more</h3>
+              <h3>
+                We are Innovative <br />
+                and so much more
+              </h3>
               <p>
                 We are empathetic, ethical, knowledge-driven, innovative, and
                 accessible.
@@ -81,21 +89,9 @@ const Home = () => {
             </div>
           </div>
         </section>
-        <section className="count">
-          <p>700+ <span><br />employees</span></p>
-          <p>
-            14,151 <span><br />Monthly patient</span><br /><small>(both old and new)</small>
-          </p>
-          <p>
-            32+<span><br />specialties</span><br /><small>(and sub specialties)</small>
-          </p>
-          <p>
-            99+<span><br />bed spaces</span>
-          </p>
-        </section>
+        <Count />
       </main>
-
     </>
-  )
-}
+  );
+};
 export default Home;
