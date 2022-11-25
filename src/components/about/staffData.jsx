@@ -1,5 +1,7 @@
 import fola from "../../images/fola.jpg";
 import laloye from "../../images/laloye.jpg";
+import nelson from "../../images/nelson.jpg";
+import oladapo from "../../images/oladapo.jpg";
 
 const staffData = {
   staffs: [
@@ -21,7 +23,7 @@ const staffData = {
     },
     {
       id: 3,
-      img: fola,
+      img: nelson,
       name: "Prof. Nelson M. Oyesiku",
       office: "Board Member",
       about:
@@ -29,7 +31,7 @@ const staffData = {
     },
     {
       id: 4,
-      img: fola,
+      img: oladapo,
       name: "Oladapo Oshinusi",
       office: "Board Member",
       about:

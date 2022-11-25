@@ -78,10 +78,12 @@ const Team = () => {
               <figure>
                 <img src={data.img} alt={data.name} />
               </figure>
-              <h3>{data.name}</h3>
-              <h4>{data.office}</h4>
-              <span></span>
-              <p>{data.about}</p>
+              <div>
+                <h3>{data.name}</h3>
+                <h4>{data.office}</h4>
+                <span></span>
+                <p>{data.about}</p>
+              </div>
             </div>
           ))}
         </section>
@@ -90,3 +92,8 @@ const Team = () => {
   );
 };
 export default Team;
+
+const img1 = {
+  height: "300px",
+  width: "300px",
+};

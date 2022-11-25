@@ -1,66 +1,104 @@
 import Logo from "../../images/Logo.svg";
 import Arrowdown from "../../images/arrow-down.svg";
 import "./navigation.css";
-import { useState } from "react";
+import { useState, useEffect, useRef } from "react";
 import { Link } from "react-router-dom";
 
 const Navbar = () => {
   const [isOpen, setIsOpen] = useState(false);
-  const handleClick = () => {
-    setIsOpen((current) => !current);
-  };
   const [isDrop, setIsDrop] = useState(false);
-  const dropDown = () => {
-    setIsDrop((current) => !current);
-  };
+  const menuRef = useRef();
+  // useEffect(() => {
+  //   let handler = (e) => {
+  //     if (!menuRef.current.contains(e.target)) {
+  //       setIsOpen(false);
+  //       setIsDrop(false);
+  //     }
+  //   };
+  //   document.addEventListener("mousedown", handler);
+  //   return () => {
+  //     document.removeEventListener("mousedown", handler);
+  //   };
+  // });
 
   return (
     <header>
       <nav className="header__nav">
         <img src={Logo} alt="iwosan" className="header__logo" />
         <ul
+          // useref={menuRef}
           className="header__links"
           style={{
             right: isOpen ? "0" : "-110%",
           }}
         >
           <li>
-            <Link onClick={handleClick} to="/" className="header__link">
+            <Link
+              onClick={() => {
+                setIsOpen(!isOpen);
+              }}
+              to="/"
+              className="header__link"
+            >
               HOME
             </Link>
           </li>
-          <li onClick={dropDown} className="about">
+          <li
+            onClick={() => {
+              setIsDrop(!isDrop);
+            }}
+            // useref={menuRef}
+            className="about"
+          >
             ABOUT US
             <img
               className={isDrop ? "transform-true" : "transform-false"}
               src={Arrowdown}
               alt="drop"
-            />{" "}
+            />
           </li>
           {isDrop && (
             <ul className="dropdown-menu">
-              <li onClick={handleClick}>
+              <li
+                onClick={() => {
+                  setIsOpen(!isOpen);
+                }}
+              >
                 <Link
-                  onClick={dropDown}
+                  onClick={() => {
+                    setIsDrop(!isDrop);
+                  }}
                   to="/investment"
                   className="dropdown__link"
                 >
                   OUR INVESTMENT ATTRIBUTES
                 </Link>
               </li>
-              <li onClick={handleClick}>
+              <li
+                onClick={() => {
+                  setIsOpen(!isOpen);
+                }}
+              >
                 <Link
+                  onClick={() => {
+                    setIsDrop(!isDrop);
+                  }}
                   to="/team"
-                  onClick={dropDown}
                   className="dropdown__link fade"
                 >
                   OUR TEAM
                 </Link>
               </li>
-              <li onClick={handleClick}>
+              <li
+                onClick={() => {
+                  setIsOpen(!isOpen);
+                }}
+              >
                 <Link
+                  onClick={() => {
+                    setIsDrop(!isDrop);
+                  }}
                   to="/gorvenance"
-                  onClick={dropDown}
                   className="dropdown__link"
                 >
                   CORPORATE GOVERNANCE
@@ -69,22 +107,46 @@ const Navbar = () => {
             </ul>
           )}
           <li>
-            <Link onClick={handleClick} to="/news" className="header__link">
+            <Link
+              onClick={() => {
+                setIsOpen(!isOpen);
+              }}
+              to="/news"
+              className="header__link"
+            >
               NEWS
             </Link>
           </li>
           <li>
-            <Link onClick={handleClick} to="carrers" className="header__link">
+            <Link
+              onClick={() => {
+                setIsOpen(!isOpen);
+              }}
+              to="carrers"
+              className="header__link"
+            >
               CAREERS
             </Link>
           </li>
           <li>
-            <Link onClick={handleClick} to="/contact" className="header__link">
+            <Link
+              onClick={() => {
+                setIsOpen(!isOpen);
+              }}
+              to="/contact"
+              className="header__link"
+            >
               CONTACT US
             </Link>
           </li>
         </ul>
-        <div onClick={handleClick} className="hamburger">
+        <div
+          onClick={() => {
+            setIsOpen(!isOpen);
+          }}
+          // ref={menuRef}
+          className="hamburger"
+        >
           <span className={isOpen ? "close1" : "open"}></span>
           <span className={isOpen ? "close2" : "open"}></span>
           <span className={isOpen ? "close3" : "open"}></span>

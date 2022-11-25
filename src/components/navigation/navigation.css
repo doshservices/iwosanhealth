@@ -35,7 +35,7 @@ header {
   width: clamp(250px, 80vw, 500px);
   top: 100%;
   border-radius: 0 0 10px 10px;
-  transition: all .4s ease-in-out;
+  transition: all .5s ease-in-out;
 }
 
 .header__link {
