@@ -3,6 +3,8 @@ import investmentbg from "../../images/investment-hero.png";
 import industry from "../../images/industry-woman.png";
 import doctors from "../../images/doctors.png";
 import finance from "../../images/finance.png";
+import img from "../about/imgs/PHOTO-2022-11-25-08-33-30.jpg";
+import img2 from "../about/imgs/PHOTO-2022-11-25-08-33-30 3.jpg";
 
 const Investment = () => {
   return (
@@ -40,7 +42,7 @@ const Investment = () => {
       </section>
       <section className="dynamics">
         <figure>
-          <img src={industry} alt="industry" />
+          <img src={img} alt="industry" />
         </figure>
         <div>
           <h2>Favourable Industry Dynamics</h2>
@@ -73,7 +75,7 @@ const Investment = () => {
       </section>
       <section className="benefits">
         <figure>
-          <img src={doctors} alt="doctors" />
+          <img src={img2} alt="doctors" />
         </figure>
         <div>
           <p>

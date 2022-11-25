@@ -196,18 +196,17 @@
     font-weight: 400;
     cursor: pointer;
     flex-grow: 1;
-    flex-wrap: 100px;
     margin: .5rem;
     text-align: center;
 }
 
 .members {
     background: hsla(0, 0%, 100%, 0.05);
-    gap: 1rem;
+    gap: .5rem;
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
-    padding: 1rem;
+    padding: .5rem;
     height: fit-content;
     max-width: 620px;
 }
@@ -217,7 +216,7 @@
     flex-wrap: wrap;
     justify-content: space-between;
     align-items: flex-end;
-    gap: 4rem;
+    gap: 2rem;
     margin-right: clamp(2rem, 7vw, 10rem);
 }
 

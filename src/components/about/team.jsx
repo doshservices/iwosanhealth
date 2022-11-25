@@ -3,6 +3,7 @@ import "./staff.css";
 import investmentbg from "../../images/investment-hero.png";
 import border from "../../images/border.svg";
 import staffData from "./staffData";
+import Management from "./manage";
 import { useState } from "react";
 
 const Team = () => {
@@ -72,6 +73,7 @@ const Team = () => {
             </p>
           </div>
         </div>
+        <Management />
         <section className="staffs">
           {staffData.staffs.map((data) => (
             <div className="staff" key={data.id} id={data.id}>
