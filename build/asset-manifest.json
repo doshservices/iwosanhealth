@@ -1,0 +1,39 @@
+{
+  "files": {
+    "main.css": "/static/css/main.e8745020.css",
+    "main.js": "/static/js/main.badac8d0.js",
+    "static/js/787.89edd211.chunk.js": "/static/js/787.89edd211.chunk.js",
+    "static/media/oladapo.jpg": "/static/media/oladapo.36a51eed31c13c02be89.jpg",
+    "static/media/nelson.jpg": "/static/media/nelson.efdc572e021f56dd96c9.jpg",
+    "static/media/fola.jpg": "/static/media/fola.d555e10d023c22550063.jpg",
+    "static/media/laloye.jpg": "/static/media/laloye.b6533e4120249f18a18e.jpg",
+    "static/media/slide2.svg": "/static/media/slide2.d3c640a2d18ccf0f5c6638c7cdaaeca4.svg",
+    "static/media/slide1.svg": "/static/media/slide1.5b928ac0db0c9196d048fd8ffb90697e.svg",
+    "static/media/investment-hero.png": "/static/media/investment-hero.e257485e59ec294f7651.png",
+    "static/media/doctors.png": "/static/media/doctors.94b6cea7b75fa15311ca.png",
+    "static/media/finance.png": "/static/media/finance.93f447e585fa04b11112.png",
+    "static/media/male-team.png": "/static/media/male-team.04ee1143d17537d03df2.png",
+    "static/media/industry-woman.png": "/static/media/industry-woman.b629931c936a2090aa9e.png",
+    "static/media/slide3.svg": "/static/media/slide3.9f0d79a20faf7f43f1d067b365a55af3.svg",
+    "static/media/female-team.png": "/static/media/female-team.98c4396d3b2be47e0ee3.png",
+    "static/media/client-smile.png": "/static/media/client-smile.329be87fc31a74cbfa68.png",
+    "static/media/Logo.svg": "/static/media/Logo.825a0d66c2184143e7f69db7ff2a1f51.svg",
+    "static/media/patient.svg": "/static/media/patient.5782e50a421c059ffe343e64ccf3582b.svg",
+    "static/media/innovative.svg": "/static/media/innovative.a7a4b5b22cbf04fcb37f07b105cdcc51.svg",
+    "static/media/twitter-icon.svg": "/static/media/twitter-icon.f646a8cec636f1f1f81fa29de8cfa487.svg",
+    "static/media/icons8-instagram.svg": "/static/media/icons8-instagram.b11d3654e2e5da64c2bff7616261b844.svg",
+    "static/media/verified.svg": "/static/media/verified.a4b7229225dd536b8cb80e69f5e6c7b7.svg",
+    "static/media/icons8-linkedin.svg": "/static/media/icons8-linkedin.5452403f8e9c4d2318e0f53f7c9db01f.svg",
+    "index.html": "/index.html",
+    "static/media/icons8-facebook-f.svg": "/static/media/icons8-facebook-f.6a3af95d1843ec4142df32b6755db272.svg",
+    "static/media/arrow-down.svg": "/static/media/arrow-down.9eed8240ecb6830932a65da4a0876530.svg",
+    "static/media/border.svg": "/static/media/border.b55ba75da8c32d9223b65c5887d88e52.svg",
+    "main.e8745020.css.map": "/static/css/main.e8745020.css.map",
+    "main.badac8d0.js.map": "/static/js/main.badac8d0.js.map",
+    "787.89edd211.chunk.js.map": "/static/js/787.89edd211.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.e8745020.css",
+    "static/js/main.badac8d0.js"
+  ]
+}
