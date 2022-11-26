@@ -5,6 +5,7 @@ import doctors from "../../images/doctors.png";
 import finance from "../../images/finance.png";
 import img from "../about/imgs/PHOTO-2022-11-25-08-33-30.jpg";
 import img2 from "../about/imgs/PHOTO-2022-11-25-08-33-30 3.jpg";
+import greenborder2 from "../../images/greenborder2.svg";
 
 const Investment = () => {
   return (
@@ -21,6 +22,11 @@ const Investment = () => {
       <section className="record">
         <div>
           <h2>Operational Expertise and Track Record. </h2>
+          <img
+            src={greenborder2}
+            alt="border"
+            style={{ margin: "1rem 0", maxWidth: "200px" }}
+          />
         </div>
         <div>
           <p>
@@ -46,6 +52,11 @@ const Investment = () => {
         </figure>
         <div>
           <h2>Favourable Industry Dynamics</h2>
+          <img
+            src={greenborder2}
+            alt="border"
+            style={{ margin: "1rem 0", maxWidth: "200px" }}
+          />
           <p>
             The influx of healthcare startups in the African business ecosystem
             can bridge the infrastructure gap that has long plagued many
@@ -96,6 +107,11 @@ const Investment = () => {
             capacity development.
           </p>
           <h2>Diversification Benefits</h2>
+          <img
+            src={greenborder2}
+            alt="border"
+            style={{ margin: "1rem 0", maxWidth: "200px" }}
+          />
         </div>
       </section>
       <section className="strategy">
@@ -121,6 +137,11 @@ const Investment = () => {
       <section className="leadership">
         <div>
           <h2>Strong Leadership Vision</h2>
+          <img
+            src={greenborder2}
+            alt="border"
+            style={{ margin: "1rem 0", maxWidth: "200px" }}
+          />
         </div>
         <div>
           <p>

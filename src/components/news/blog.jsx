@@ -1,4 +1,5 @@
 import "./blog.css";
+import Blogimg from "../../images/blog.svg";
 
 const Blog = () => {
   return (
@@ -11,7 +12,7 @@ const Blog = () => {
             investment company dedicated to financing and developing brownfield
             and greenfield multi-specialist healthcare facility
           </p>
-          <img src="" alt="" />
+          <img src={Blogimg} alt="blog" />
         </section>
         <div className="posts">
           <section className="news">
@@ -68,18 +69,7 @@ const Blog = () => {
                 consumed properly
               </blockquote>
             </div>
-            <div className="columns">
-              <h3 className="topic">
-                Healthy food and exercise routine for health
-              </h3>
-              <h4 className="name">Cipay Agustrian</h4>
-              <p className="date">14 January, 2020</p>
-              <blockquote>
-                Healthy foods can improve your health if they are consumed
-                properly Healthy foods can improve your health if they are
-                consumed properly
-              </blockquote>
-            </div>
+
             <div className="columns">
               <img src="" alt="" />
               <h3>Healthy food and exercise routine for health</h3>

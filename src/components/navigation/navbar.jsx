@@ -28,7 +28,7 @@ const Navbar = () => {
           // useref={menuRef}
           className="header__links"
           style={{
-            right: isOpen ? "0" : "-110%",
+            right: isOpen ? "0" : "-150%",
           }}
         >
           <li>

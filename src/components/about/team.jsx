@@ -4,9 +4,14 @@ import investmentbg from "../../images/investment-hero.png";
 import border from "../../images/border.svg";
 import staffData from "./staffData";
 import Management from "./manage";
-import { useState } from "react";
+import { useEffect, useState } from "react";
+import greenborder2 from "../../images/greenborder2.svg";
+import Staffs from "./staffs";
+import Council from "./council";
 
 const Team = () => {
+  const [board, setBoard] = useState("CEO");
+
   const [focus, setFocus] = useState(false);
   const handleClick = (id) => {
     setFocus((current) => !current);
@@ -26,6 +31,11 @@ const Team = () => {
       <section className="record">
         <div>
           <h2>Operational Expertise and Track Record. </h2>
+          <img
+            src={greenborder2}
+            alt="border"
+            style={{ margin: "1rem 0", maxWidth: "200px" }}
+          />
         </div>
         <div>
           <p>
@@ -56,46 +66,20 @@ const Team = () => {
             </p>
           </div>
           <div className="members">
-            <h3>Board Members</h3>
-            <h3>Management</h3>
-            <h3>Medical Advisory Council</h3>
+            <h3 onClick={() => setBoard("CEO")}>Board Members</h3>
+            <h3 onClick={() => setBoard("management")}>Management</h3>
+            <h3 onClick={() => setBoard("council")}>
+              Medical Advisory Council
+            </h3>
           </div>
         </div>
-        <div className="modal">
-          <div>
-            <button>x</button>
-            <img src={investmentbg} alt="" />
-            <h3>bvcdvcdvcd</h3>
-            <h4> cbfbcfbchfdbcfdc</h4>
-            <p>
-              The best doctors and medical personnel from around the world with
-              international certificates and also extraordinary experiences
-            </p>
-          </div>
-        </div>
-        <Management />
-        <section className="staffs">
-          {staffData.staffs.map((data) => (
-            <div className="staff" key={data.id} id={data.id}>
-              <figure>
-                <img src={data.img} alt={data.name} />
-              </figure>
-              <div>
-                <h3>{data.name}</h3>
-                <h4>{data.office}</h4>
-                <span></span>
-                <p>{data.about}</p>
-              </div>
-            </div>
-          ))}
+        <section>
+          {board === "CEO" && <Staffs />}
+          {board === "management" && <Management />}
+          {board === "council" && <Council />}
         </section>
       </section>
     </>
   );
 };
 export default Team;
-
-const img1 = {
-  height: "300px",
-  width: "300px",
-};
