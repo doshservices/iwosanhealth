@@ -1,10 +1,10 @@
 import { useState, useEffect, useRef } from "react";
-import Slide1 from "../../images/slide1.svg";
-import Slide2 from "../../images/slide2.svg";
+import Slide1 from "../../images/Slider 1.svg";
+import Slide2 from "../../images/Slider 2f.svg";
 import Slide3 from "../../images/slide3.svg";
 import "./slideshow.css";
 
-const slideImages = [Slide1, Slide2, Slide3];
+const slideImages = [Slide2, Slide1, Slide3];
 const delay = 4500;
 
 const Slideshow = () => {

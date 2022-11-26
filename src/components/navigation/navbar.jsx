@@ -11,13 +11,12 @@ const Navbar = () => {
   // useEffect(() => {
   //   let handler = (e) => {
   //     if (!menuRef.current.contains(e.target)) {
-  //       setIsOpen(false);
   //       setIsDrop(false);
   //     }
   //   };
-  //   document.addEventListener("mousedown", handler);
+  //   document.addEventListener("mouseout", handler);
   //   return () => {
-  //     document.removeEventListener("mousedown", handler);
+  //     document.removeEventListener("mouseout", handler);
   //   };
   // });
 
@@ -29,7 +28,7 @@ const Navbar = () => {
           // useref={menuRef}
           className="header__links"
           style={{
-            right: isOpen ? "0" : "-110%",
+            right: isOpen ? "0" : "-150%",
           }}
         >
           <li>
@@ -44,7 +43,8 @@ const Navbar = () => {
             </Link>
           </li>
           <li
-            onClick={() => {
+            // useref={menuRef}
+            onMouseOver={() => {
               setIsDrop(!isDrop);
             }}
             // useref={menuRef}
@@ -58,7 +58,7 @@ const Navbar = () => {
             />
           </li>
           {isDrop && (
-            <ul className="dropdown-menu">
+            <ul useref={menuRef} className="dropdown-menu">
               <li
                 onClick={() => {
                   setIsOpen(!isOpen);

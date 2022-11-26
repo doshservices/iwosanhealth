@@ -1,4 +1,9 @@
 import investmentbg from "../../images/investment-hero.png";
+import greenborder2 from "../../images/greenborder2.svg";
+import whiteborder from "../../images/whiteborder.svg";
+import compliance from "../../images/compliance.png";
+import clinical from "../../images/clinacal.png";
+import whitsle from "../../images/Screen Shot 2022-11-16 at 5.19 1.png";
 
 const Governance = () => {
   return (
@@ -15,6 +20,11 @@ const Governance = () => {
       <section className="sustain">
         <div>
           <h2>Sustainability</h2>
+          <img
+            src={greenborder2}
+            alt="border"
+            style={{ margin: "1rem 0", maxWidth: "200px" }}
+          />
         </div>
         <div>
           <p>
@@ -46,8 +56,16 @@ const Governance = () => {
         </div>
       </section>
       <section className="quality">
-        <figure></figure>
+        <figure>
+          <img src={clinical} alt="clinical" style={{ width: "100%" }} />
+        </figure>
         <div>
+          <h2>Clinical Quality</h2>
+          <img
+            src={greenborder2}
+            alt="border"
+            style={{ margin: "1rem 0", maxWidth: "200px" }}
+          />
           <p>
             We ensure the provision of safe and consistent clinical care at all
             our health facilities by implementing strategies that support
@@ -82,7 +100,10 @@ const Governance = () => {
         </div>
       </section>
       <section className="whistle">
-        <figure></figure>
+        <figure>
+          {" "}
+          <img src={whitsle} alt="whitsle" style={{ width: "100%" }} />
+        </figure>
         <div>
           <p>
             We are Iwosan Investment Limited - a consistently patient-first,
@@ -107,11 +128,21 @@ const Governance = () => {
             whistleblow@iwosanhealth.com
           </p>
           <h2>Whistleblowing</h2>
+          <img
+            src={greenborder2}
+            alt="border"
+            style={{ margin: "1rem 0", maxWidth: "200px" }}
+          />
         </div>
       </section>
       <section className="compliance">
         <div>
           <h2>Compliance</h2>
+          <img
+            src={whiteborder}
+            alt="border"
+            style={{ margin: "1rem 0", maxWidth: "200px" }}
+          />
           <p>
             Iwosan Investments Limited is guided by a sacrosanct set of internal
             policies and procedures which have been instituted to preserve the
@@ -131,11 +162,16 @@ const Governance = () => {
             and partners to improve service delivery and treatment outcomes.
           </p>
         </div>
-        <img src="" alt="" />
+        <img src={compliance} alt="compliance" />
       </section>
       <section className="patnership">
         <div>
           <h2>Partnerships</h2>
+          <img
+            src={greenborder2}
+            alt="border"
+            style={{ margin: "1rem 0", maxWidth: "200px" }}
+          />
         </div>
         <div>
           <p>
