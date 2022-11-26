@@ -1,10 +1,10 @@
 import React from "react";
-import controller from "./imgs/GroupFinancialController.jpg";
-import legal from "./imgs/GroupHead,Legal,Risk&Compliance.jpg";
-import marketing from "./imgs/GroupHead,Marketing&Growth.jpg";
-import operations from "./imgs/GroupHead,Operations(4).jpg";
-import Sustainability from "./imgs/GroupHead,Qualit&Sustainability.jpg";
-import resources from "./imgs/GroupHeadHumanResources.jpg";
+import controller from "./imgs/Isaiah Mukoro.jpg";
+import legal from "./imgs/Adetomi Olaobaju.jpg";
+import marketing from "./imgs/Adesegun Damazio.jpg";
+import operations from "./imgs/Dr. Idowu Adebiyi.jpg";
+import Sustainability from "./imgs/Vivian Akwuaka.jpg";
+import resources from "./imgs/Oyiza Salu.jpg";
 
 const Management = () => {
   const management = {
