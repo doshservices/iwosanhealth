@@ -101,7 +101,7 @@ a:hover {
 
 .about {
   color: hsl(0, 0%, 100%);
-  font-size: 1rem;
+  font-size: .9rem;
   font-weight: 500;
   transition: all 0.3s ease;
   display: inline-block;
@@ -143,7 +143,8 @@ a:hover {
 footer {
   background: hsl(217, 73%, 12%);
   color: white;
-  padding: 4rem clamp(1rem, 7vw, 8rem);
+  padding: 2.5rem clamp(1rem, 7vw, 8rem);
+  padding-bottom: 1rem;
 }
 
 footer>section {
@@ -212,9 +213,9 @@ footer .contact a {
 
 footer .copyright {
   text-align: center;
-  margin: 6rem 2rem 0 2rem;
+  margin: 1rem 2rem 0 2rem;
   border-top: .2px solid hsl(0, 0%, 70%, .5);
-  padding-top: 3rem;
+  padding-top: 1rem;
 }
 
 @media (min-width: 900px) {

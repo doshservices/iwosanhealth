@@ -11,6 +11,20 @@ const Carrer = () => {
       </p>
       <div className="internship">
         <h2>Intership Program</h2>
+        <h2>Intership Program</h2>
+        <h2>Intership Program</h2>
+        <h2>Intership Program</h2>
+        <h2>Intership Program</h2>
+        <h2>Intership Program</h2>
+        <h2>Intership Program</h2>
+        <h2>Intership Program</h2>
+        <h2>Intership Program</h2>
+        <h2>Intership Program</h2>
+        <h2>Intership Program</h2>
+        <h2>Intership Program</h2>
+        <h2>Intership Program</h2>
+        <h2>Intership Program</h2>
+        <h2>Intership Program</h2>
       </div>
     </div>
   );

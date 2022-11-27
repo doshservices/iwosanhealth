@@ -105,6 +105,12 @@ const Governance = () => {
           <img src={whitsle} alt="whitsle" style={{ width: "100%" }} />
         </figure>
         <div>
+          <h2>Whistleblowing</h2>
+          <img
+            src={greenborder2}
+            alt="border"
+            style={{ margin: "1rem 0", maxWidth: "200px" }}
+          />
           <p>
             We are Iwosan Investment Limited - a consistently patient-first,
             world-class healthcare services provider. We are committed to a
@@ -127,19 +133,13 @@ const Governance = () => {
             measures. Do you have a report to make? Please send an email to
             whistleblow@iwosanhealth.com
           </p>
-          <h2>Whistleblowing</h2>
-          <img
-            src={greenborder2}
-            alt="border"
-            style={{ margin: "1rem 0", maxWidth: "200px" }}
-          />
         </div>
       </section>
       <section className="compliance">
         <div>
           <h2>Compliance</h2>
           <img
-            src={whiteborder}
+            src={greenborder2}
             alt="border"
             style={{ margin: "1rem 0", maxWidth: "200px" }}
           />

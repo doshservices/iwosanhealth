@@ -89,6 +89,12 @@ const Investment = () => {
           <img src={img2} alt="doctors" />
         </figure>
         <div>
+          <h2>Diversification Benefits</h2>
+          <img
+            src={greenborder2}
+            alt="border"
+            style={{ margin: "1rem 0", maxWidth: "200px" }}
+          />
           <p>
             Ineffective healthcare administration poses a significant threat to
             treatment outcomes and the surge in emigration rate of qualified
@@ -106,12 +112,6 @@ const Investment = () => {
             become global citadels of clinical practice and healthcare personnel
             capacity development.
           </p>
-          <h2>Diversification Benefits</h2>
-          <img
-            src={greenborder2}
-            alt="border"
-            style={{ margin: "1rem 0", maxWidth: "200px" }}
-          />
         </div>
       </section>
       <section className="strategy">

@@ -160,8 +160,7 @@
 
 .testimony {
     color: white;
-    padding: 6rem 0 2rem clamp(1rem, 7vw, 8rem);
-
+    padding: 3rem clamp(1rem, 7vw, 8rem);
     background: hsl(217, 73%, 12%)
 }
 
@@ -175,7 +174,7 @@
 }
 
 .testimony>div div {
-    margin-top: 5rem;
+    margin-top: 2rem;
 }
 
 .testimony figure img {

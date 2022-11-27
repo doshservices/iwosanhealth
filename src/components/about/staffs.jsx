@@ -1,7 +1,7 @@
 import staffData from "./staffData";
 import "./about.css";
 import "./staff.css";
-import oladapo from "../../images/oladapo.jpg";
+import oladapo from "../../images/Dapo Oshinusi.jpg";
 
 const Staffs = () => {
   return (
