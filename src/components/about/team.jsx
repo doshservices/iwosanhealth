@@ -11,6 +11,9 @@ import Council from "./council";
 
 const Team = () => {
   const [board, setBoard] = useState("CEO");
+  const toggleTab = (index) => {
+    setBoard(index);
+  };
 
   const [focus, setFocus] = useState(false);
   const handleClick = (id) => {
@@ -66,9 +69,22 @@ const Team = () => {
             </p>
           </div>
           <div className="members">
-            <h3 onClick={() => setBoard("CEO")}>Board Members</h3>
-            <h3 onClick={() => setBoard("management")}>Management</h3>
-            <h3 onClick={() => setBoard("council")}>
+            <h3
+              className={board === "CEO" ? "bg-green" : ""}
+              onClick={() => setBoard("CEO")}
+            >
+              Board Members
+            </h3>
+            <h3
+              className={board === "management" ? "bg-green" : ""}
+              onClick={() => setBoard("management")}
+            >
+              Management
+            </h3>
+            <h3
+              className={board === "council" ? "bg-green" : ""}
+              onClick={() => setBoard("council")}
+            >
               Medical Advisory Council
             </h3>
           </div>

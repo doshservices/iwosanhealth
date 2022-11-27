@@ -19,7 +19,7 @@
 .carrer div {
     background: white;
     width: 100%;
-    height: 500px;
+    height: fit-content;
     border-radius: 5px;
     padding: 1rem;
     margin: 4rem 0 -30% 0;

@@ -3,7 +3,6 @@ import { Route, Routes, Navigate } from "react-router-dom";
 import Navbar from "./components/navigation/navbar";
 import Home from "./components/home/home";
 import Footer from "./components/navigation/footer";
-import Testimony from "./components/testimonial";
 import Team from "./components/about/team";
 import Governance from "./components/about/governance";
 import Investment from "./components/about/investment";
@@ -26,7 +25,6 @@ const App = () => {
           <Route path="/carrers" element={<Carrer />} />
           <Route path="/news" element={<Blog />} />
         </Routes>
-        <Testimony />
       </main>
       <Footer />
     </>
