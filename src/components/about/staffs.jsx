@@ -2,8 +2,20 @@ import staffData from "./staffData";
 import "./about.css";
 import "./staff.css";
 import oladapo from "../../images/Dapo Oshinusi.jpg";
+import { BiChevronRight, BiChevronLeft } from "react-icons/bi";
 
 const Staffs = () => {
+  const scroll = ["<", ">"];
+
+  const slideLeft = () => {
+    let slider = document.getElementById("slider");
+    slider.scrollLeft = slider.scrollLeft - 300;
+  };
+  const slideright = () => {
+    let slider = document.getElementById("slider");
+    slider.scrollLeft = slider.scrollLeft + 300;
+  };
+
   return (
     <>
       <div className="modal fixed-card">
@@ -17,7 +29,7 @@ const Staffs = () => {
           </div>
         </div>
       </div>
-      <section className="staffs">
+      <section id="slider" className="staffs">
         {staffData.staffs.map((data) => (
           <div className="staff" key={data.id} id={data.id}>
             <figure>
@@ -32,6 +44,14 @@ const Staffs = () => {
           </div>
         ))}
       </section>
+      <div className="scroller">
+        <button onClick={slideLeft} className="scroller">
+          {scroll[0]}
+        </button>
+        <button onClick={slideright} className="scroller">
+          {scroll[1]}
+        </button>
+      </div>
     </>
   );
 };
