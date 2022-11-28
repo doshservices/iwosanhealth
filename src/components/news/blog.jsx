@@ -1,5 +1,6 @@
 import "./blog.css";
 import Blogimg from "../../images/blog.svg";
+import Footer from "../navigation/footer";
 
 const Blog = () => {
   return (
@@ -150,6 +151,7 @@ const Blog = () => {
           </section>
         </div>
       </section>
+      <Footer />
     </>
   );
 };

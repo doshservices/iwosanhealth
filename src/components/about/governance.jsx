@@ -4,6 +4,9 @@ import whiteborder from "../../images/whiteborder.svg";
 import compliance from "../../images/compliance.png";
 import clinical from "../../images/clinacal.png";
 import whitsle from "../../images/Screen Shot 2022-11-16 at 5.19 1.png";
+import Footer from "../navigation/footer";
+import patnership from "../../images/patnership.jpg";
+// import sustain from "../../images/sustainjpg";
 
 const Governance = () => {
   return (
@@ -172,6 +175,7 @@ const Governance = () => {
             alt="border"
             style={{ margin: "1rem 0", maxWidth: "200px" }}
           />
+          <img src={patnership} alt="" style={{ width: "100%" }} />
         </div>
         <div>
           <p>
@@ -204,6 +208,7 @@ const Governance = () => {
           </p>
         </div>
       </section>
+      <Footer />
     </>
   );
 };

@@ -8,6 +8,7 @@ import { useEffect, useState } from "react";
 import greenborder2 from "../../images/greenborder2.svg";
 import Staffs from "./staffs";
 import Council from "./council";
+import Footer from "../navigation/footer";
 
 const Team = () => {
   const [board, setBoard] = useState("CEO");
@@ -95,6 +96,7 @@ const Team = () => {
           {board === "council" && <Council />}
         </section>
       </section>
+      <Footer />
     </>
   );
 };

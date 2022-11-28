@@ -8,6 +8,7 @@ import Testimony from "../testimonial";
 import Femaleworker from "../../images/female-team.png";
 import Maleworker from "../../images/male-team.png";
 import Count from "./count";
+import Footer from "../navigation/footer";
 
 const Home = () => {
   return (
@@ -90,6 +91,7 @@ const Home = () => {
       </section>
       <Count />
       <Testimony />
+      <Footer />
     </>
   );
 };

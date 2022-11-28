@@ -6,6 +6,7 @@ import finance from "../../images/finance.png";
 import img from "../about/imgs/PHOTO-2022-11-25-08-33-30.jpg";
 import img2 from "../about/imgs/PHOTO-2022-11-25-08-33-30 3.jpg";
 import greenborder2 from "../../images/greenborder2.svg";
+import Footer from "../navigation/footer";
 
 const Investment = () => {
   return (
@@ -162,6 +163,7 @@ const Investment = () => {
           </p>
         </div>
       </section>
+      <Footer />
     </>
   );
 };
