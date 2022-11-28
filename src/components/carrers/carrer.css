@@ -3,7 +3,6 @@
     padding: 4rem clamp(1rem, 7vw, 10rem);
     background: hsl(217, 73%, 12%);
     text-align: center;
-    margin-bottom: 30%;
 }
 
 .carrer h1 {
@@ -24,6 +23,13 @@
     padding: 1rem;
     margin: 4rem 0 -30% 0;
     box-shadow: 5px 15px 45px rgba(0, 0, 0, 0.03);
+    height: 500px;
+}
+
+.internship a {
+    display: block;
+    text-align: left;
+    margin: 2rem 0;
 }
 
 .carrer h2 {
