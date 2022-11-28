@@ -1,5 +1,6 @@
 import "./contact.css";
 import map from "../../images/google-map.png";
+import Footer from "../navigation/footer";
 
 const Contact = () => {
   return (
@@ -60,6 +61,7 @@ const Contact = () => {
         </form>
       </div>
       <img src={map} alt="map" className="map" />
+      <Footer />
     </>
   );
 };
