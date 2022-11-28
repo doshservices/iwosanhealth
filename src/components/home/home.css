@@ -220,6 +220,10 @@
         width: 50%;
         transform: translate(100%, -70%);
     }
+
+    .what-we-do h2 {
+        margin-top: 2rem;
+    }
 }
 
 @media(max-width: 800px) {
