@@ -46,7 +46,9 @@ header {
   transition: all 0.3s ease;
   display: inline-block;
   font-family: "poppins";
-  margin: 1rem 0;
+  display: block;
+  padding: .8rem 0;
+  width: fit-content;
 }
 
 a:hover {
@@ -99,15 +101,18 @@ a:hover {
   top: 0;
 }
 
+.dropdown-container {
+  cursor: pointer;
+  position: relative;
+}
+
 .about {
   color: hsl(0, 0%, 100%);
   font-size: .9rem;
   font-weight: 500;
   transition: all 0.3s ease;
-  display: inline-block;
-  margin: 1rem 0 1rem 0;
-  cursor: pointer;
-  display: flex;
+  display: block;
+  padding: 1.3rem 0;
 }
 
 .about:hover {
@@ -116,6 +121,14 @@ a:hover {
 
 .dropdown-menu {
   background: hsl(217, 73%, 12%, .2);
+  display: none;
+  transition: all .3s ease;
+  padding: .5rem 0 0 0;
+  width: fit-content;
+}
+
+.about:hover>.dropdown-menu {
+  display: block;
 }
 
 .dropdown-menu a {
@@ -224,6 +237,10 @@ footer .copyright {
 }
 
 @media (min-width: 900px) {
+  .header__nav {
+    padding: 0 clamp(1rem, 6vw, 8rem);
+  }
+
   .header__links {
     position: static;
     display: flex;
@@ -235,7 +252,7 @@ footer .copyright {
   }
 
   .header__link {
-    margin: 0 1.5rem;
+    padding: 1.3rem 1rem;
   }
 
   .hamburger {
@@ -244,8 +261,12 @@ footer .copyright {
 
   .dropdown-menu {
     position: absolute;
-    top: calc(100% + 2px);
-    left: 44%;
+    top: 100%;
+    left: 0;
+    width: 250px;
+    z-index: 3;
+    left: 0;
+    display: none;
   }
 
   .dropdown-menu a {
@@ -254,5 +275,9 @@ footer .copyright {
 
   .about {
     margin: 0 .5rem;
+  }
+
+  .about:hover>.dropdown-menu {
+    display: block;
   }
 }
