@@ -2,7 +2,7 @@
 
 .blue-bg {
     height: 7rem;
-    margin: 1rem 0;
+    margin: -4px 0 1rem 0;
     background: hsl(217, 73%, 12%);
 }
 
@@ -228,7 +228,7 @@
 
 @media(max-width: 800px) {
     .blue-bg {
-        height: 3rem;
+        height: 4rem;
         margin: .5rem 0;
     }
 }
