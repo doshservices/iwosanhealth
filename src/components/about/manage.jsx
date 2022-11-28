@@ -7,6 +7,16 @@ import Sustainability from "./imgs/Vivian Akwuaka.jpg";
 import resources from "./imgs/Oyiza Salu.jpg";
 
 const Management = () => {
+  const scroll = ["<", ">"];
+  const slideLeft = () => {
+    let slider = document.getElementById("slider");
+    slider.scrollLeft = slider.scrollLeft - 300;
+  };
+  const slideright = () => {
+    let slider = document.getElementById("slider");
+    slider.scrollLeft = slider.scrollLeft + 300;
+  };
+
   const management = {
     ceos: [
       {
@@ -54,23 +64,33 @@ const Management = () => {
     ],
   };
   return (
-    <section className="management">
-      {management.ceos.map((manage) => {
-        return (
-          <div key={manage.id}>
-            <figure>
-              <img src={manage.img} alt={manage.name} />
-            </figure>
-            <div>
-              <h3>{manage.name}</h3>
-              <h4>{manage.office}</h4>
-              <span></span>
-              <p>{manage.about}</p>
+    <>
+      <section id="slider" className="management">
+        {management.ceos.map((manage) => {
+          return (
+            <div key={manage.id}>
+              <figure>
+                <img src={manage.img} alt={manage.name} />
+              </figure>
+              <div>
+                <h3>{manage.name}</h3>
+                <h4>{manage.office}</h4>
+                <span></span>
+                <p>{manage.about}</p>
+              </div>
             </div>
-          </div>
-        );
-      })}
-    </section>
+          );
+        })}
+      </section>
+      <div className="scroller">
+        <button onClick={slideLeft} className="scroller">
+          {scroll[0]}
+        </button>
+        <button onClick={slideright} className="scroller">
+          {scroll[1]}
+        </button>
+      </div>
+    </>
   );
 };
 export default Management;

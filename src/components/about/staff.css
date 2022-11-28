@@ -139,3 +139,26 @@
     font-weight: 300;
     display: none;
 }
+
+.scroller {
+    margin-left: auto;
+    width: fit-content;
+    margin-right: 1rem;
+}
+
+.scroller button {
+    height: 2.5rem;
+    max-height: 40px;
+    width: 2.5rem;
+    margin: 0 .7rem;
+    font-size: 1.1rem;
+    font-family: "poppins";
+    font-weight: 600;
+    border: none;
+    background: white;
+    transition: all .2s ease;
+}
+
+.scroller button:active {
+    background: hsl(121, 44%, 49%);
+}

@@ -1,9 +1,6 @@
 import { useState, useEffect, useRef } from "react";
 import Slide1 from "../../images/Slider 1.svg";
-// import Slide2 from "../../images/Slider 2f.svg";
-// import Slide3 from "../../images/slide3.svg";
 import Banner1 from "../../images/New banner 2.svg";
-// import Banner2 from "../../images/New banner 2.svg";
 import "./slideshow.css";
 
 const slideImages = [Banner1, Slide1];
