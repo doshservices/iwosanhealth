@@ -61,6 +61,19 @@ const Contact = () => {
         </form>
       </div>
       <img src={map} alt="map" className="map" />
+      {/* <div>
+        <iframe
+          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d253682.4890134407!2d2.8801735250000102!3d6.548318399999994!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x103b8335fe21e09b%3A0xe0b1d19a2d5f7a6b!2sInvestment%20Ltd.!5e0!3m2!1sen!2sng!4v1669653469210!5m2!1sen!2sng"
+          style={{
+            width: "1600",
+            height: "1550",
+            style: "border:0;",
+            allowfullscreen: "",
+            loading: "lazy",
+            referrerpolicy: "no-referrer-when-downgrade",
+          }}
+        ></iframe>
+      </div> */}
       <Footer />
     </>
   );

@@ -2,10 +2,11 @@ import staffData from "./staffData";
 import "./about.css";
 import "./staff.css";
 import oladapo from "../../images/Dapo Oshinusi.jpg";
-import { BiChevronRight, BiChevronLeft } from "react-icons/bi";
+import { useState } from "react";
 
 const Staffs = () => {
   const scroll = ["<", ">"];
+  const [showModal, setShowModal] = useState(false);
 
   const slideLeft = () => {
     let slider = document.getElementById("slider");
@@ -15,23 +16,42 @@ const Staffs = () => {
     let slider = document.getElementById("slider");
     slider.scrollLeft = slider.scrollLeft + 300;
   };
+  const { ceo } = staffData;
+  const [person, setPerson] = useState([]);
+  const findId = () => {
+    const activeId = person.find((x) => x.id === staffData.id);
+    if (activeId) {
+      const newId = person.map((x) => {
+        x.id === ceo.id ? showModal(true) : showModal(false);
+      });
+      return newId;
+    }
+  };
 
   return (
     <>
-      <div className="modal fixed-card">
-        <div>
-          <button>x</button>
-          <figure>
-            <img src={oladapo} alt="" />
-          </figure>
-          <div className="text">
-            <p></p>
+      {showModal && (
+        <div className="modal fixed-card">
+          <div>
+            <button
+              onClick={() => {
+                setShowModal(!showModal);
+              }}
+            >
+              x
+            </button>
+            <figure>
+              <img src={oladapo} alt="" />
+            </figure>
+            <div className="text">
+              <p></p>
+            </div>
           </div>
         </div>
-      </div>
+      )}
       <section id="slider" className="staffs">
         {staffData.staffs.map((data) => (
-          <div className="staff" key={data.id} id={data.id}>
+          <div onClick={findId} className="staff" key={data.id} id={data.id}>
             <figure>
               <img src={data.img} alt={data.name} />
             </figure>

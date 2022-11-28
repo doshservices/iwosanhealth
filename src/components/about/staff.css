@@ -11,7 +11,7 @@
     background: hsla(121, 44%, 49%, 1);
     padding: .7rem;
     border-radius: 2px;
-    display: none;
+    /* display: none; */
 }
 
 .modal figure {
@@ -130,8 +130,6 @@
     font-weight: 400;
     color: hsl(121, 44%, 49%);
 }
-
-
 
 .staffs p {
     margin: 1rem 0;
