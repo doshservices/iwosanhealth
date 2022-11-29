@@ -92,17 +92,6 @@ const Governance = () => {
           </p>
         </div>
       </section>
-      <section className="mail pd">
-        <h2>Join Our Mailing List</h2>
-        <p>
-          Neque porro quisquam est qui dolorem ipsum quia dolor sit amet,
-          consectetur, adipisci velit
-        </p>
-        <div className="email">
-          <input type="email" placeholder="Enter your email" />
-          <button>Get Started</button>
-        </div>
-      </section>
       <section className="whistle">
         <figure>
           {" "}

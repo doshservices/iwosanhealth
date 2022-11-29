@@ -14,9 +14,6 @@ const Home = () => {
   return (
     <>
       <Slideshow />
-
-      <div className="blue-bg"></div>
-
       <section className="about-us flex">
         <figure className="flex-450-item">
           <img src={Maleworker} />

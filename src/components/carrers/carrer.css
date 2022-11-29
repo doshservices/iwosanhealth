@@ -1,12 +1,12 @@
 .carrer {
     color: white;
-    padding: 4rem clamp(1rem, 7vw, 10rem);
+    padding: 2rem clamp(1rem, 7vw, 10rem);
     background: hsl(217, 73%, 12%);
     text-align: center;
 }
 
 .carrer h1 {
-    font-size: 3.5rem;
+    font-size: 3rem;
     margin: 2rem auto;
 }
 
@@ -37,6 +37,7 @@
     text-align: left;
 }
 
+/* 
 @media(max-width: 950px) {
     .carrer {
         margin-bottom: 55%;
@@ -57,4 +58,4 @@
         margin: 6rem 0 -100% 0;
     }
 
-}
+} */

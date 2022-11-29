@@ -10,6 +10,9 @@ import Carrer from "./components/carrers/carres";
 import Blog from "./components/news/blog";
 
 const App = () => {
+  const top = () => {
+    window.scrollTo(0, 0);
+  };
   return (
     <>
       <Navbar />
@@ -25,6 +28,9 @@ const App = () => {
           <Route path="/news" element={<Blog />} />
         </Routes>
       </main>
+      <button onClick={top} className="top-scroll">
+        &uarr;
+      </button>
     </>
   );
 };

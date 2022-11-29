@@ -5,7 +5,9 @@
     justify-content: space-between;
     color: white;
     text-align: center;
-    padding: 1rem clamp(1rem, 7vw, 8rem) 3rem clamp(1rem, 7vw, 8rem);
+    padding: 1rem clamp(1rem, 4vw, 4rem);
+    padding-bottom: 1.5rem;
+    margin: 1rem clamp(1rem, 4vw, 4rem);
 }
 
 .counter span {
@@ -16,7 +18,7 @@
     flex-grow: 1;
     flex-basis: 200px;
     display: inline-block;
-    margin-top: 1.5rem;
+    margin-top: 1rem;
 }
 
 .counter p {

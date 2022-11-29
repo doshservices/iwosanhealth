@@ -31,8 +31,10 @@ const Navbar = () => {
           {/* dropdown */}
           <div className="dropdown-container">
             <li className="about">
-              ABOUT US
-              <img src={Arrowdown} alt="drop" />
+              <span>
+                ABOUT US
+                <img src={Arrowdown} alt="drop" />
+              </span>
               <ul className="dropdown-menu">
                 <li
                   onClick={() => {
@@ -93,7 +95,7 @@ const Navbar = () => {
                 setIsOpen(!isOpen);
               }}
               to="/contact"
-              className="header__link"
+              className="header__link last"
             >
               CONTACT US
             </Link>
