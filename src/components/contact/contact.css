@@ -2,12 +2,12 @@
     background: hsl(217, 73%, 12%);
     color: white;
     text-align: center;
-    padding: 4rem clamp(1rem, 7vw, 10rem);
+    padding: 2rem clamp(1rem, 7vw, 10rem);
     margin-bottom: 35rem;
 }
 
 .contact-Us h1 {
-    font-size: 3.5rem;
+    font-size: 3rem;
     margin: 2rem 0;
 }
 
@@ -22,12 +22,13 @@
 }
 
 .contact-form {
-    background: hsl(0, 0%, 100%);
-    margin: 6rem 0 -50% 0;
+    background: hsl(0, 0%, 96%);
+    margin: 3rem auto -40% auto;
     padding: 1rem clamp(.5rem, 6vw, 5rem);
     text-align: left;
     box-shadow: 0px 10px 35px rgba(0, 0, 0, 0.03);
     border-radius: 8px;
+    max-width: 800px;
 }
 
 .contact-form div {
@@ -96,7 +97,7 @@ textarea:focus {
 }
 
 .map {
-    width: clamp(200px, 70vw, 1000px);
+    width: clamp(200px, 70vw, 600px);
     /* padding: 0 clamp(.1rem, 6vw, 8rem); */
     padding-bottom: 2rem;
     display: block;
@@ -106,36 +107,36 @@ textarea:focus {
 
 @media(max-width: 1200px) {
     .contact-form {
-        margin: 6rem 0 -60% 0;
+        margin: 4rem auto -50% auto;
     }
 }
 
 @media(max-width: 1000px) {
     .contact-form {
-        margin: 6rem 0 -75% 0;
+        margin: 4rem auto -65% auto;
     }
 }
 
 @media(max-width: 700px) {
     .contact-form {
-        margin: 6rem 0 -100% 0;
+        margin: 4rem auto -90% auto;
     }
 }
 
 @media(max-width: 500px) {
     .contact-form {
-        margin: 6rem 0 -130% 0;
+        margin: 4rem auto -120% auto;
     }
 }
 
 @media(max-width: 450px) {
     .contact-form {
-        margin: 6rem 0 -160% 0;
+        margin: 4rem auto -150% auto;
     }
 }
 
 @media(max-width: 350px) {
     .contact-form {
-        margin: 6rem 0 -200% 0;
+        margin: 4rem auto -190% auto;
     }
 }

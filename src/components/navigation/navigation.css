@@ -112,7 +112,8 @@ a:hover {
   font-weight: 500;
   transition: all 0.3s ease;
   display: block;
-  padding: 1.3rem 0;
+  padding: .4rem 0;
+  margin: .35rem 0;
 }
 
 .about:hover {
@@ -165,7 +166,8 @@ footer>section {
 }
 
 footer .about-logo p {
-  margin-top: .5rem;
+  margin: .5rem 0 0 0;
+  max-width: 320px;
 }
 
 footer nav {
@@ -245,14 +247,20 @@ footer .copyright {
     position: static;
     display: flex;
     flex-direction: row;
-    max-width: clamp(600px, 70%, 700px);
-    flex: 1;
+    /* max-width: clamp(600px, 70%, 700px); */
+    /* flex: 1; */
     padding: 0;
     align-items: center;
   }
 
   .header__link {
-    padding: 1.3rem 1rem;
+    padding: .1rem 1rem;
+    border-right: 1.5px solid hsl(0, 0%, 100%, .3);
+    margin: 1rem 0;
+  }
+
+  .last {
+    border-right: 0px;
   }
 
   .hamburger {
@@ -262,10 +270,9 @@ footer .copyright {
   .dropdown-menu {
     position: absolute;
     top: 100%;
-    left: 0;
+    left: -2px;
     width: 250px;
     z-index: 3;
-    left: 0;
     display: none;
   }
 
@@ -273,8 +280,18 @@ footer .copyright {
     padding: .7rem 1rem;
   }
 
+  .about span {
+    border-right: 1.5px solid hsl(0, 0%, 100%, .3);
+    display: inline-block;
+    padding: .2rem 1rem;
+  }
+
   .about {
-    margin: 0 .5rem;
+    margin: 0;
+  }
+
+  .dropdown-container:hover>.dropdown-menu {
+    display: block;
   }
 
   .about:hover>.dropdown-menu {

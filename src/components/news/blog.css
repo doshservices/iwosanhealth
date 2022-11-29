@@ -1,5 +1,5 @@
 .blog .heading {
-    padding: 4rem clamp(2rem, 7vw, 6rem);
+    padding: 2rem clamp(2rem, 7vw, 6rem);
     background: hsla(217, 73%, 12%);
     color: white;
     text-align: center;
@@ -12,7 +12,7 @@
 }
 
 .blog h1 {
-    font-size: 3.5rem;
+    font-size: 3rem;
     margin: 2rem 0;
 }
 
@@ -29,9 +29,10 @@
     display: flex;
     flex-wrap: wrap;
     gap: 3rem;
-    margin: 12% 0 2rem 0;
+    margin: 2rem;
     box-shadow: 10px 24px 54px rgba(0, 0, 0, 0.04);
     border-radius: 5px;
+    background: hsl(0, 0%, 90%);
 }
 
 .news div {
@@ -79,14 +80,14 @@
 }
 
 .columns {
-    flex-basis: 300px;
+    flex-basis: 250px;
     flex-grow: 1;
     background: hsl(0, 0%, 100%);
     box-shadow: 10px 24px 54px rgba(0, 0, 0, 0.04);
     border-radius: 20px;
     padding: .8rem;
     margin: auto;
-    max-width: 350px;
+    max-width: 300px;
 }
 
 .columns img {
@@ -125,9 +126,9 @@
         margin: 6rem 0 -30% 0;
     }
 
-    .news {
+    /* .news {
         margin: 10% 0 2rem 0;
-    }
+    } */
 
 }
 

@@ -2,12 +2,12 @@
     background: hsl(217, 73%, 12%);
     color: white;
     text-align: center;
-    padding: 4rem clamp(1rem, 7vw, 10rem);
+    padding: 3rem clamp(1rem, 7vw, 10rem);
     margin-bottom: 5rem;
 }
 
 .intro h1 {
-    font-size: 3.5rem;
+    font-size: 3rem;
     margin: 2rem 0;
 }
 
@@ -17,8 +17,8 @@
 }
 
 .intro img {
-    width: 100%;
-    margin: 6rem 0 -21% 0;
+    width: clamp(100px, 100%, 700px);
+    margin: 6rem 0 -15% 0;
 }
 
 .flex {
@@ -38,8 +38,15 @@
     display: flex;
     flex-wrap: wrap;
     gap: 3rem;
-    padding: 3rem clamp(1rem, 6vw, 10rem);
+    padding: 3rem clamp(.5rem, 4vw, 4rem);
+    margin: 1rem clamp(.5rem, 4vw, 4rem);
     padding-top: 4rem;
+    background: hsl(0, 0%, 97%);
+}
+
+.record p {
+    margin-top: 0;
+    max-width: 480px;
 }
 
 
@@ -53,8 +60,8 @@
 }
 
 .leadership {
-    padding: 2rem clamp(1rem, 7vw, 10rem);
-    margin-top: 0;
+    padding: 3rem clamp(1rem, 3vw, 4rem);
+    margin: 2rem clamp(1rem, 3vw, 4rem);
 }
 
 .record button {
@@ -75,8 +82,10 @@
     display: flex;
     flex-wrap: wrap;
     gap: 3rem;
-    padding: 1rem clamp(1rem, 6vw, 10rem);
+    padding: 3rem clamp(.5rem, 4vw, 4rem);
+    margin: 2rem clamp(.5rem, 4vw, 4rem);
     color: hsl(217, 73%, 12%);
+    background: whitesmoke
 }
 
 .dynamics div,
@@ -93,12 +102,6 @@
     text-align: center;
     color: white;
     background: hsl(217, 73%, 12%);
-}
-
-.pd {
-    padding: 2rem clamp(2rem, 7vw, 10rem);
-    margin: 3rem 0;
-
 }
 
 .mail .email {
@@ -131,9 +134,11 @@
 .benefits {
     display: flex;
     flex-wrap: wrap;
-    padding: 1rem clamp(1rem, 6vw, 10rem);
+    padding: 3rem clamp(1rem, 3vw, 4rem);
+    margin: 1rem clamp(1rem, 3vw, 4rem);
     color: hsl(217, 73%, 12%);
     gap: 3rem;
+    background: whitesmoke;
 }
 
 .benefits img {
@@ -153,8 +158,9 @@
     margin: 2rem 0;
     display: flex;
     flex-wrap: wrap;
-    gap: 2rem;
-    padding: 2rem clamp(2rem, 7vw, 10rem);
+    gap: 3rem;
+    padding: 3rem clamp(1rem, 4vw, 4rem);
+    margin: 1rem clamp(1rem, 4vw, 4rem);
 }
 
 .strategy div,
@@ -168,13 +174,15 @@
     flex-basis: 350px;
     flex-grow: 1;
     width: 50%;
+    max-width: 700px;
 }
 
 
 .team {
     background: hsla(191, 100%, 43%, 1);
     color: white;
-    padding: 2rem 0 2rem clamp(2rem, 7vw, 10rem);
+    padding: 2rem clamp(.5rem, 4vw, 4rem);
+    margin: 2rem clamp(.5rem, 4vw, 4rem);
     overflow-x: hidden;
 }
 
@@ -190,11 +198,15 @@
 }
 
 .members {
+    flex-basis: 400px;
+    flex-grow: 1;
     background: hsla(0, 0%, 100%, 0.05);
     gap: .5rem;
     display: flex;
     flex-wrap: wrap;
     height: fit-content;
+    width: fit-content;
+    min-width: 520px;
     max-width: 620px;
 }
 
@@ -209,6 +221,7 @@
 
 .brains p {
     margin-bottom: 0;
+    max-width: 400px;
 }
 
 .brains div {
@@ -297,7 +310,9 @@
     display: flex;
     flex-wrap: wrap;
     gap: 3rem;
-    padding: 1rem clamp(2rem, 7vw, 10rem);
+    padding: 3rem clamp(.5rem, 4vw, 4rem);
+    margin: 1rem clamp(.5rem, 4vw, 4rem);
+    background: whitesmoke;
 }
 
 .quality div,
