@@ -16,6 +16,8 @@ body {
   max-width: 1700px;
   margin: 0 auto;
   box-shadow: 5px 15px 45px rgba(0, 0, 0, 0.03);
+  -ms-overflow-style: none;
+  scrollbar-width: none;
 }
 
 * {
@@ -25,9 +27,8 @@ body {
   scroll-behavior: smooth;
 }
 
-::selection {
-  color: white;
-  background: hsl(217, 73%, 12%);
+body::-webkit-scrollbar {
+  display: none;
 }
 
 a {
@@ -54,4 +55,9 @@ input:focus,
 button:focus {
   border: none;
   outline: none
+}
+
+.ecg {
+  background: url("./components/about/imgs/ecg.svg");
+  background-size: 200px;
 }

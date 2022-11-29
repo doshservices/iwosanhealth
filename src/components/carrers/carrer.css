@@ -14,6 +14,9 @@
     width: clamp(100px, 100%, 900px);
     margin: auto;
 }
+/* .blue-background {
+    background: hsl(191, 100%, 43%);
+} */
 
 .carrer div {
     background: white;

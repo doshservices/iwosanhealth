@@ -16,42 +16,34 @@ const Staffs = () => {
     let slider = document.getElementById("slider");
     slider.scrollLeft = slider.scrollLeft + 300;
   };
-  const { ceo } = staffData;
+  const { staffs } = staffData;
   const [person, setPerson] = useState([]);
-  const findId = () => {
-    const activeId = person.find((x) => x.id === staffData.id);
-    if (activeId) {
-      const newId = person.map((x) => {
-        x.id === ceo.id ? showModal(true) : showModal(false);
-      });
-      return newId;
-    }
+  const findId = (id) => {
+    console.log("I see you", id);
+    setShowModal(!showModal)
+    const currentModal = document.getElementById(`fixed-card-${id}`);
+    console.log(currentModal, `fixed-card-${id}`, "Modallll");
+    showModal ? currentModal.style.display = "block" : currentModal.style.display = "none"
+    console.log("showModal", showModal);
+    // const activeId = person.find((x) => x.id === staffData.id);
+    // if (activeId) {
+    //   const newId = person.map((x) => {
+    //     x.id === staffs[0].id ? showModal(true) : showModal(false);
+    //   });
+    //   return newId;
+    // }
   };
 
   return (
     <>
-      {showModal && (
-        <div className="modal fixed-card">
-          <div>
-            <button
-              onClick={() => {
-                setShowModal(!showModal);
-              }}
-            >
-              x
-            </button>
-            <figure>
-              <img src={oladapo} alt="" />
-            </figure>
-            <div className="text">
-              <p></p>
-            </div>
-          </div>
-        </div>
-      )}
       <section id="slider" className="staffs">
         {staffData.staffs.map((data) => (
-          <div onClick={findId} className="staff" key={data.id} id={data.id}>
+          <div
+            onClick={() => findId(data.id)}
+            className="staff"
+            key={data.id}
+            id={`slider-img-${data.id}`}
+          >
             <figure>
               <img src={data.img} alt={data.name} />
             </figure>
@@ -61,6 +53,26 @@ const Staffs = () => {
               <span></span>
               <p>{data.about}</p>
             </div>
+              <div
+                className="modal"
+                id={`fixed-card-${data.id}`}
+              >
+                <div>
+                  <button
+                    onClick={() => {
+                      setShowModal(!showModal);
+                    }}
+                  >
+                    x
+                  </button>
+                  <figure>
+                    <img src={oladapo} alt="" />
+                  </figure>
+                  <div className="text">
+                    <p></p>
+                  </div>
+                </div>
+              </div>
           </div>
         ))}
       </section>

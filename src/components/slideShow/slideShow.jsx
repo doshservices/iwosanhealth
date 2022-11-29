@@ -1,5 +1,5 @@
 import { useState, useEffect, useRef } from "react";
-import Slide1 from "../../images/Slider 1.svg";
+import Slide1 from "../about/imgs/Slider new.svg";
 import Banner1 from "../../images/New banner 2.svg";
 import "./slideshow.css";
 
