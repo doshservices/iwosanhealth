@@ -75,8 +75,8 @@ const Home = () => {
         <div className="mail flex-350-item">
           <h2>Join Our Mailing List</h2>
           <p>
-            Neque porro quisquam est qui dolorem ipsum quia dolor sit amet,
-            consectetur, adipisci velit
+            Sign up via our free email subscription service to receive
+            notifications when new information is available.
           </p>
         </div>
         <div className="suscribe flex-350-item">
