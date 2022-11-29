@@ -28,7 +28,7 @@ const Carrer = () => {
         </div>
         <div className="news__picture"></div>
       </section>
-      <section className="news">
+      <section className="news blue-background">
         <div className="news__post">
           <h2>Non-technical Career</h2>
           <p className="news__time">Romeo Stars on 24 March 2020</p>

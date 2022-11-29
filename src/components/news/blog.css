@@ -34,6 +34,13 @@
     border-radius: 5px;
     background: hsl(0, 0%, 90%);
 }
+.blue-background {
+    background: hsl(191, 100%, 43%);
+    color: white;
+}
+.blue-background blockquote, .blue-background p{
+    color: white;
+}
 
 .news div {
     flex-basis: 350px;
@@ -50,6 +57,7 @@
     color: hsla(217, 73%, 12%, .8);
     margin: 2rem 0;
 }
+
 
 .news__button {
     background: hsl(121, 44%, 49%);

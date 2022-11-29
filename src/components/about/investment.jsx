@@ -11,6 +11,7 @@ import Footer from "../navigation/footer";
 const Investment = () => {
   return (
     <>
+      <div className="ecg">
       <div className="intro">
         <h1>Our Investment Attributes</h1>
         <p>
@@ -152,6 +153,7 @@ const Investment = () => {
           </p>
         </div>
       </section>
+      </div>
       <Footer />
     </>
   );

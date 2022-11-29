@@ -11,7 +11,7 @@
     background: hsla(121, 44%, 49%, 1);
     padding: .7rem;
     border-radius: 2px;
-    /* display: none; */
+    display: none;
 }
 
 .modal figure {

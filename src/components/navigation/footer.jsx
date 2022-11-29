@@ -26,17 +26,17 @@ const Footer = () => {
                 <a href="">News</a>
               </li>
               <li>
-                <a href="">Our Team</a>
+                <a href="">Career</a>
               </li>
               <li>
-                <a href="">Investment Attributes</a>
+                <a href="">About Us</a>
               </li>
             </ul>
             <div className="contact">
               <h4>Contact Us</h4>
               <a href="tel:+23416321636">+23416321636</a>
               <a href="mailto:m.info@iwosanhealth.com">info@iwosanhealth.com</a>
-              <p href="#">34 Raymond Njoku Street, Ikoyi, Lagos, Nigeria.</p>
+              <p>Unit C, 4 Onisiwo Street, Ikoyi</p>
             </div>
             <div className="social-links">
               <h4>Follow Us</h4>

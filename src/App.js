@@ -8,10 +8,26 @@ import Investment from "./components/about/investment";
 import Contact from "./components/contact/contact";
 import Carrer from "./components/carrers/carres";
 import Blog from "./components/news/blog";
+// import ScrollToTop from "react-scroll-to-top";
+import { useState, useEffect } from "react";
 
 const App = () => {
-  const top = () => {
-    window.scrollTo(0, 0);
+  const [scroll, setScroll] = useState(false);
+  useEffect(() => {
+    window.addEventListener("scroll", () => {
+      if (window.scrollY > 100) {
+        setScroll(true);
+      } else {
+        setScroll(false);
+      }
+    });
+  }, []);
+
+  const scrollUp = () => {
+    window.scrollTo({
+      top: 0,
+      behavior: "smooth",
+    });
   };
   return (
     <>
@@ -28,9 +44,11 @@ const App = () => {
           <Route path="/news" element={<Blog />} />
         </Routes>
       </main>
-      <button onClick={top} className="top-scroll">
-        &uarr;
-      </button>
+      {setScroll && (
+        <button onClick={scrollUp} className="top-scroll">
+          &uarr;
+        </button>
+      )}
     </>
   );
 };
