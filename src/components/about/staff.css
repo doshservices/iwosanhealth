@@ -104,7 +104,12 @@
 }
 
 .bg-green {
+    /* transform: scale(1.2); */
     border-bottom: 4px solid hsl(157, 77%, 52%);
+    background: hsla(191, 100%, 43%, 1);
+    box-shadow: 0px 10px 30px hsla(121, 44%, 49%, 0.231);
+    /* left: -10rem; */
+    /* position: absolute; */
 }
 
 .management figure {
