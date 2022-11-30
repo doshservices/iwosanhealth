@@ -13,19 +13,25 @@ import curvedbg2 from "../../images/curved-bg2.svg";
 const Governance = () => {
   return (
     <>
-      <div className="ecg">
-        <section className="intro">
-          <img src={curvedbg1} className="intro-bg1" alt="" />
-          <img src={curvedbg2} className="intro-bg2" alt="" />
-          <img src={curvedbg1} className="intro-bg3" alt="" />
-          <h1>Corporate Governance</h1>
-          <p>
-            Iwosan Investments Limited is a privately held healthcare asset and
-            investment company dedicated to financing and developing brownfield
-            and greenfield multi-specialist healthcare facility
-          </p>
-          {/* <img src={investmentbg} alt="invest" /> */}
-        </section>
+      <section className="intro">
+        <img src={curvedbg1} className="intro-bg1" alt="" />
+        <img src={curvedbg2} className="intro-bg2" alt="" />
+        <img src={curvedbg1} className="intro-bg3" alt="" />
+        <h1>Corporate Governance</h1>
+        <p>
+          Iwosan Investments Limited is a privately held healthcare asset and
+          investment company dedicated to financing and developing brownfield
+          and greenfield multi-specialist healthcare facility
+        </p>
+        {/* <img src={investmentbg} alt="invest" /> */}
+      </section>
+      <div
+        className="ecg"
+        style={{
+          backgroundPosition: "center",
+          backgroundRepeat: "repeat-x",
+        }}
+      >
         <section className="sustain">
           <div>
             <h2>Sustainability</h2>
@@ -99,43 +105,50 @@ const Governance = () => {
             <img src={clinical} alt="clinical" style={{ width: "100%" }} />
           </figure>
         </section>
-        <section className="whistle">
-          <figure>
-            {" "}
-            <img src={whitsle} alt="whitsle" style={{ width: "100%" }} />
-          </figure>
-          <div>
-            <h2>Whistleblowing</h2>
-            <img
-              src={greenborder2}
-              alt="border"
-              style={{ margin: "1rem 0", maxWidth: "200px" }}
-            />
-            <p>
-              We are Iwosan Investment Limited - a consistently patient-first,
-              world-class healthcare services provider. We are committed to a
-              whistleblowing policy in keeping with the core values of
-              Integrity, Equity, Good Faith, and Fairness - intended to
-              encourage employees and others to make good faith reports of
-              suspected fraud, corruption, or other improprieties, or health and
-              safety concerns that may negatively impact both our internal and
-              external stakeholders. Employees of the Company have an obligation
-              to report irregularities when they become aware and have the right
-              to voice complaints about questionable financial reporting,
-              unethical, illegal, or unlawful activities/procedures without fear
-              that such reports or complaint will impact their employment
-              status, rate of pay or responsibilities within the organization.
-              Where an employee has knowledge of information that violates any
-              law, rule, or regulation as described above, the employee is
-              encouraged to contact his/her immediate supervisor or the Human
-              Resources department to provide information directly or on an
-              anonymous basis to afford the organization a reasonable
-              opportunity to review and take corrective measures. Do you have a
-              report to make? Please send an email to
-              whistleblow@iwosanhealth.com
-            </p>
-          </div>
-        </section>
+      </div>
+      <section className="whistle">
+        <figure>
+          {" "}
+          <img src={whitsle} alt="whitsle" style={{ width: "100%" }} />
+        </figure>
+        <div>
+          <h2>Whistleblowing</h2>
+          <img
+            src={greenborder2}
+            alt="border"
+            style={{ margin: "1rem 0", maxWidth: "200px" }}
+          />
+          <p>
+            We are Iwosan Investment Limited - a consistently patient-first,
+            world-class healthcare services provider. We are committed to a
+            whistleblowing policy in keeping with the core values of Integrity,
+            Equity, Good Faith, and Fairness - intended to encourage employees
+            and others to make good faith reports of suspected fraud,
+            corruption, or other improprieties, or health and safety concerns
+            that may negatively impact both our internal and external
+            stakeholders. Employees of the Company have an obligation to report
+            irregularities when they become aware and have the right to voice
+            complaints about questionable financial reporting, unethical,
+            illegal, or unlawful activities/procedures without fear that such
+            reports or complaint will impact their employment status, rate of
+            pay or responsibilities within the organization. Where an employee
+            has knowledge of information that violates any law, rule, or
+            regulation as described above, the employee is encouraged to contact
+            his/her immediate supervisor or the Human Resources department to
+            provide information directly or on an anonymous basis to afford the
+            organization a reasonable opportunity to review and take corrective
+            measures. Do you have a report to make? Please send an email to
+            whistleblow@iwosanhealth.com
+          </p>
+        </div>
+      </section>
+      <div
+        className="ecg"
+        style={{
+          backgroundPosition: "center",
+          backgroundRepeat: "repeat-x",
+        }}
+      >
         <section className="compliance">
           <div>
             <h2>Compliance</h2>

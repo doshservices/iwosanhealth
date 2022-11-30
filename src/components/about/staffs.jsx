@@ -1,12 +1,17 @@
 import staffData from "./staffData";
 import "./about.css";
 import "./staff.css";
-import oladapo from "../../images/Dapo Oshinusi.jpg";
 import { useState } from "react";
 
 const Staffs = () => {
   const scroll = ["<", ">"];
   const [showModal, setShowModal] = useState(false);
+  const [data, setData] = useState(null);
+  const handleClick = (e, data) => {
+    console.log(data);
+    setData(data)
+    setShowModal(!showModal);
+  };
 
   const slideLeft = () => {
     let slider = document.getElementById("slider");
@@ -16,19 +21,12 @@ const Staffs = () => {
     let slider = document.getElementById("slider");
     slider.scrollLeft = slider.scrollLeft + 300;
   };
-  // const { staffs } = staffData;
 
   return (
     <>
       <section id="slider" className="staffs">
         {staffData.staffs.map((data) => (
-          <div
-            onClick={() => {
-              setShowModal(!showModal);
-            }}
-            className="staff"
-            key={data.id}
-          >
+          <div onClick={(e) => handleClick(e, data)} className="staff" key={data.id}>
             <figure>
               <img src={data.img} alt={data.name} />
             </figure>
@@ -42,9 +40,7 @@ const Staffs = () => {
         ))}
       </section>
       {showModal && (
-        <div
-          className="modal"
-        >
+        <div className="modal">
           <div>
             <button
               onClick={() => {
@@ -54,10 +50,13 @@ const Staffs = () => {
               x
             </button>
             <figure>
-              <img src={oladapo} alt="" />
+              <img src={data.img} alt="" />
             </figure>
             <div className="text">
-              <p></p>
+              <h3>{data.name}</h3>
+              <h4>{data.office}</h4>
+              <span></span>
+              <p>{ data.about}</p>
             </div>
           </div>
         </div>

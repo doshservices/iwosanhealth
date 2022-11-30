@@ -28,6 +28,15 @@ const Navbar = () => {
               HOME
             </Link>
           </li>
+          <li
+            onClick={() => {
+              setIsOpen(!isOpen);
+            }}
+          >
+            <Link to="/investment" className="header__link">
+              OUR INVESTMENTS ATTRIBUTES
+            </Link>
+          </li>
           {/* dropdown */}
           <div className="dropdown-container">
             <li className="about">
@@ -69,15 +78,7 @@ const Navbar = () => {
               NEWS
             </Link>
           </li>
-          <li
-            onClick={() => {
-              setIsOpen(!isOpen);
-            }}
-          >
-            <Link to="/investment" className="header__link">
-              OUR INVESTMENTS ATTRIBUTES
-            </Link>
-          </li>
+
           <li>
             <Link
               onClick={() => {

@@ -11,7 +11,7 @@ import Carrer from "./components/carrers/carres";
 import Blog from "./components/news/blog";
 import { useState, useEffect } from "react";
 import ScrollToTop from "./ScrollToTop";
-import CookieConsent from "react-cookie-consent";
+// import CookieConsent from "react-cookie-consent";
 
 const App = () => {
   const [backToTopButton, setbackToTopButton] = useState(false);
@@ -52,7 +52,7 @@ const App = () => {
           &uarr;
         </button>
       )}
-      <CookieConsent
+      {/* <CookieConsent
         debug={true}
         style={{ padding: "0" }}
         location="bottom"
@@ -66,7 +66,7 @@ const App = () => {
         expires={250}
       >
         We use cookies to improve your experience.
-      </CookieConsent>
+      </CookieConsent> */}
     </>
   );
 };

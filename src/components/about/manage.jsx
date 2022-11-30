@@ -5,6 +5,7 @@ import marketing from "./imgs/Adesegun Damazio.jpg";
 import operations from "./imgs/Dr. Idowu Adebiyi.jpg";
 import Sustainability from "./imgs/Vivian Akwuaka.jpg";
 import resources from "./imgs/Oyiza Salu.jpg";
+import { useState } from "react";
 
 const Management = () => {
   const scroll = ["<", ">"];
@@ -22,53 +23,62 @@ const Management = () => {
       {
         id: 1,
         img: controller,
-        name: "",
+        name: "Isaiah Mukoro",
         office: "Group Financial Controller",
         about: "",
       },
       {
         id: 2,
         img: legal,
-        name: "",
+        name: "Adetomi Olaobaju.",
         office: "Group Head, Legal, Risk & Compliance",
         about: "",
       },
       {
         id: 3,
         img: marketing,
-        name: "",
+        name: "Adesegun Damazio",
         office: "Group Head, Marketing & Growth",
         about: "",
       },
       {
         id: 4,
         img: operations,
-        name: "",
+        name: "Dr. Idowu Adebiyi",
         office: "Group Head, Operations",
         about: "",
       },
       {
         id: 5,
         img: Sustainability,
-        name: "",
+        name: "Vivian Akwuaka.",
         office: "Group Head, Quality & Sustainability",
         about: "",
       },
       {
         id: 6,
         img: resources,
-        name: "",
+        name: "Oyiza Salu",
         office: "Group Head, Human Resources",
         about: "",
       },
     ],
   };
+  const [showModal, setShowModal] = useState(false);
+   const [manage, setManage] = useState(null);
+   const handleClick = (e, manage) => {
+     setManage(manage);
+     setShowModal(!showModal);
+   };
   return (
     <>
       <section id="slider" className="management">
         {management.ceos.map((manage) => {
           return (
-            <div key={manage.id}>
+            <div
+          onClick={(e) => handleClick(e, manage)}
+              key={manage.id}
+            >
               <figure>
                 <img src={manage.img} alt={manage.name} />
               </figure>
@@ -82,6 +92,28 @@ const Management = () => {
           );
         })}
       </section>
+      {showModal && (
+        <div className="modal">
+          <div>
+            <button
+              onClick={() => {
+                setShowModal(!showModal);
+              }}
+            >
+              x
+            </button>
+            <figure>
+              <img src={manage.img} alt="" />
+            </figure>
+            <div className="text">
+              <h3>{manage.name}</h3>
+              <h4>{manage.office}</h4>
+              <span></span>
+              <p>{manage.about}</p>
+            </div>
+          </div>
+        </div>
+      )}
       <div className="scroller">
         <button onClick={slideLeft} className="scroller">
           {scroll[0]}
