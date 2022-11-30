@@ -14,9 +14,21 @@
     width: clamp(100px, 100%, 900px);
     margin: auto;
 }
-/* .blue-background {
-    background: hsl(191, 100%, 43%);
-} */
+.carrer .curve1{
+    position: absolute;
+        max-height: 15rem;
+        max-width: 15rem;
+        left: 0;
+        top: 0;
+        opacity: .1;
+}
+.carrer .curve2{
+position: absolute;
+    max-height: 15rem;
+    max-width: 15rem;
+    right: 0;
+    opacity: .1;
+}
 
 .carrer div {
     background: white;

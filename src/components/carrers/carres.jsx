@@ -1,9 +1,13 @@
 import "./carrer.css";
+import curve1 from "../../images/curved-bg1.svg";
+import curve2 from "../../images/curved-bg2.svg";
 
 const Carrer = () => {
   return (
     <>
       <div className="carrer">
+        <img src={curve1} className="curve1" alt="" />
+        <img src={curve2} className="curve2" alt="" />
         <h1>Careers</h1>
         <p>
           Iwosan Investments Limited is a privately held healthcare asset and
