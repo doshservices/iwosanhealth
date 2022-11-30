@@ -137,7 +137,6 @@
     opacity: .1;
     max-height: 130%;
     left: 0;
-    /* z-index: -1; */
 }
 
 .join .bg2 {
@@ -196,21 +195,24 @@
     background: hsl(217, 73%, 12%);
     position: relative;
 }
-.testimony .bg1{
+
+.testimony .bg1 {
     position: absolute;
     max-height: 10rem;
     left: -10%;
     opacity: .1;
     transform: rotate(-90deg);
 }
-.testimony .bg2{
+
+.testimony .bg2 {
     position: absolute;
     max-height: 10rem;
     right: 50%;
     bottom: 0;
     opacity: .1;
 }
-.testimony .bg3{
+
+.testimony .bg3 {
     position: absolute;
     max-height: 10rem;
     right: 0;
@@ -280,7 +282,15 @@
     .what-we-do h2 {
         margin-top: 2rem;
     }
-   
+
+    .join .bg1 {
+        top: -50%;
+    }
+
+    .join .bg2 {
+        display: none;
+    }
+
 }
 
 @media(max-width: 800px) {
@@ -289,8 +299,9 @@
         margin: .5rem 0;
     }
 }
+
 @media(max-width: 1100px) {
-.testimony .bg2 {
+    .testimony .bg2 {
         display: none;
     }
 }

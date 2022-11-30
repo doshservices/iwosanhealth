@@ -149,9 +149,9 @@ position: absolute;
         margin: 6rem 0 -30% 0;
     }
 
-    /* .news {
-        margin: 10% 0 2rem 0;
-    } */
+   .blog .heading .curve1 {
+       display: none;
+   }
 
 }
 
