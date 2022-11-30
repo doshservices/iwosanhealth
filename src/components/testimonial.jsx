@@ -5,7 +5,10 @@ import Clientsmile from "../images/client-smile.png";
 const Testimony = () => {
 const button = ["<", ">"]
 
-return(
+  return (
+    <>
+      <div className="ecg">
+
     <section className="testimony flex">
     <div className="flex-400-item">
       <h2>Client Testimonials</h2>
@@ -25,6 +28,8 @@ return(
      <img src={Clientsmile} alt="client" />
     </figure>
   </section>
+      </div>
+  </>
 )
 }
 

@@ -36,6 +36,8 @@ const Home = () => {
             </a>
           </div>
         </section>
+      </div>
+      <div className="ecg">
         <section className="what-we-do">
           <h2>What We Do</h2>
           <img src={Bordergreen} alt="border" />
@@ -72,6 +74,8 @@ const Home = () => {
             </div>
           </div>
         </section>
+      </div>
+      <div className="ecg">
         <section className="join flex">
           <div className="mail flex-350-item">
             <h2>Join Our Mailing List</h2>
