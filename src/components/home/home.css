@@ -128,7 +128,7 @@
     overflow: hidden;
     background: hsl(217, 73%, 12%);
     color: white;
-    padding: 1rem clamp(2rem, 8vw, 8rem);
+    padding: 1rem clamp(1rem, 7vw, 8rem);
     align-items: center;
 }
 

@@ -36,7 +36,7 @@ header {
   padding: 1rem 2rem;
   position: absolute;
   z-index: 12;
-  width: clamp(250px, 80vw, 500px);
+  width: clamp(250px, 80vw, 350px);
   top: 100%;
   border-radius: 0 0 10px 10px;
   transition: all .5s ease-in-out;
@@ -241,7 +241,7 @@ footer .copyright {
   padding-top: 1rem;
 }
 
-@media (min-width: 900px) {
+@media (min-width: 1050px) {
   .header__nav {
     padding: 0 clamp(1rem, 6vw, 8rem);
   }
@@ -250,7 +250,7 @@ footer .copyright {
     position: static;
     display: flex;
     flex-direction: row;
-    /* max-width: clamp(600px, 70%, 700px); */
+  width: clamp(250px, 80vw, 750px);
     /* flex: 1; */
     padding: 0;
     align-items: center;

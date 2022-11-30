@@ -22,17 +22,8 @@ const Investment = () => {
             investment company dedicated to financing and developing brownfield
             and greenfield multi-specialist healthcare facility
           </p>
-          <img src={investmentbg} alt="invest" />
         </div>
         <section className="record">
-          <div>
-            <h2>Operational Expertise and Track Record. </h2>
-            <img
-              src={greenborder2}
-              alt="border"
-              style={{ margin: "1rem 0", maxWidth: "200px" }}
-            />
-          </div>
           <div>
             <p>
               Our flagship investment portfolio, Iwosan Lagoon Hospitals
@@ -50,6 +41,14 @@ const Investment = () => {
               across Africa.
             </p>
             <button>Download profile</button>
+          </div>
+          <div>
+            <h2>Operational Expertise and Track Record. </h2>
+            <img
+              src={greenborder2}
+              alt="border"
+              style={{ margin: "1rem 0", maxWidth: "200px" }}
+            />
           </div>
         </section>
         <section className="dynamics">
@@ -80,9 +79,6 @@ const Investment = () => {
           </div>
         </section>
         <section className="benefits">
-          <figure>
-            <img src={img2} alt="doctors" />
-          </figure>
           <div>
             <h2>Diversification Benefits</h2>
             <img
@@ -108,8 +104,12 @@ const Investment = () => {
               personnel capacity development.
             </p>
           </div>
+          <figure>
+            <img src={img2} alt="doctors" />
+          </figure>
         </section>
         <section className="strategy">
+          <img src={finance} alt="finance" />
           <div>
             <h2>Innovative Financial Strategy</h2>
             <p>
@@ -127,17 +127,8 @@ const Investment = () => {
               bed shortages prevalent in Africa.
             </p>
           </div>
-          <img src={finance} alt="finance" />
         </section>
         <section className="leadership">
-          <div>
-            <h2>Strong Leadership Vision</h2>
-            <img
-              src={greenborder2}
-              alt="border"
-              style={{ margin: "1rem 0", maxWidth: "200px" }}
-            />
-          </div>
           <div>
             <p>
               Our prime investors and promoters have several decades of
@@ -155,6 +146,14 @@ const Investment = () => {
               hospital is structured to function independently and compete
               favourably based on the preset performance indices.
             </p>
+          </div>
+          <div>
+            <h2>Strong Leadership Vision</h2>
+            <img
+              src={greenborder2}
+              alt="border"
+              style={{ margin: "1rem 0", maxWidth: "200px" }}
+            />
           </div>
         </section>
       </div>

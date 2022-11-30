@@ -4,7 +4,7 @@ import Banner1 from "../../images/New banner 2.svg";
 import "./slideshow.css";
 
 const slideImages = [Banner1, Slide1];
-const delay = 4500;
+const delay = 10000;
 
 const Slideshow = () => {
   const [index, setIndex] = useState(0);

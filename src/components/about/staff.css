@@ -1,17 +1,22 @@
 .modal {
     position: fixed;
-    z-index: 2;
+    inset: 0;
+    backdrop-filter: blur(3px);
+    z-index: 5;
+}
+
+.modal>div {
+    position: relative;
+    z-index: 6;
     top: 53%;
     left: 50%;
     transform: translate(-50%, -50%);
     width: clamp(250px, 80vw, 320px);
-    height: 80vh;
     min-height: 400px;
-    max-height: 600px;
+    max-height: 500px;
     background: hsla(121, 44%, 49%, 1);
     padding: .7rem;
     border-radius: 2px;
-    display: none;
 }
 
 .modal figure {
@@ -32,10 +37,11 @@
     color: white;
 }
 
+/* 
 .modal>div {
     position: relative;
     height: 100%;
-}
+} */
 
 .modal .text {
     overflow-y: scroll;
@@ -55,8 +61,8 @@
 .modal button {
     color: white;
     background: hsla(217, 73%, 12%, 1);
-    height: 29px;
-    width: 27px;
+    height: 31px;
+    width: 29px;
     font-size: 1.5rem;
     border-radius: 50%;
     border: none;
