@@ -7,12 +7,17 @@ import whitsle from "../../images/Screen Shot 2022-11-16 at 5.19 1.png";
 import Footer from "../navigation/footer";
 import patnership from "../../images/patnership.jpg";
 import sustain from "../../images/sustainability.jpg";
+import curvedbg1 from "../../images/curved-bg1.svg";
+import curvedbg2 from "../../images/curved-bg2.svg";
 
 const Governance = () => {
   return (
     <>
       <div className="ecg">
         <section className="intro">
+          <img src={curvedbg1} className="intro-bg1" alt="" />
+          <img src={curvedbg2} className="intro-bg2" alt="" />
+          <img src={curvedbg1} className="intro-bg3" alt="" />
           <h1>Corporate Governance</h1>
           <p>
             Iwosan Investments Limited is a privately held healthcare asset and

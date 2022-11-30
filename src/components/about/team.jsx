@@ -9,6 +9,8 @@ import greenborder2 from "../../images/greenborder2.svg";
 import Staffs from "./staffs";
 import Council from "./council";
 import Footer from "../navigation/footer";
+import curvedbg1 from "../../images/curved-bg1.svg";
+import curvedbg2 from "../../images/curved-bg2.svg";
 
 const Team = () => {
   const [board, setBoard] = useState("CEO");
@@ -25,6 +27,9 @@ const Team = () => {
     <>
       <div className="ecg">
         <section className="intro">
+          <img src={curvedbg1} className="intro-bg1" alt="" />
+          <img src={curvedbg2} className="intro-bg2" alt="" />
+          <img src={curvedbg1} className="intro-bg3" alt="" />
           <h1>Our Team</h1>
           <p>
             Iwosan Investments Limited is a privately held healthcare asset and

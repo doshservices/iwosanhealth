@@ -4,6 +4,31 @@
     text-align: center;
     padding: 3rem clamp(1rem, 7vw, 10rem);
     margin-bottom: 5rem;
+    position: relative;
+}
+.intro-bg1{
+    position: absolute;
+        opacity: .1;
+        max-height: 10rem;
+        max-width: 20rem;
+        left: 0;
+        top: 0;
+}
+.intro-bg2{
+    position: absolute;
+        opacity: .1;
+        max-height: 10rem;
+        max-width: 20rem;
+        right: 1rem;
+        top: 40%;
+}
+.intro-bg3{
+    position: absolute;
+        opacity: .1;
+        max-height: 10rem;
+        max-width: 20rem;
+        top: 40;
+        right: 40%;
 }
 
 .intro h1 {
@@ -336,14 +361,11 @@
     }
 }
 
-@media (max-width: 750px) {
-    .intro img {
-        margin: 6rem 0 -30% 0;
-    }
-
-    .record {
-        margin-top: 6rem;
-    }
+@media (max-width: 1000px) {
+   
+  .intro-bg3 {
+      display: none;
+  }
 }
 
 @media(max-width: 450px) {

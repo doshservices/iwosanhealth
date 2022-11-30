@@ -1,12 +1,16 @@
 import "./blog.css";
 import Blogimg from "../../images/blog.svg";
 import Footer from "../navigation/footer";
+import curve1 from "../../images/curved-bg1.svg"
+import curve2 from "../../images/curved-bg2.svg"
 
 const Blog = () => {
   return (
     <>
       <section className="blog">
         <section className="heading">
+          <img src={curve1} className="curve1" alt="" />
+          <img src={curve2} className="curve2" alt="" />
           <h1>Our Blog</h1>
           <p>
             Iwosan Investments Limited is a privately held healthcare asset and

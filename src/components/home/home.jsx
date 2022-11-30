@@ -9,6 +9,8 @@ import Femaleworker from "../../images/female-team.png";
 import Maleworker from "../../images/male-team.png";
 import Count from "./count";
 import Footer from "../navigation/footer";
+import curvedbg1 from "../../images/curved-bg1.svg"
+import curvedbg2 from "../../images/curved-bg2.svg"
 
 const Home = () => {
   return (
@@ -77,6 +79,8 @@ const Home = () => {
       </div>
       <div className="ecg">
         <section className="join flex">
+          <img src={curvedbg1} className="bg1" alt="" />
+          <img src={curvedbg1} className="bg2" alt="" />
           <div className="mail flex-350-item">
             <h2>Join Our Mailing List</h2>
             <p>
