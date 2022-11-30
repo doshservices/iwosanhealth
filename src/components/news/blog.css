@@ -10,6 +10,21 @@
     margin: 6rem 0 -21% 0;
     border-radius: 8px;
 }
+.blog .heading .curve1 {
+position: absolute;
+max-height: 15rem;
+    max-width: 15rem;
+    left: 0;
+    top: 0;
+    opacity: .1;
+}
+.blog .heading .curve2 {
+position: absolute;
+    max-height: 15rem;
+    max-width: 15rem;
+    right: 0;
+    opacity: .1;
+}
 
 .blog h1 {
     font-size: 3rem;

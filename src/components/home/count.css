@@ -5,9 +5,8 @@
     justify-content: space-between;
     color: white;
     text-align: center;
-    padding: 1rem clamp(1rem, 4vw, 4rem);
+    padding: 1rem clamp(2rem, 8vw, 8rem);
     padding-bottom: 1.5rem;
-    margin: 1rem clamp(1rem, 4vw, 4rem);
 }
 
 .counter span {
