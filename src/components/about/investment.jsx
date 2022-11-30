@@ -1,5 +1,4 @@
 import "./about.css";
-import investmentbg from "../../images/investment-hero.png";
 import finance from "../../images/finance.png";
 import img from "../about/imgs/PHOTO-2022-11-25-08-33-30.jpg";
 import img2 from "../about/imgs/PHOTO-2022-11-25-08-33-30 3.jpg";
@@ -11,18 +10,24 @@ import curvedbg2 from "../../images/curved-bg2.svg";
 const Investment = () => {
   return (
     <>
-      <div className="ecg">
-        <div className="intro">
-          <img src={curvedbg1} className="intro-bg1" alt="" />
-          <img src={curvedbg2} className="intro-bg2" alt="" />
-          <img src={curvedbg1} className="intro-bg3" alt="" />
-          <h1>Our Investment Attributes</h1>
-          <p>
-            Iwosan Investments Limited is a privately held healthcare asset and
-            investment company dedicated to financing and developing brownfield
-            and greenfield multi-specialist healthcare facility
-          </p>
-        </div>
+      <div className="intro">
+        <img src={curvedbg1} className="intro-bg1" alt="" />
+        <img src={curvedbg2} className="intro-bg2" alt="" />
+        <img src={curvedbg1} className="intro-bg3" alt="" />
+        <h1>Our Investment Attributes</h1>
+        <p>
+          Iwosan Investments Limited is a privately held healthcare asset and
+          investment company dedicated to financing and developing brownfield
+          and greenfield multi-specialist healthcare facility
+        </p>
+      </div>
+      <div
+        style={{
+          backgroundPosition: "center",
+          backgroundRepeat: "repeat-x",
+        }}
+        className="ecg"
+      >
         <section className="record">
           <div>
             <p>
@@ -51,6 +56,7 @@ const Investment = () => {
             />
           </div>
         </section>
+
         <section className="dynamics">
           <figure>
             <img src={img} alt="industry" />
@@ -78,56 +84,64 @@ const Investment = () => {
             </p>
           </div>
         </section>
-        <section className="benefits">
-          <div>
-            <h2>Diversification Benefits</h2>
-            <img
-              src={greenborder2}
-              alt="border"
-              style={{ margin: "1rem 0", maxWidth: "200px" }}
-            />
-            <p>
-              Ineffective healthcare administration poses a significant threat
-              to treatment outcomes and the surge in emigration rate of
-              qualified healthcare personnel could potentially hamper the
-              quality of care received by patients.
-            </p>
-            <p>
-              Therefore, we have set out to optimize the interoperability of our
-              health systems by ensuring we retain the best hands and allow our
-              people to explore the diverse options available to them within the
-              system.
-            </p>
-            <p>
-              Ultimately, our flagship portfolio, Iwosan Lagoon Hospitals would
-              become global citadels of clinical practice and healthcare
-              personnel capacity development.
-            </p>
-          </div>
-          <figure>
-            <img src={img2} alt="doctors" />
-          </figure>
-        </section>
-        <section className="strategy">
-          <img src={finance} alt="finance" />
-          <div>
-            <h2>Innovative Financial Strategy</h2>
-            <p>
-              According to the Business and Sustainable Development Commission,
-              the value of opportunities for businesses tackling healthcare and
-              health-related challenges will be worth $259billion by the year
-              2030, and this could potentially create about 16 million jobs
-              across the value chain.
-            </p>
-            <p>
-              Iwosan’s financial strategy of structured permanent capital,
-              mainly from local investors, can systematically unlock a
-              significant pool of resources needed to build strong and viable
-              healthcare facilities and thereby reduce the burden of hospital
-              bed shortages prevalent in Africa.
-            </p>
-          </div>
-        </section>
+      </div>
+      <section className="benefits">
+        <div>
+          <h2>Diversification Benefits</h2>
+          <img
+            src={greenborder2}
+            alt="border"
+            style={{ margin: "1rem 0", maxWidth: "200px" }}
+          />
+          <p>
+            Ineffective healthcare administration poses a significant threat to
+            treatment outcomes and the surge in emigration rate of qualified
+            healthcare personnel could potentially hamper the quality of care
+            received by patients.
+          </p>
+          <p>
+            Therefore, we have set out to optimize the interoperability of our
+            health systems by ensuring we retain the best hands and allow our
+            people to explore the diverse options available to them within the
+            system.
+          </p>
+          <p>
+            Ultimately, our flagship portfolio, Iwosan Lagoon Hospitals would
+            become global citadels of clinical practice and healthcare personnel
+            capacity development.
+          </p>
+        </div>
+        <figure>
+          <img src={img2} alt="doctors" />
+        </figure>
+      </section>
+      <section className="strategy">
+        <img src={finance} alt="finance" />
+        <div>
+          <h2>Innovative Financial Strategy</h2>
+          <p>
+            According to the Business and Sustainable Development Commission,
+            the value of opportunities for businesses tackling healthcare and
+            health-related challenges will be worth $259billion by the year
+            2030, and this could potentially create about 16 million jobs across
+            the value chain.
+          </p>
+          <p>
+            Iwosan’s financial strategy of structured permanent capital, mainly
+            from local investors, can systematically unlock a significant pool
+            of resources needed to build strong and viable healthcare facilities
+            and thereby reduce the burden of hospital bed shortages prevalent in
+            Africa.
+          </p>
+        </div>
+      </section>
+      <div
+        style={{
+          backgroundPosition: "bottom",
+          backgroundRepeat: "repeat-x",
+        }}
+        className="ecg"
+      >
         <section className="leadership">
           <div>
             <p>

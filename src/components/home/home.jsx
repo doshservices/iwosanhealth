@@ -16,7 +16,13 @@ const Home = () => {
   return (
     <>
       <Slideshow />
-      <div className="ecg">
+      <div
+        style={{
+          backgroundPosition: "center",
+          backgroundRepeat: "repeat-x",
+        }}
+        className="ecg"
+      >
         <section className="about-us flex">
           <figure className="flex-450-item">
             <img src={Maleworker} />
@@ -38,8 +44,6 @@ const Home = () => {
             </a>
           </div>
         </section>
-      </div>
-      <div className="ecg">
         <section className="what-we-do">
           <h2>What We Do</h2>
           <img src={Bordergreen} alt="border" />
@@ -77,25 +81,23 @@ const Home = () => {
           </div>
         </section>
       </div>
-      <div className="ecg">
-        <section className="join flex">
-          <img src={curvedbg1} className="bg1" alt="" />
-          <img src={curvedbg1} className="bg2" alt="" />
-          <div className="mail flex-350-item">
-            <h2>Join Our Mailing List</h2>
-            <p>
-              Sign up via our free email subscription service to receive
-              notifications when new information is available.
-            </p>
+      <section className="join flex">
+        <img src={curvedbg1} className="bg1" alt="" />
+        <img src={curvedbg1} className="bg2" alt="" />
+        <div className="mail flex-350-item">
+          <h2>Join Our Mailing List</h2>
+          <p>
+            Sign up via our free email subscription service to receive
+            notifications when new information is available.
+          </p>
+        </div>
+        <div className="suscribe flex-350-item">
+          <div>
+            <input type="email" placeholder="Enter your email" />
+            <button>Suscribe</button>
           </div>
-          <div className="suscribe flex-350-item">
-            <div>
-              <input type="email" placeholder="Enter your email" />
-              <button>Suscribe</button>
-            </div>
-          </div>
-        </section>
-      </div>
+        </div>
+      </section>
       <Count />
       <Testimony />
       <Footer />

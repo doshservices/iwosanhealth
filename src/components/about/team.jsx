@@ -25,7 +25,13 @@ const Team = () => {
 
   return (
     <>
-      <div className="ecg">
+      <div
+        style={{
+          backgroundPosition: "center",
+          backgroundRepeat: "repeat-x",
+        }}
+        className="ecg"
+      >
         <section className="intro">
           <img src={curvedbg1} className="intro-bg1" alt="" />
           <img src={curvedbg2} className="intro-bg2" alt="" />
@@ -36,36 +42,7 @@ const Team = () => {
             investment company dedicated to financing and developing brownfield
             and greenfield multi-specialist healthcare facility
           </p>
-          {/* <img src={investmentbg} alt="invest" /> */}
         </section>
-        {/* <section className="record">
-          <div>
-            <h2>Operational Expertise and Track Record. </h2>
-            <img
-              src={greenborder2}
-              alt="border"
-              style={{ margin: "1rem 0", maxWidth: "200px" }}
-            />
-          </div>
-          <div>
-            <p>
-              Our flagship investment portfolio, Iwosan Lagoon Hospitals
-              (formerly Lagoon Hospitals), is a renowned provider of integrated
-              healthcare services for millions of Nigerians and foreign
-              nationals. The franchise has bagged numerous awards in areas of
-              quality and service excellence by notable global bodies and is a
-              trusted healthcare partner for private and public organizations
-              around the globe. In 2011, Lagoon Hospitals became the second
-              hospital in Africa to earn the Gold Seal of Approval from the
-              Joint Commission International in recognition of its commitment to
-              improve healthcare quality and patient safety. It has since
-              maintained poll position and its operations have been understudied
-              by scholars, government agencies and notable hospital groups
-              across Africa.
-            </p>
-            <button>Download profile</button>
-          </div>
-        </section> */}
         <section className="team">
           <div className="brains">
             <div>
@@ -98,6 +75,7 @@ const Team = () => {
               </h3>
             </div>
           </div>
+
           <section>
             {board === "CEO" && <Staffs />}
             {board === "management" && <Management />}
@@ -105,6 +83,7 @@ const Team = () => {
           </section>
         </section>
       </div>
+
       <Footer />
     </>
   );
