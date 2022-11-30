@@ -5,6 +5,21 @@
     padding: 2rem clamp(1rem, 7vw, 10rem);
     margin-bottom: 35rem;
 }
+.contact-Us .curve1{
+    position: absolute;
+        max-height: 15rem;
+        max-width: 15rem;
+        left: 0;
+        top: 0;
+        opacity: .1;
+}
+.contact-Us .curve2{
+position: absolute;
+    max-height: 15rem;
+    max-width: 15rem;
+    right: 0;
+    opacity: .1;
+}
 
 .contact-Us h1 {
     font-size: 3rem;

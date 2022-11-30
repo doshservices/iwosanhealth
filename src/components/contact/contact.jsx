@@ -1,11 +1,15 @@
 import "./contact.css";
 import map from "../../images/google-map.png";
 import Footer from "../navigation/footer";
+import curve1 from "../../images/curved-bg1.svg";
+import curve2 from "../../images/curved-bg2.svg";
 
 const Contact = () => {
   return (
     <>
       <div className="contact-Us">
+        <img src={curve1} className="curve1" alt="" />
+        <img src={curve2} className="curve2" alt="" />
         <h1>Contact Us</h1>
         <p>
           Iwosan Investments Limited is a privately held healthcare asset and
