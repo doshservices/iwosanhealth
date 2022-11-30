@@ -83,7 +83,7 @@ const Navbar = () => {
               onClick={() => {
                 setIsOpen(!isOpen);
               }}
-              to="carrers"
+              to="career"
               className="header__link"
             >
               CAREERS

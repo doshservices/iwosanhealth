@@ -4,6 +4,7 @@ import Linkedin from "../../images/icons8-linkedin.svg";
 import Facebook from "../../images/icons8-facebook-f.svg";
 import Instagram from "../../images/icons8-instagram.svg";
 import Twitter from "../../images/twitter-icon.svg";
+import { Link } from "react-router-dom";
 
 const Footer = () => {
   return (
@@ -23,13 +24,13 @@ const Footer = () => {
             <ul className="quick-links">
               <h4>Quick links</h4>
               <li>
-                <a href="">News</a>
+                <Link to="/news">News</Link>
               </li>
               <li>
-                <a href="">Career</a>
+                <Link to="/career">Career</Link>
               </li>
               <li>
-                <a href="">About Us</a>
+                <Link to="/team">About Us</Link>
               </li>
             </ul>
             <div className="contact">

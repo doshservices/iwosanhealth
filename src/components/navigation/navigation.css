@@ -1,12 +1,15 @@
 header {
   background: hsl(217, 73%, 12%);
   position: relative;
-  padding-bottom: 4rem;
+  padding-bottom: 3.5rem;
   max-width: 1700px;
 }
 
 .header__logo {
   height: 2.2rem;
+}
+.active-link{
+  color: hsl(121, 44%, 49%);
 }
 
 .header__nav {
