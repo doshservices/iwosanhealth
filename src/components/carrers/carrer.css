@@ -14,16 +14,18 @@
     width: clamp(100px, 100%, 900px);
     margin: auto;
 }
-.carrer .curve1{
+
+.carrer .curve1 {
     position: absolute;
-        max-height: 15rem;
-        max-width: 15rem;
-        left: 0;
-        top: 0;
-        opacity: .1;
+    max-height: 15rem;
+    max-width: 15rem;
+    left: 0;
+    top: 0;
+    opacity: .1;
 }
-.carrer .curve2{
-position: absolute;
+
+.carrer .curve2 {
+    position: absolute;
     max-height: 15rem;
     max-width: 15rem;
     right: 0;
@@ -52,25 +54,14 @@ position: absolute;
     text-align: left;
 }
 
-/* 
-@media(max-width: 950px) {
-    .carrer {
-        margin-bottom: 55%;
-    }
 
-    .carrer div {
-        margin: 6rem 0 -70% 0;
-    }
 
-}
 
 @media(max-width: 650px) {
-    .carrer {
-        margin-bottom: 85%;
+    .carrer .curve2 {
+        display: none;
     }
 
-    .carrer div {
-        margin: 6rem 0 -100% 0;
-    }
 
-} */
+
+}

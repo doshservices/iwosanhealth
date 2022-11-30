@@ -136,6 +136,9 @@ textarea:focus {
     .contact-form {
         margin: 4rem auto -90% auto;
     }
+    .contact-Us .curve2{
+        display: none;
+    }
 }
 
 @media(max-width: 500px) {
