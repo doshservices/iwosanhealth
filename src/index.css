@@ -64,6 +64,6 @@ button:focus {
 }
 
 .ecg {
-  background: url("./images/ecg-2.png");
-  background-size: 200px;
+  background: url("./images/ecg.svg");
+  background-size: 100px;
 }

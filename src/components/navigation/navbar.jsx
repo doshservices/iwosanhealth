@@ -41,15 +41,6 @@ const Navbar = () => {
                     setIsOpen(!isOpen);
                   }}
                 >
-                  <Link to="/investment" className="dropdown__link">
-                    OUR INVESTMENT ATTRIBUTES
-                  </Link>
-                </li>
-                <li
-                  onClick={() => {
-                    setIsOpen(!isOpen);
-                  }}
-                >
                   <Link to="/team" className="dropdown__link fade">
                     OUR TEAM
                   </Link>
@@ -76,6 +67,15 @@ const Navbar = () => {
               className="header__link"
             >
               NEWS
+            </Link>
+          </li>
+          <li
+            onClick={() => {
+              setIsOpen(!isOpen);
+            }}
+          >
+            <Link to="/investment" className="header__link">
+              OUR INVESTMENTS ATTRIBUTES
             </Link>
           </li>
           <li>

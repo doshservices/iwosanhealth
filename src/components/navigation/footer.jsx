@@ -32,6 +32,9 @@ const Footer = () => {
               <li>
                 <Link to="/team">About Us</Link>
               </li>
+              <li>
+                <Link to="/team">Privacy Policy</Link>
+              </li>
             </ul>
             <div className="contact">
               <h4>Contact Us</h4>
@@ -58,7 +61,7 @@ const Footer = () => {
             </div>
           </nav>
         </section>
-        <p className="copyright">© 2022 Iwoson Investment.</p>
+        <p className="copyright">© 2022 Iwosan Investments.</p>
       </footer>
     </>
   );

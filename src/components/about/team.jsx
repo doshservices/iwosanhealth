@@ -36,9 +36,9 @@ const Team = () => {
             investment company dedicated to financing and developing brownfield
             and greenfield multi-specialist healthcare facility
           </p>
-          <img src={investmentbg} alt="invest" />
+          {/* <img src={investmentbg} alt="invest" /> */}
         </section>
-        <section className="record">
+        {/* <section className="record">
           <div>
             <h2>Operational Expertise and Track Record. </h2>
             <img
@@ -65,7 +65,7 @@ const Team = () => {
             </p>
             <button>Download profile</button>
           </div>
-        </section>
+        </section> */}
         <section className="team">
           <div className="brains">
             <div>

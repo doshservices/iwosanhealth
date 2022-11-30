@@ -78,6 +78,25 @@ const Contact = () => {
           }}
         ></iframe>
       </div> */}
+      <div className="ecg">
+        <section className="join flex">
+          <img src={curve2} className="bg1" alt="" />
+          <img src={curve2} className="bg2" alt="" />
+          <div className="mail flex-350-item">
+            <h2>Join Our Mailing List</h2>
+            <p>
+              Sign up via our free email subscription service to receive
+              notifications when new information is available.
+            </p>
+          </div>
+          <div className="suscribe flex-350-item">
+            <div>
+              <input type="email" placeholder="Enter your email" />
+              <button>Suscribe</button>
+            </div>
+          </div>
+        </section>
+      </div>
       <Footer />
     </>
   );

@@ -24,7 +24,7 @@ const Governance = () => {
             investment company dedicated to financing and developing brownfield
             and greenfield multi-specialist healthcare facility
           </p>
-          <img src={investmentbg} alt="invest" />
+          {/* <img src={investmentbg} alt="invest" /> */}
         </section>
         <section className="sustain">
           <div>
@@ -66,9 +66,6 @@ const Governance = () => {
           </div>
         </section>
         <section className="quality">
-          <figure>
-            <img src={clinical} alt="clinical" style={{ width: "100%" }} />
-          </figure>
           <div>
             <h2>Clinical Quality</h2>
             <img
@@ -98,6 +95,9 @@ const Governance = () => {
               in the long term.
             </p>
           </div>
+          <figure>
+            <img src={clinical} alt="clinical" style={{ width: "100%" }} />
+          </figure>
         </section>
         <section className="whistle">
           <figure>
