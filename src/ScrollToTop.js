@@ -1,30 +1,10 @@
-import { useState, useEffect } from "react";
+import { useEffect } from "react";
+import { useLocation } from "react-router";
 
-
-const ScrollToTop = () => {
-  const [scroll, setScroll] = useState(false);
+export default function ScrollToTop() {
+  const { pathname } = useLocation();
   useEffect(() => {
-    window.addEventListener("scroll", () => {
-      if (window.scrollY > 100) {
-        setScroll(true);
-      } else {
-        setScroll(false);
-      }
-    });
-  }, []);
-  
-  const scrollUp = () => {
-    window.scrollTo({
-      top: 0,
-      behavior: "smooth",
-    });
-  };
-  <>
-    {setScroll && (
-      <button onClick={scrollUp} className="top-scroll">
-        &uarr;
-      </button>
-    )}
-  </>;
+    window.scrollTo(0, 0);
+  }, [pathname]);
+  return null;
 }
-export default ScrollToTop

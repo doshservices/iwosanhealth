@@ -1,3 +1,4 @@
+import React from "react";
 import "./App.css";
 import { Route, Routes, Navigate } from "react-router-dom";
 import Navbar from "./components/navigation/navbar";
@@ -8,17 +9,17 @@ import Investment from "./components/about/investment";
 import Contact from "./components/contact/contact";
 import Carrer from "./components/carrers/carres";
 import Blog from "./components/news/blog";
-// import ScrollToTop from "react-scroll-to-top";
 import { useState, useEffect } from "react";
+import ScrollToTop from "./ScrollToTop";
 
 const App = () => {
-  const [scroll, setScroll] = useState(false);
+  const [backToTopButton, setbackToTopButton] = useState(false);
   useEffect(() => {
     window.addEventListener("scroll", () => {
-      if (window.scrollY > 100) {
-        setScroll(true);
+      if (window.scrollY > 800) {
+        setbackToTopButton(true);
       } else {
-        setScroll(false);
+        setbackToTopButton(false);
       }
     });
   }, []);
@@ -31,6 +32,7 @@ const App = () => {
   };
   return (
     <>
+      <ScrollToTop />
       <Navbar />
       <main>
         <Routes>
@@ -40,11 +42,11 @@ const App = () => {
           <Route path="/gorvenance" element={<Governance />} />
           <Route path="/investment" element={<Investment />} />
           <Route path="/contact" element={<Contact />} />
-          <Route path="/carrers" element={<Carrer />} />
+          <Route path="/career" element={<Carrer />} />
           <Route path="/news" element={<Blog />} />
         </Routes>
       </main>
-      {setScroll && (
+      {backToTopButton && (
         <button onClick={scrollUp} className="top-scroll">
           &uarr;
         </button>
