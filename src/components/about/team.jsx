@@ -7,7 +7,7 @@ import Management from "./manage";
 import { useEffect, useState } from "react";
 import greenborder2 from "../../images/greenborder2.svg";
 import Staffs from "./staffs";
-import Council from "./council";
+import Council from "./council/council";
 import Footer from "../navigation/footer";
 import curvedbg1 from "../../images/curved-bg1.svg";
 import curvedbg2 from "../../images/curved-bg2.svg";

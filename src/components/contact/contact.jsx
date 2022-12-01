@@ -1,5 +1,4 @@
 import "./contact.css";
-import map from "../../images/google-map.png";
 import Footer from "../navigation/footer";
 import curve1 from "../../images/curved-bg1.svg";
 import curve2 from "../../images/curved-bg2.svg";
@@ -64,20 +63,19 @@ const Contact = () => {
           <button className="contact-btn">Contact Us</button>
         </form>
       </div>
-      <img src={map} alt="map" className="map" />
-      {/* <div>
+      <div className="map">
         <iframe
-          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d253682.4890134407!2d2.8801735250000102!3d6.548318399999994!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x103b8335fe21e09b%3A0xe0b1d19a2d5f7a6b!2sInvestment%20Ltd.!5e0!3m2!1sen!2sng!4v1669653469210!5m2!1sen!2sng"
-          style={{
-            width: "1600",
-            height: "1550",
-            style: "border:0;",
-            allowfullscreen: "",
-            loading: "lazy",
-            referrerpolicy: "no-referrer-when-downgrade",
-          }}
+          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3964.5843622716648!2d3.4334656739012455!3d6.447374824045553!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x103bf4dcf2e85e85%3A0xd8b0fddae96a1695!2sc%2C%204%20Onisiwo%20Rd%2C%20Ikoyi%20106104%2C%20Lagos!5e0!3m2!1sen!2sng!4v1669859095766!5m2!1sen!2sng"
+          width="600"
+          height="450"
+          style={{ border: "0" }}
+          allowFullScreen=""
+          loading="lazy"
+          referrerPolicy="no-referrer-when-downgrade"
         ></iframe>
-      </div> */}
+    
+        <p>Unit C, 4 Onisiwo Street, Ikoyi</p>
+      </div>
       <div className="ecg">
         <section className="join flex">
           <img src={curve2} className="bg1" alt="" />

@@ -61,12 +61,13 @@
     font-size: .9rem;
     font-weight: 400;
 }
+
 .text span {
     width: 50px;
     height: 2px;
     margin: 1rem 0;
-   background: white;
-   display: block;
+    background: white;
+    display: block;
 }
 
 .modal div::-webkit-scrollbar {
@@ -76,7 +77,7 @@
 .modal button {
     color: white;
     background: hsla(217, 73%, 12%, 1);
-    height: 31px;
+    height: 30px;
     width: 29px;
     font-size: 1.5rem;
     border-radius: 50%;
@@ -140,10 +141,11 @@
 }
 
 .management h3 {
-    font-size: 1rem;
-    font-weight: 400;
+    font-size: .9rem;
+    font-weight: 500;
     margin: .7rem 0;
     text-align: left;
+    text-transform: uppercase;
 }
 
 .management h4 {

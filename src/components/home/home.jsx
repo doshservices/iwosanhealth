@@ -73,10 +73,7 @@ const Home = () => {
                 We are Innovative <br />
                 and so much more
               </h3>
-              <p>
-                We are empathetic, ethical, knowledge-driven, innovative, and
-                accessible.
-              </p>
+              <p>We will look after you.</p>
             </div>
           </div>
         </section>

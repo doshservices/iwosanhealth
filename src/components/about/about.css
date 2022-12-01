@@ -318,8 +318,9 @@
 .staffs h3 {
     margin: .7rem 0;
     text-align: left;
-    font-size: 1rem;
-    font-weight: 400;
+    font-size: .9rem;
+    font-weight: 500;
+    text-transform: uppercase;
 }
 
 .staffs h4 {
