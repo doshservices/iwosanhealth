@@ -137,8 +137,18 @@ const Governance = () => {
             his/her immediate supervisor or the Human Resources department to
             provide information directly or on an anonymous basis to afford the
             organization a reasonable opportunity to review and take corrective
-            measures. Do you have a report to make? Please send an email to
-            whistleblow@iwosanhealth.com
+            measures. Do you have a report to make? Please send an email to{" "}
+            <a
+              style={{
+                color: "inherit",
+                fontWeight: "500",
+                cursor: "pointer"
+              }}
+              href="mailto: whistleblow@iwosanhealth.com"
+              target="_blank"
+            >
+              whistleblow@iwosanhealth.com
+            </a>
           </p>
         </div>
       </section>

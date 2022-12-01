@@ -5,16 +5,18 @@
     padding: 2rem clamp(1rem, 7vw, 10rem);
     margin-bottom: 35rem;
 }
-.contact-Us .curve1{
+
+.contact-Us .curve1 {
     position: absolute;
-        max-height: 15rem;
-        max-width: 15rem;
-        left: 0;
-        top: 0;
-        opacity: .1;
+    max-height: 15rem;
+    max-width: 15rem;
+    left: 0;
+    top: 0;
+    opacity: .1;
 }
-.contact-Us .curve2{
-position: absolute;
+
+.contact-Us .curve2 {
+    position: absolute;
     max-height: 15rem;
     max-width: 15rem;
     right: 0;
@@ -112,11 +114,18 @@ textarea:focus {
 }
 
 .map {
-    width: clamp(200px, 70vw, 600px);
-    /* padding: 0 clamp(.1rem, 6vw, 8rem); */
-    padding-bottom: 2rem;
+    padding: 2rem clamp(1rem, 5vw, 5rem);
     display: block;
-    margin: 0 auto 3rem auto;
+    margin: 0 auto;
+    text-align: center;
+}
+.map p{
+    font-size: 1.3rem;
+    font-weight: 500;
+    color: hsl(217, 73%, 12%);
+}
+.map iframe {
+    width: clamp(200px, 80%, 1000px);
 }
 
 
@@ -136,7 +145,8 @@ textarea:focus {
     .contact-form {
         margin: 4rem auto -90% auto;
     }
-    .contact-Us .curve2{
+
+    .contact-Us .curve2 {
         display: none;
     }
 }
