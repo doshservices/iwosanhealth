@@ -9,7 +9,13 @@ const button = ["<", ">"]
 
   return (
     <>
-      <div className="ecg">
+      <div
+        style={{
+          backgroundPosition: "center",
+          backgroundRepeat: "repeat-x",
+        }}
+        className="ecg"
+      >
         <section className="testimony flex">
           <img src={curvedbg1} className="bg1" alt="" />
           <img src={curvedbg2} className="bg2" alt="" />
