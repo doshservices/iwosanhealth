@@ -1,7 +1,7 @@
 import investmentbg from "../../images/investment-hero.png";
 import greenborder2 from "../../images/greenborder2.svg";
 import whiteborder from "../../images/whiteborder.svg";
-import compliance from "../../images/compliance.png";
+import compliance from "../../images/compliance.jpg";
 import clinical from "../../images/clinacal.png";
 import whitsle from "../../images/Screen Shot 2022-11-16 at 5.19 1.png";
 import Footer from "../navigation/footer";
@@ -15,7 +15,6 @@ const Governance = () => {
     <>
       <section className="intro">
         <img src={curvedbg1} className="intro-bg1" alt="" />
-        <img src={curvedbg2} className="intro-bg2" alt="" />
         <img src={curvedbg1} className="intro-bg3" alt="" />
         <h1>Corporate Governance</h1>
         <p>
@@ -23,7 +22,6 @@ const Governance = () => {
           investment company dedicated to financing and developing brownfield
           and greenfield multi-specialist healthcare facility
         </p>
-        {/* <img src={investmentbg} alt="invest" /> */}
       </section>
       <div
         className="ecg"

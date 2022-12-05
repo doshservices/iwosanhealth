@@ -10,7 +10,8 @@ const Blog = () => {
       <section className="blog">
         <section className="heading">
           <img src={curve1} className="curve1" alt="" />
-          <img src={curve2} className="curve2" alt="" />
+          <img src={curve1} className="curve2" alt="" />
+
           <h1>Our Blog</h1>
           <p>
             Iwosan Investments Limited is a privately held healthcare asset and

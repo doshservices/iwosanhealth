@@ -34,7 +34,6 @@ const Team = () => {
       >
         <section className="intro">
           <img src={curvedbg1} className="intro-bg1" alt="" />
-          <img src={curvedbg2} className="intro-bg2" alt="" />
           <img src={curvedbg1} className="intro-bg3" alt="" />
           <h1>Our Team</h1>
           <p>

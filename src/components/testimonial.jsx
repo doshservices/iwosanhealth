@@ -5,7 +5,7 @@ import curvedbg1 from "../images/curved-bg1.svg";
 import curvedbg2 from "../images/curved-bg2.svg";
 
 const Testimony = () => {
-const button = ["<", ">"]
+  const button = ["<", ">"]
 
   return (
     <>
@@ -18,7 +18,6 @@ const button = ["<", ">"]
       >
         <section className="testimony flex">
           <img src={curvedbg1} className="bg1" alt="" />
-          <img src={curvedbg2} className="bg2" alt="" />
           <img src={curvedbg1} className="bg3" alt="" />
           <div className="flex-400-item">
             <h2>Client Testimonials</h2>

@@ -137,6 +137,7 @@
     opacity: .1;
     max-height: 130%;
     left: 0;
+    pointer-events: none;
 }
 
 .join .bg2 {
@@ -144,6 +145,7 @@
     opacity: .1;
     max-height: 130%;
     right: 2rem;
+    pointer-events: none;
 }
 
 .join h2 {
@@ -202,22 +204,16 @@
     left: -10%;
     opacity: .1;
     transform: rotate(-90deg);
-}
-
-.testimony .bg2 {
-    position: absolute;
-    max-height: 10rem;
-    right: 50%;
-    bottom: 0;
-    opacity: .1;
+    pointer-events: none;
 }
 
 .testimony .bg3 {
     position: absolute;
     max-height: 10rem;
-    right: 0;
-    top: 3rem;
+    right: -2rem;
+    top: 0;
     opacity: .1;
+    pointer-events: none;
 }
 
 .testimony h2 {
@@ -290,13 +286,15 @@
     .join .bg2 {
         display: none;
     }
-
 }
 
-@media(max-width: 800px) {
-    .blue-bg {
-        height: 4rem;
-        margin: .5rem 0;
+@media(max-width: 600px) {
+    .testimony .bg1 {
+        left: -6rem;
+    }
+
+    .testimony .bg3 {
+        display: none;
     }
 }
 
