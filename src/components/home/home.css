@@ -1,9 +1,19 @@
 @import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@300;400;500;700&family=Work+Sans:wght@300;400;500;600&display=swap');
 
-.blue-bg {
-    height: 7rem;
-    margin: -4px 0 1rem 0;
-    background: hsl(217, 73%, 12%);
+.home-slider {
+    position: relative;
+}
+
+.slider-content {
+    color: white;
+    position: absolute;
+    z-index: 2;
+    top: 25%;
+    left: 7%;
+    right: 7%;
+    max-width: 500px;
+    background: hsl(0, 0%, 0%);
+    padding: 1rem;
 }
 
 
@@ -301,5 +311,17 @@
 @media(max-width: 1100px) {
     .testimony .bg2 {
         display: none;
+    }
+}
+
+@media(max-width:400px) {
+    .slider-content {
+        top: 18%;
+    }
+}
+
+@media(max-width:350px) {
+    .slider-content {
+        top: 5%;
     }
 }
