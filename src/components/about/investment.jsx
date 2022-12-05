@@ -5,14 +5,14 @@ import img2 from "../about/imgs/PHOTO-2022-11-25-08-33-30 3.jpg";
 import greenborder2 from "../../images/greenborder2.svg";
 import Footer from "../navigation/footer";
 import curvedbg1 from "../../images/curved-bg1.svg";
-import curvedbg2 from "../../images/curved-bg2.svg";
+import leadership from "../../images/leadership.jpg";
+import record from "../../images/record.jpg";
 
 const Investment = () => {
   return (
     <>
       <div className="intro">
         <img src={curvedbg1} className="intro-bg1" alt="" />
-        <img src={curvedbg2} className="intro-bg2" alt="" />
         <img src={curvedbg1} className="intro-bg3" alt="" />
         <h1>Our Investment Attributes</h1>
         <p>
@@ -54,6 +54,7 @@ const Investment = () => {
               alt="border"
               style={{ margin: "1rem 0", maxWidth: "200px" }}
             />
+            <img style={{ width: "100%" }} src={record} alt="record" />
           </div>
         </section>
 
@@ -168,6 +169,7 @@ const Investment = () => {
               alt="border"
               style={{ margin: "1rem 0", maxWidth: "200px" }}
             />
+            <img style={{ display: "block", width: "100%" }} src={leadership} alt="leadership" />
           </div>
         </section>
       </div>

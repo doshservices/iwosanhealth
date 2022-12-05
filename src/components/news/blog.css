@@ -3,27 +3,29 @@
     background: hsla(217, 73%, 12%);
     color: white;
     text-align: center;
+    position: relative;
 }
 
-.blog .heading img {
-    width: 100%;
-    margin: 6rem 0 -21% 0;
-    border-radius: 8px;
-}
 .blog .heading .curve1 {
-position: absolute;
-max-height: 15rem;
+    position: absolute;
+    max-height: 15rem;
     max-width: 15rem;
-    left: 0;
+    left: -4rem;
     top: 0;
     opacity: .1;
+    transform: rotate(-90deg);
+    pointer-events: none;
 }
+
 .blog .heading .curve2 {
-position: absolute;
+    position: absolute;
     max-height: 15rem;
     max-width: 15rem;
     right: 0;
     opacity: .1;
+    transform: rotate(180deg);
+    bottom: -1rem;
+    pointer-events: none;
 }
 
 .blog h1 {
@@ -49,11 +51,14 @@ position: absolute;
     border-radius: 5px;
     background: hsl(0, 0%, 90%);
 }
+
 .blue-background {
     background: hsl(191, 100%, 43%);
     color: white;
 }
-.blue-background blockquote, .blue-background p{
+
+.blue-background blockquote,
+.blue-background p {
     color: white;
 }
 
@@ -142,17 +147,6 @@ position: absolute;
     font-size: .9rem;
     line-height: 1.4rem;
     margin: 1rem 0;
-}
-
-@media (max-width: 800px) {
-    .blog .heading img {
-        margin: 6rem 0 -30% 0;
-    }
-
-   .blog .heading .curve1 {
-       display: none;
-   }
-
 }
 
 @media (max-width: 500px) {

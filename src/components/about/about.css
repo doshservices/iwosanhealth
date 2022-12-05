@@ -13,16 +13,8 @@
     max-height: 10rem;
     max-width: 20rem;
     left: 0;
-    top: 0;
-}
-
-.intro-bg2 {
-    position: absolute;
-    opacity: .1;
-    max-height: 10rem;
-    max-width: 20rem;
-    right: 1rem;
-    top: 40%;
+    top: -1rem;
+    pointer-events: none;
 }
 
 .intro-bg3 {
@@ -30,8 +22,10 @@
     opacity: .1;
     max-height: 10rem;
     max-width: 20rem;
-    top: 40;
-    right: 40%;
+    right: 0;
+    bottom: -1rem;
+    transform: rotate(180deg);
+    pointer-events: none;
 }
 
 .intro h1 {
@@ -42,11 +36,6 @@
 .intro p {
     max-width: 900px;
     margin: auto;
-}
-
-.intro img {
-    width: clamp(100px, 100%, 700px);
-    margin: 6rem 0 -15% 0;
 }
 
 .flex {
@@ -90,6 +79,10 @@
 .leadership {
     padding: 3rem clamp(.5rem, 4vw, 4rem);
     margin: 2rem clamp(.5rem, 4vw, 4rem);
+}
+
+.leadership p {
+    margin-top: 0;
 }
 
 .sustain p {
@@ -205,7 +198,6 @@
     flex-basis: 350px;
     flex-grow: 1;
     width: 50%;
-    max-width: 700px;
     object-fit: cover;
 }
 
@@ -223,12 +215,13 @@
     font-weight: 400;
     cursor: pointer;
     flex-grow: 1;
-    padding:1rem .7rem;
+    padding: 1rem .7rem;
     text-align: center;
     min-width: 150px;
     max-width: fit-content;
 }
-.members h3:nth-child(3){
+
+.members h3:nth-child(3) {
     min-width: 230px;
 }
 
@@ -306,6 +299,7 @@
 .staffs figure img {
     width: 100%;
 }
+
 .staff div {
     position: absolute;
     bottom: 0;
@@ -363,13 +357,6 @@
     }
 }
 
-@media (max-width: 1000px) {
-
-    .intro-bg3 {
-        display: none;
-    }
-}
-
 @media(max-width: 450px) {
     .record {
         margin-top: 4rem;
@@ -388,16 +375,5 @@
     .email input {
         padding: .8rem 1rem;
         border-radius: 5px;
-    }
-
-    .intro img {
-        width: clamp(100px, 100%, 700px);
-        margin: 6rem 0 -35% 0;
-    }
-}
-
-@media (max-width: 350px) {
-    .intro img {
-        margin: 6rem 0 -35% 0;
     }
 }

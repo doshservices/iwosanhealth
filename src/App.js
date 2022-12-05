@@ -11,7 +11,6 @@ import Carrer from "./components/carrers/carres";
 import Blog from "./components/news/blog";
 import { useState, useEffect } from "react";
 import ScrollToTop from "./ScrollToTop";
-// import CookieConsent from "react-cookie-consent";
 
 const App = () => {
   const [backToTopButton, setbackToTopButton] = useState(false);
