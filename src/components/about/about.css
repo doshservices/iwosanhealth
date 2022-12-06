@@ -212,6 +212,13 @@
     flex-grow: 1;
     width: 50%;
     object-fit: cover;
+    margin-top: 0;
+}
+
+.compliance>img {
+    padding: 2rem;
+    background: #C1E6EE;
+    object-fit: contain;
 }
 
 
