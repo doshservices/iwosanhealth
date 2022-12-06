@@ -18,6 +18,7 @@ const Testimony = () => {
       >
         <section className="testimony flex">
           <img src={curvedbg1} className="bg1" alt="" />
+          <img src={curvedbg2} className="bg2" alt="" />
           <img src={curvedbg1} className="bg3" alt="" />
           <div className="flex-400-item">
             <h2>Client Testimonials</h2>
