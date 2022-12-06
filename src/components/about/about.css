@@ -48,7 +48,6 @@
     flex: 1;
 }
 
-.record,
 .leadership,
 .sustain,
 .patnership {
@@ -61,8 +60,17 @@
     background: hsl(0, 0%, 97%);
 }
 
+.record {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 3rem;
+    padding: 2rem clamp(.5rem, 4vw, 4rem) 2rem clamp(.5rem, 4vw, 4rem);
+    background: hsl(0, 0%, 97%);
+    margin: 1rem clamp(.5rem, 4vw, 4rem);
+}
+
 .record p {
-    margin-top: 0;
+    margin-top: 7.7rem;
     max-width: 480px;
 }
 
@@ -349,6 +357,12 @@
 
 .quality>figure {
     margin-top: -2rem;
+}
+
+@media(max-width: 900px) {
+    .record p {
+        margin-top: 0;
+    }
 }
 
 @media(min-width: 1200px) {

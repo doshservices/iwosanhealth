@@ -1,5 +1,5 @@
 import "./about.css";
-import finance from "../../images/finance.png";
+import finance from "../../images/finance.jpg";
 import img from "../about/imgs/PHOTO-2022-11-25-08-33-30.jpg";
 import img2 from "../about/imgs/PHOTO-2022-11-25-08-33-30 3.jpg";
 import greenborder2 from "../../images/greenborder2.svg";
@@ -120,6 +120,7 @@ const Investment = () => {
         <img src={finance} alt="finance" />
         <div>
           <h2>Innovative Financial Strategy</h2>
+          <img src={greenborder2} alt="" />
           <p>
             According to the Business and Sustainable Development Commission,
             the value of opportunities for businesses tackling healthcare and
