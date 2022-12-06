@@ -4,23 +4,38 @@
     text-align: center;
     padding: 2rem clamp(1rem, 7vw, 10rem);
     margin-bottom: 35rem;
+    position: relative;
 }
 
 .contact-Us .curve1 {
     position: absolute;
     max-height: 15rem;
     max-width: 15rem;
-    left: 0;
+    left: -4rem;
     top: 0;
     opacity: .1;
+    transform: rotate(-90deg);
+    pointer-events: none;
 }
 
 .contact-Us .curve2 {
     position: absolute;
-    max-height: 15rem;
-    max-width: 15rem;
-    right: 0;
     opacity: .1;
+    max-height: 10rem;
+    max-width: 20rem;
+    left: 57%;
+    top: -25%;
+    pointer-events: none;
+}
+
+.contact-Us .curve3 {
+    position: absolute;
+    opacity: .1;
+    max-height: 10rem;
+    max-width: 20rem;
+    right: -30%;
+    transform: rotate(90deg);
+    pointer-events: none;
 }
 
 .contact-Us h1 {
@@ -119,11 +134,13 @@ textarea:focus {
     margin: 0 auto;
     text-align: center;
 }
-.map p{
+
+.map p {
     font-size: 1.3rem;
     font-weight: 500;
     color: hsl(217, 73%, 12%);
 }
+
 .map iframe {
     width: clamp(200px, 80%, 1000px);
 }

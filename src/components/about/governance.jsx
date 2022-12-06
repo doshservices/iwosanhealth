@@ -15,6 +15,7 @@ const Governance = () => {
     <>
       <section className="intro">
         <img src={curvedbg1} className="intro-bg1" alt="" />
+        <img src={curvedbg1} className="intro-bg2" alt="" />
         <img src={curvedbg1} className="intro-bg3" alt="" />
         <h1>Corporate Governance</h1>
         <p>
@@ -32,15 +33,16 @@ const Governance = () => {
       >
         <section className="sustain">
           <div>
+
+            <img src={sustain} alt="sustain" style={{ width: "100%" }} />
+          </div>
+          <div>
             <h2>Sustainability</h2>
             <img
               src={greenborder2}
               alt="border"
               style={{ margin: "1rem 0", maxWidth: "200px" }}
             />
-            <img src={sustain} alt="sustain" style={{ width: "100%" }} />
-          </div>
-          <div>
             <p>
               Iwosan Investments Limited is a growth-driven and responsible
               organization that is devoted to optimizing operations in its

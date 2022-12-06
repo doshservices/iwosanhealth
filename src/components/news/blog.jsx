@@ -11,6 +11,7 @@ const Blog = () => {
         <section className="heading">
           <img src={curve1} className="curve1" alt="" />
           <img src={curve1} className="curve2" alt="" />
+          <img src={curve1} className="curve3" alt="" />
 
           <h1>Our Blog</h1>
           <p>

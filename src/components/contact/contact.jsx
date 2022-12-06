@@ -1,14 +1,14 @@
 import "./contact.css";
 import Footer from "../navigation/footer";
 import curve1 from "../../images/curved-bg1.svg";
-import curve2 from "../../images/curved-bg2.svg";
 
 const Contact = () => {
   return (
     <>
       <div className="contact-Us">
         <img src={curve1} className="curve1" alt="" />
-        <img src={curve2} className="curve2" alt="" />
+        <img src={curve1} className="curve2" alt="" />
+        <img src={curve1} className="curve3" alt="" />
         <h1>Contact Us</h1>
         <p>
           Iwosan Investments Limited is a privately held healthcare asset and
@@ -73,13 +73,13 @@ const Contact = () => {
           loading="lazy"
           referrerPolicy="no-referrer-when-downgrade"
         ></iframe>
-    
+
         <p>Unit C, 4 Onisiwo Street, Ikoyi</p>
       </div>
       <div className="ecg">
         <section className="join flex">
-          <img src={curve2} className="bg1" alt="" />
-          <img src={curve2} className="bg2" alt="" />
+          <img src={curve1} className="bg1" alt="" />
+          <img src={curve1} className="bg2" alt="" />
           <div className="mail flex-350-item">
             <h2>Join Our Mailing List</h2>
             <p>

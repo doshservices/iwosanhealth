@@ -17,6 +17,16 @@
     pointer-events: none;
 }
 
+.intro-bg2 {
+    position: absolute;
+    opacity: .1;
+    max-height: 10rem;
+    max-width: 20rem;
+    left: 57%;
+    top: -10%;
+    pointer-events: none;
+}
+
 .intro-bg3 {
     position: absolute;
     opacity: .1;
@@ -75,8 +85,12 @@
 }
 
 .record p {
-    margin-top: 7.7rem;
-    max-width: 480px;
+    margin-top: 0;
+    /* max-width: 480px; */
+}
+
+.record h2 {
+    margin-top: 1rem;
 }
 
 
@@ -96,6 +110,7 @@
 
 .leadership p {
     margin-top: 0;
+    margin-bottom: .2rem;
 }
 
 .sustain p {
@@ -122,8 +137,8 @@
     gap: 3rem;
     padding: 3rem clamp(.5rem, 4vw, 4rem);
     margin: 2rem clamp(.5rem, 4vw, 4rem);
-    color: hsl(217, 73%, 12%);
-    background: whitesmoke
+    color: white;
+    background: hsla(191, 100%, 43%, 1);
 }
 
 .dynamics div,
@@ -352,6 +367,15 @@
     padding: 3rem clamp(.5rem, 4vw, 4rem);
     margin: 1rem clamp(.5rem, 4vw, 4rem);
     background: whitesmoke;
+}
+
+.quality {
+    background: hsla(191, 100%, 43%, 1);
+}
+
+.quality p,
+.quality h2 {
+    color: white;
 }
 
 .quality div,
