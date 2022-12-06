@@ -1,16 +1,13 @@
 import "./about.css";
 import "./staff.css";
-import investmentbg from "../../images/investment-hero.png";
 import border from "../../images/border.svg";
 import staffData from "./staffData";
 import Management from "./manage";
-import { useEffect, useState } from "react";
-import greenborder2 from "../../images/greenborder2.svg";
+import { useState } from "react";
 import Staffs from "./staffs";
 import Council from "./council/council";
 import Footer from "../navigation/footer";
 import curvedbg1 from "../../images/curved-bg1.svg";
-import curvedbg2 from "../../images/curved-bg2.svg";
 
 const Team = () => {
   const [board, setBoard] = useState("CEO");
@@ -34,6 +31,7 @@ const Team = () => {
       >
         <section className="intro">
           <img src={curvedbg1} className="intro-bg1" alt="" />
+          <img src={curvedbg1} className="intro-bg2" alt="" />
           <img src={curvedbg1} className="intro-bg3" alt="" />
           <h1>Our Team</h1>
           <p>

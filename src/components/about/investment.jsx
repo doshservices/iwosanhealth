@@ -1,6 +1,6 @@
 import "./about.css";
 import finance from "../../images/finance.jpg";
-import img from "../about/imgs/PHOTO-2022-11-25-08-33-30.jpg";
+import img from "../about/imgs/work.jpg";
 import img2 from "../about/imgs/PHOTO-2022-11-25-08-33-30 3.jpg";
 import greenborder2 from "../../images/greenborder2.svg";
 import Footer from "../navigation/footer";
@@ -13,6 +13,7 @@ const Investment = () => {
     <>
       <div className="intro">
         <img src={curvedbg1} className="intro-bg1" alt="" />
+        <img src={curvedbg1} className="intro-bg2" alt="" />
         <img src={curvedbg1} className="intro-bg3" alt="" />
         <h1>Our Investment Attributes</h1>
         <p>
@@ -30,6 +31,12 @@ const Investment = () => {
       >
         <section className="record">
           <div>
+            <h2>Operational Expertise and Track Record. </h2>
+            <img
+              src={greenborder2}
+              alt="border"
+              style={{ margin: "1rem 0", maxWidth: "200px" }}
+            />
             <p>
               Our flagship investment portfolio, Iwosan Lagoon Hospitals
               (formerly Lagoon Hospitals), is a renowned provider of integrated
@@ -45,15 +52,9 @@ const Investment = () => {
               by scholars, government agencies and notable hospital groups
               across Africa.
             </p>
-            <button>Download profile</button>
+            <button>Read More</button>
           </div>
           <div>
-            <h2>Operational Expertise and Track Record. </h2>
-            <img
-              src={greenborder2}
-              alt="border"
-              style={{ margin: "1rem 0", maxWidth: "200px" }}
-            />
             <img style={{ width: "100%" }} src={record} alt="record" />
           </div>
         </section>
@@ -146,6 +147,12 @@ const Investment = () => {
       >
         <section className="leadership">
           <div>
+            <h2>Strong Leadership Vision</h2>
+            <img
+              src={greenborder2}
+              alt="border"
+              style={{ margin: "1rem 0", maxWidth: "200px" }}
+            />
             <p>
               Our prime investors and promoters have several decades of
               experience providing funding and technical expertise for a diverse
@@ -164,12 +171,6 @@ const Investment = () => {
             </p>
           </div>
           <div>
-            <h2>Strong Leadership Vision</h2>
-            <img
-              src={greenborder2}
-              alt="border"
-              style={{ margin: "1rem 0", maxWidth: "200px" }}
-            />
             <img style={{ display: "block", width: "100%" }} src={leadership} alt="leadership" />
           </div>
         </section>

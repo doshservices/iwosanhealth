@@ -19,12 +19,22 @@
 
 .blog .heading .curve2 {
     position: absolute;
-    max-height: 15rem;
-    max-width: 15rem;
-    right: 0;
     opacity: .1;
-    transform: rotate(180deg);
+    max-height: 10rem;
+    max-width: 20rem;
+    left: 57%;
+    top: -10%;
+    pointer-events: none;
+}
+
+.blog .heading .curve3 {
+    position: absolute;
+    opacity: .1;
+    max-height: 10rem;
+    max-width: 20rem;
+    right: 0;
     bottom: -1rem;
+    transform: rotate(180deg);
     pointer-events: none;
 }
 
