@@ -1,9 +1,12 @@
 import { useState, useEffect, useRef } from "react";
 import Slide1 from "../../images/Slider 1 1.svg";
-import Banner1 from "../../images/New banner 2 1.svg";
+import slide2 from "../../images/New banner 2 1.svg";
+import slide3 from "../../images/slider3.jpg";
+import slide4 from "../../images/slider4.jpg";
+import slide5 from "../../images/slider5.jpg";
 import "./slideshow.css";
 
-const slideImages = [Banner1, Slide1];
+const slideImages = [slide2, Slide1, slide3, slide4, slide5];
 const delay = 10000;
 
 const Slideshow = () => {
@@ -34,12 +37,15 @@ const Slideshow = () => {
   return (
     <>
       <div className="slideshow">
+
         <div
           className="slideshowSlider"
           style={{ transform: `translate3d(${-index * 100}%, 0, 0)` }}
         >
           {slideImages.map((slideImages, index) => (
+
             <img className="slide" key={index} src={slideImages} />
+
           ))}
         </div>
       </div>

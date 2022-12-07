@@ -3,12 +3,15 @@ header {
   position: relative;
   padding-bottom: 3.5rem;
   max-width: 1700px;
+  left: 0;
+  right: 0;
 }
 
 .header__logo {
   height: 2.2rem;
 }
-.active-link{
+
+.active-link {
   color: hsl(121, 44%, 49%);
 }
 
@@ -250,7 +253,7 @@ footer .copyright {
     position: static;
     display: flex;
     flex-direction: row;
-  width: clamp(250px, 80vw, 750px);
+    width: clamp(250px, 80vw, 750px);
     /* flex: 1; */
     padding: 0;
     align-items: center;

@@ -77,8 +77,6 @@ const Investment = () => {
               The amount raised by Nigerian start-ups has been on a steady rise,
               and in 2021, for the first time, digital start-ups in Nigeria
               raised over $1 billion in a year.
-            </p>
-            <p>
               The value of deals announced by Nigerian start-ups in 2021 peaked
               at $1.096 billion, 62% more than what was raised between 2018 and
               2020. Out of the $4.9billion raised in 2021 by tech start-ups in
@@ -100,14 +98,10 @@ const Investment = () => {
             treatment outcomes and the surge in emigration rate of qualified
             healthcare personnel could potentially hamper the quality of care
             received by patients.
-          </p>
-          <p>
             Therefore, we have set out to optimize the interoperability of our
             health systems by ensuring we retain the best hands and allow our
             people to explore the diverse options available to them within the
             system.
-          </p>
-          <p>
             Ultimately, our flagship portfolio, Iwosan Lagoon Hospitals would
             become global citadels of clinical practice and healthcare personnel
             capacity development.

@@ -1,3 +1,7 @@
+.contact-page {
+    overflow: hidden;
+}
+
 .contact-Us {
     background: hsl(217, 73%, 12%);
     color: white;

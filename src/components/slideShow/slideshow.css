@@ -18,10 +18,10 @@
   object-fit: cover;
 }
 
-@media(max-width: 500px) {
-  /* .slide {
+/* @media(max-width: 500px) {
+  .slide {
     height: 400px;
-  } */
+  }
 }
 
-@media(max-width: 300px) {}
+@media(max-width: 300px) {} */
