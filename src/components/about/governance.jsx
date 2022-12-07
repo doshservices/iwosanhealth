@@ -317,15 +317,16 @@ const Governance = () => {
         </section>
         <section className="patnership">
           <div>
-            <h2>Partnerships</h2>
+            
+            <img src={patnership} alt="" style={{ width: "100%" }} />
+          </div>
+          <div>
+          <h2>Partnerships</h2>
             <img
               src={greenborder2}
               alt="border"
               style={{ margin: "1rem 0", maxWidth: "200px" }}
             />
-            <img src={patnership} alt="" style={{ width: "100%" }} />
-          </div>
-          <div>
             <p className="patnership-text">
               When we began this journey, we did not begin with any end in mind.
               In fact, we reckoned that this journey may never end given the
