@@ -7,7 +7,7 @@ import slide5 from "../../images/slider5.jpg";
 import "./slideshow.css";
 
 const slideImages = [slide2, Slide1, slide3, slide4, slide5];
-const delay = 100000;
+const delay = 10000;
 
 const Slideshow = () => {
   const [index, setIndex] = useState(0);
