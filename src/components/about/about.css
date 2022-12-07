@@ -5,6 +5,7 @@
     padding: 3rem clamp(1rem, 7vw, 10rem);
     margin-bottom: 2rem;
     position: relative;
+    overflow: hidden;
 }
 
 .intro-bg1 {
@@ -452,16 +453,6 @@
 
 .quality p {
     margin: 0;
-    /* text-overflow: ellipsis;
-    overflow: hidden;
-    display: -webkit-box; */
-    /* -webkit-line-clamp: 30; */
-    /* number of lines to show */
-    /* line-clamp: 17;
-    -webkit-box-orient: vertical;
-    min-height: calc(100% - 7rem);
-    line-height: 1.7rem; */
-    /* white-space: nowrap; */
 }
 
 .quality div,
@@ -511,5 +502,9 @@
     .email input {
         padding: .8rem 1rem;
         border-radius: 5px;
+    }
+
+    .intro-bg2 {
+        display: none;
     }
 }
