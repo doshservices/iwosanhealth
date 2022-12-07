@@ -70,6 +70,8 @@
     background: hsl(0, 0%, 97%);
 }
 
+/* .sustain p {} */
+
 .patnership p {
     margin-top: 0;
     margin-bottom: .5rem;
@@ -113,9 +115,71 @@
     margin-bottom: .2rem;
 }
 
-.sustain p {
-    margin-top: 0;
+.sustain-text {
+    margin: 0;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    display: -webkit-box;
+    -webkit-line-clamp: 5;
+    line-clamp: 5;
+    -webkit-box-orient: vertical;
 }
+
+.whitsle-text {
+    margin: 0;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    display: -webkit-box;
+    -webkit-line-clamp: 9;
+    line-clamp: 9;
+    -webkit-box-orient: vertical;
+}
+
+.patnership-text {
+    margin: 0;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    display: -webkit-box;
+    -webkit-line-clamp: 16;
+    line-clamp: 16;
+    -webkit-box-orient: vertical;
+}
+
+.full-text {
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    backdrop-filter: blur(3px);
+
+}
+
+.full-text>div {
+    width: clamp(200px, 100vw, 400px);
+    max-height: 400px;
+    top: 40%;
+    bottom: 20%;
+    overflow-y: scroll;
+    background: hsl(0, 0%, 96%);
+    padding: 1rem;
+}
+
+.quality-text {
+    margin: 0;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    display: -webkit-box;
+    -webkit-line-clamp: 9;
+    line-clamp: 5;
+    -webkit-box-orient: vertical;
+}
+
 
 .record button {
     background: hsl(121, 44%, 49%);
@@ -191,6 +255,10 @@
     color: hsl(217, 73%, 12%);
     gap: 3rem;
     background: whitesmoke;
+}
+
+.benefits p {
+    margin-top: 0;
 }
 
 .benefits img {
@@ -376,6 +444,24 @@
 .quality p,
 .quality h2 {
     color: white;
+}
+
+.quality h2 {
+    margin-top: -.5rem;
+}
+
+.quality p {
+    margin: 0;
+    /* text-overflow: ellipsis;
+    overflow: hidden;
+    display: -webkit-box; */
+    /* -webkit-line-clamp: 30; */
+    /* number of lines to show */
+    /* line-clamp: 17;
+    -webkit-box-orient: vertical;
+    min-height: calc(100% - 7rem);
+    line-height: 1.7rem; */
+    /* white-space: nowrap; */
 }
 
 .quality div,
