@@ -7,7 +7,7 @@ import slide5 from "../../images/slider5.jpg";
 import "./slideshow.css";
 
 const slideImages = [slide2, Slide1, slide3, slide4, slide5];
-const delay = 10000;
+const delay = 100000;
 
 const Slideshow = () => {
   const [index, setIndex] = useState(0);
@@ -37,14 +37,20 @@ const Slideshow = () => {
   return (
     <>
       <div className="slideshow">
-
         <div
           className="slideshowSlider"
           style={{ transform: `translate3d(${-index * 100}%, 0, 0)` }}
         >
           {slideImages.map((slideImages, index) => (
-
-            <img className="slide" key={index} src={slideImages} />
+            <div key={index} className="slide">
+              <div className="slider-content">
+                <h1>World-class healthcare Services provider</h1>
+                <p>
+                  We do this within a system that is ethical, knowledge-driven, innovative, and accessible. We ensure that empathy for the patient runs through all our actions while we benchmark against world class standards.
+                </p>
+              </div>
+              <img className="slide" src={slideImages} />
+            </div>
 
           ))}
         </div>

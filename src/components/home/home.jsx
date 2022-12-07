@@ -16,14 +16,7 @@ const Home = () => {
   return (
     <>
       <div className="home-slider">
-        <div className="slider-content">
-          <div>
-          </div>
-          <h1>World-class healthcare<br /> Services provider</h1>
-          <p>
-            We do this within a system that is ethical, knowledge-driven, innovative, and accessible. We ensure that empathy for the patient runs through all our actions while we benchmark against world class standards.
-          </p>
-        </div>
+
         <Slideshow />
       </div>
       <div
