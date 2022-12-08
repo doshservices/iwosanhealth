@@ -53,13 +53,11 @@
 
 .news {
     padding: 2rem clamp(2rem, 6vw, 6rem);
-    /* display: flex; */
-    /* flex-wrap: wrap; */
-    /* gap: 5rem; */
     margin: 2rem;
     box-shadow: 10px 24px 54px rgba(0, 0, 0, 0.04);
     border-radius: 5px;
     background: hsl(0, 0%, 90%);
+    overflow: hidden;
 }
 
 .blue-background {
@@ -72,14 +70,10 @@
     color: white;
 }
 
-.news figure {
-    margin: 2rem;
-    min-width: 50%;
+.news__picture {
+    width: 50%;
     float: right;
-}
-
-.news figure img {
-    width: 100%;
+    margin: 0 2rem 0 2rem;
 }
 
 .news__time {
@@ -188,8 +182,10 @@
     }
 }
 
-@media (max-width: 950px) {
-    .news figure {
-        float: top;
+@media (max-width: 680px) {
+    .news__picture {
+        float: none;
+        margin: 1rem 0;
+        width: 100%;
     }
 }
