@@ -97,3 +97,9 @@
     transform: scale(1);
   }
 }
+
+@media (max-width: 500px) {
+  .content div {
+    margin: clamp(2rem, 10vw, 8rem) .5rem clamp(2rem, 6vw, 8rem) .5rem;
+  }
+}
