@@ -27,8 +27,8 @@ const Home = () => {
         className="ecg"
       >
         <section className="about-us flex">
-          <iframe className="flex-450-item" width="727" height="409" src="https://www.youtube.com/embed/LewOnV575U8" title="How To Improve Nigeria's Healthcare System" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowFullScreen></iframe>
-          <div className="flex-450-item">
+          <iframe className="flex-400-item" width="727" height="409" src="https://www.youtube.com/embed/LewOnV575U8" title="How To Improve Nigeria's Healthcare System" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowFullScreen></iframe>
+          <div className="flex-400-item">
             <h2>Here is a little about who we are.</h2>
             <img src={Bordergreen} alt="border" />
             <p>
