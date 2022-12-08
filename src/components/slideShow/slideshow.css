@@ -84,6 +84,34 @@
   opacity: 1;
 }
 
+.arrow {
+  border: 2px solid white;
+  background-color: transparent;
+  color: #fff;
+  cursor: pointer;
+  height: 2rem;
+  width: 2rem;
+  border-radius: 50%;
+  position: absolute;
+  z-index: 5;
+  opacity: .8;
+}
+
+.arrow:hover {
+  background-color: #fff;
+  color: #777;
+}
+
+.next {
+  top: 35%;
+  right: .5rem;
+}
+
+.prev {
+  top: 35%;
+  left: .5rem;
+}
+
 @keyframes slide-up {
   0% {
     visibility: visible;
@@ -101,5 +129,15 @@
 @media (max-width: 500px) {
   .content div {
     margin: clamp(2rem, 10vw, 8rem) .5rem clamp(2rem, 6vw, 8rem) .5rem;
+  }
+
+  .next {
+    top: 90%;
+    right: .5rem;
+  }
+
+  .prev {
+    top: 90%;
+    left: .5rem;
   }
 }
