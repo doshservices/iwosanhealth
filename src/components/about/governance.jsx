@@ -107,7 +107,7 @@ const Governance = () => {
                     management through open reporting and strongly discourage
                     unethical conduct.</p>
                   <button onClick={() => setSustainText(!sustainText)} className="contact-btn">
-                    Read Less
+                    Close
                   </button>
                 </div>
               </div>
@@ -174,7 +174,7 @@ const Governance = () => {
                   <button
                     onClick={() => setQualityText(!qualityText)}
                     className="contact-btn">
-                    Read Less
+                    Close
                   </button>
                 </div>
               </div>
@@ -270,7 +270,7 @@ const Governance = () => {
                 <button
                   onClick={() => setWhitsleText(!whitsleText)}
                   className="contact-btn">
-                  Read Less
+                  Close
                 </button>
               </div>
             </div>
@@ -402,7 +402,7 @@ const Governance = () => {
                   <button
                     onClick={() => setpatnershipText(!patnershipText)}
                     className="contact-btn">
-                    Read Less
+                    Close
                   </button>
                 </div>
               </div>

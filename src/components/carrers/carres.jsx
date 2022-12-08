@@ -36,7 +36,7 @@ const Carrer = () => {
       <section className="news blue-background">
         <div className="news__post">
           <h2>Non-technical Career</h2>
-          <p className="news__time">Romeo Stars on 24 March 2020</p>
+          <p className="news__time" style={{ color: "hsla(138, 48%, 59%, 1)" }} >Romeo Stars on 24 March 2020</p>
           <blockquote className="news__blockquote">
             Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vitae
             ducimus, reiciendis suscipit tempore voluptas tenetur, vero

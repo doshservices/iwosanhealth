@@ -4,9 +4,6 @@
     position: relative;
 }
 
-
-
-
 .flex {
     display: flex;
     justify-content: space-between;
@@ -34,21 +31,14 @@
 }
 
 .about-us {
-    padding: 3rem clamp(1rem, 4vw, 8rem) 2rem clamp(1rem, 4vw, 8rem);
+    padding: 3rem clamp(1rem, 4vw, 8rem);
     background: hsl(0, 2%, 91%);
     border-radius: 4px;
     margin: clamp(.5rem, 4vw, 4rem);
+    gap: 3rem;
 }
 
-.about-us div {
-    padding: 0 0 0 clamp(.5rem, 7vw, 8rem);
-}
-
-.about-us figure {
-    margin-bottom: -8rem;
-}
-
-.about-us figure img:nth-child(1) {
+/* .about-us figure img:nth-child(1) {
     width: 100%;
     border-radius: 0 5px 5px 0;
 }
@@ -57,7 +47,7 @@
     width: 50%;
     transform: translate(110%, -70%);
     border-radius: 5px;
-}
+} */
 
 .about-us h2,
 .what-we-do h2,
@@ -271,11 +261,6 @@
 }
 
 @media(max-width: 916px) {
-    .about-us div {
-        margin-top: -3rem;
-        margin-left: 0;
-        padding: 0;
-    }
 
     .about-us figure {
         margin-bottom: 0rem;
@@ -284,10 +269,6 @@
     .about-us figure img:nth-child(2) {
         width: 50%;
         transform: translate(100%, -70%);
-    }
-
-    .what-we-do h2 {
-        margin-top: 2rem;
     }
 
     .join .bg1 {
