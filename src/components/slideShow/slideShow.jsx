@@ -1,10 +1,7 @@
 import { useState, useEffect, useRef } from "react";
-import slide2 from "../../images/New banner 2 1.svg";
-import slide3 from "../../images/slide3.jpg";
-import slide4 from "../../images/slide4.jpg";
-import slide5 from "../../images/slider5.jpg";
-import "./slideshow.css";
 import { sliderData } from "./sliderData";
+import "./slideshow.css";
+import { AiOutlineArrowLeft, AiOutlineArrowRight } from "react-icons/ai";
 
 const Slideshow = () => {
   const [currentSlide, setCurrentSlide] = useState(0);
@@ -14,10 +11,14 @@ const Slideshow = () => {
   let slideInterval;
   const intervalTime = 10000;
 
+  const prevSlide = () => {
+    setCurrentSlide(currentSlide === 0 ? slideLength - 1 : currentSlide - 1);
+    console.log("prev");
+  };
   const nextSlide = () => {
     setCurrentSlide(currentSlide === slideLength - 1 ? 0 : currentSlide + 1)
   }
-  function auto() {
+  const auto = () => {
     slideInterval = setInterval(nextSlide, intervalTime)
   }
 
@@ -35,6 +36,8 @@ const Slideshow = () => {
   return (
     <>
       <div className="slideshow">
+        <AiOutlineArrowLeft className="arrow prev" onClick={prevSlide} />
+        <AiOutlineArrowRight className="arrow next" onClick={nextSlide} />
         {sliderData.map((slide, index) => {
           return (
             <div className={index === currentSlide ? "slide current" : "slide"} key={index}>
