@@ -25,9 +25,7 @@ const Blog = () => {
         </section>
         <div className="posts">
           <section className="news">
-            <figure className="news__picture">
-              <img src={iwosanImg} alt="Iwosan-Lagoon_Banner_Square" />
-            </figure>
+            <img className="news__picture" src={iwosanImg} alt="Iwosan-Lagoon_Banner_Square" />
             <div className="news__post">
               <p className="news__time">May 26, 2022</p>
               <h2>IWOSAN Investments Limited acquires Lagoon Hospitals</h2>
