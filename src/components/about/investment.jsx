@@ -52,7 +52,6 @@ const Investment = () => {
               by scholars, government agencies and notable hospital groups
               across Africa.
             </p>
-            <button>Read More</button>
           </div>
           <div>
             <img style={{ width: "100%" }} src={record} alt="record" />

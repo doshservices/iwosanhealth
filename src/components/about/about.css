@@ -89,7 +89,6 @@
 
 .record p {
     margin-top: 0;
-    /* max-width: 480px; */
 }
 
 .record h2 {
@@ -141,8 +140,8 @@
     text-overflow: ellipsis;
     overflow: hidden;
     display: -webkit-box;
-    -webkit-line-clamp: 16;
-    line-clamp: 16;
+    -webkit-line-clamp: 10;
+    line-clamp: 10;
     -webkit-box-orient: vertical;
 }
 
@@ -162,13 +161,15 @@
 }
 
 .full-text>div {
-    width: clamp(200px, 100vw, 400px);
+    width: clamp(200px, 100vw, 600px);
     max-height: 400px;
     top: 40%;
     bottom: 20%;
     overflow-y: scroll;
     background: hsl(0, 0%, 96%);
     padding: 1rem;
+    margin: 0 1rem;
+    border-radius: 5px;
 }
 
 .quality-text {
