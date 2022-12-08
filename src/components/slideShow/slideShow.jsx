@@ -4,55 +4,58 @@ import slide3 from "../../images/slide3.jpg";
 import slide4 from "../../images/slide4.jpg";
 import slide5 from "../../images/slider5.jpg";
 import "./slideshow.css";
-
-const slideImages = [slide2, slide3, slide4, slide5];
-const delay = 10000;
+import { sliderData } from "./sliderData";
 
 const Slideshow = () => {
-  const [index, setIndex] = useState(0);
-  const timeoutRef = useRef(null);
+  const [currentSlide, setCurrentSlide] = useState(0);
+  const slideLength = sliderData.length;
 
-  const resetTimeout = () => {
-    if (timeoutRef.current) {
-      clearTimeout(timeoutRef.current);
-    }
-  };
+  const autoScroll = true;
+  let slideInterval;
+  const intervalTime = 10000;
+
+  const nextSlide = () => {
+    setCurrentSlide(currentSlide === slideLength - 1 ? 0 : currentSlide + 1)
+  }
+  function auto() {
+    slideInterval = setInterval(nextSlide, intervalTime)
+  }
 
   useEffect(() => {
-    resetTimeout();
-    timeoutRef.current = setTimeout(
-      () =>
-        setIndex((prevIndex) =>
-          prevIndex === slideImages.length - 1 ? 0 : prevIndex + 1
-        ),
-      delay
-    );
+    setCurrentSlide(0)
+  }, [])
 
-    return () => {
-      resetTimeout();
-    };
-  }, [index]);
+  useEffect(() => {
+    if (autoScroll) {
+      auto()
+    }
+    return () => clearInterval(slideInterval)
+  }, [currentSlide])
 
   return (
     <>
       <div className="slideshow">
-        <div
-          className="slideshowSlider"
-          style={{ transform: `translate3d(${-index * 100}%, 0, 0)` }}
-        >
-          {slideImages.map((slideImages, index) => (
-            <div key={index} className="slide">
-              <div className="slider-content">
-                <h1>World-class healthcare Services provider</h1>
-                <p>
-                  We do this within a system that is ethical, knowledge-driven, innovative, and accessible. We ensure that empathy for the patient runs through all our actions while we benchmark against world class standards.
-                </p>
-              </div>
-              <img className="slide" src={slideImages} />
+        {sliderData.map((slide, index) => {
+          return (
+            <div className={index === currentSlide ? "slide current" : "slide"} key={index}>
+              {
+                index === currentSlide && (
+                  <>
+                    <img src={slide.image} alt="slide" className="sliderimg" />
+                    <div className="wrapper">
+                      <div className="content">
+                        <div>
+                          <h1>{slide.heading}</h1>
+                          <p>{slide.paragragh}</p>
+                        </div>
+                      </div>
+                    </div>
+                  </>
+                )
+              }
             </div>
-
-          ))}
-        </div>
+          )
+        })}
       </div>
     </>
   );
