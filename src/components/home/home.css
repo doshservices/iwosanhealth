@@ -38,16 +38,9 @@
     gap: 3rem;
 }
 
-/* .about-us figure img:nth-child(1) {
-    width: 100%;
-    border-radius: 0 5px 5px 0;
+.about-us iframe {
+    max-height: clamp(300px, 100vh, 320px);
 }
-
-.about-us figure img:nth-child(2) {
-    width: 50%;
-    transform: translate(110%, -70%);
-    border-radius: 5px;
-} */
 
 .about-us h2,
 .what-we-do h2,
