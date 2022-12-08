@@ -44,6 +44,18 @@ const Slideshow = () => {
               {
                 index === currentSlide && (
                   <>
+                    <div
+                      style={{
+                        backgroundRepeat: "repeat-x",
+                        position: "absolute",
+                        height: "500px",
+                        width: "100vw",
+                        top: "20%",
+                        zIndex: "1",
+                        opacity: ".3"
+                      }}
+                      className="ecg"
+                    > </div>
                     <img src={slide.image} alt="slide" className="sliderimg" />
                     <div className="wrapper">
                       <div className="content">
