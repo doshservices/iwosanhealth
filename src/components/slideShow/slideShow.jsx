@@ -52,7 +52,7 @@ const Slideshow = () => {
                         width: "100vw",
                         top: "20%",
                         zIndex: "1",
-                        opacity: ".3"
+                        opacity: ".5"
                       }}
                       className="ecg"
                     > </div>

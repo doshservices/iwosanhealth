@@ -11,40 +11,38 @@ const Count = () => {
       onEnter={() => setCounterOn(true)}
       onExit={() => setCounterOn(false)}
     >
-      <div className="ecg">
-        <div className="counter">
-          <span>
-            {counterOn && (
-              <CountUp start={0} end={700} duration={2} delay={0} />
-            )}
-            +
-            <br />
-            <p>employees</p>
-          </span>
-          <span>
-            {counterOn && (
-              <CountUp start={0} end={14151} duration={2} delay={0} />
-            )}
-            <br />
-            <p>Monthly patient traffic</p>
-            <br />
-            <small>(both old and new)</small>
-          </span>
-          <span>
-            {counterOn && <CountUp start={0} end={32} duration={2} delay={0} />}
-            +
-            <br />
-            <p>specialties</p>
-            <br />
-            <small>and sub-specialties</small>
-          </span>
-          <span>
-            {counterOn && <CountUp start={0} end={99} duration={2} delay={0} />}
-            +
-            <br />
-            <p>bed spaces</p>
-          </span>
-        </div>
+      <div className="counter">
+        <span>
+          {counterOn && (
+            <CountUp start={0} end={700} duration={2} delay={0} />
+          )}
+          +
+          <br />
+          <p>employees</p>
+        </span>
+        <span>
+          {counterOn && (
+            <CountUp start={0} end={14151} duration={2} delay={0} />
+          )}
+          <br />
+          <p>Monthly patient traffic</p>
+          <br />
+          <small>(both old and new)</small>
+        </span>
+        <span>
+          {counterOn && <CountUp start={0} end={32} duration={2} delay={0} />}
+          +
+          <br />
+          <p>specialties</p>
+          <br />
+          <small>and sub-specialties</small>
+        </span>
+        <span>
+          {counterOn && <CountUp start={0} end={99} duration={2} delay={0} />}
+          +
+          <br />
+          <p>bed spaces</p>
+        </span>
       </div>
     </ScrollTrigger>
   );
