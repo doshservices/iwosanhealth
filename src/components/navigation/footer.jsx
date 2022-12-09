@@ -38,7 +38,7 @@ const Footer = () => {
             </ul>
             <div className="contact">
               <h4>Contact Us</h4>
-              <a href="tel:+23416321636">+23416321636</a>
+
               <a href="mailto:m.info@iwosanhealth.com">info@iwosanhealth.com</a>
               <p>Unit C, 4 Onisiwo Street, Ikoyi</p>
             </div>
@@ -50,12 +50,6 @@ const Footer = () => {
                 </a>
                 <a href="">
                   <img src={Linkedin} alt="" />
-                </a>
-                <a href="">
-                  <img src={Facebook} alt="" />
-                </a>
-                <a href="">
-                  <img src={Twitter} alt="" />
                 </a>
               </div>
             </div>

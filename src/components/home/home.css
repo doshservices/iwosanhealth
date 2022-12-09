@@ -111,14 +111,16 @@
     overflow: hidden;
     background: hsl(217, 73%, 12%);
     color: white;
-    padding: 1rem clamp(1rem, 7vw, 8rem);
+    padding: 4rem clamp(1rem, 7vw, 8rem);
     align-items: center;
+    margin: 3rem 0;
+    gap: 2rem;
 }
 
 .join .bg1 {
     position: absolute;
     opacity: .1;
-    max-height: 130%;
+    max-height: 100%;
     left: 0;
     pointer-events: none;
 }
@@ -126,9 +128,10 @@
 .join .bg2 {
     position: absolute;
     opacity: .1;
-    max-height: 130%;
-    right: 2rem;
+    max-height: 100%;
+    right: -10%;
     pointer-events: none;
+    transform: rotate(90deg);
 }
 
 .join h2 {

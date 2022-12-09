@@ -34,7 +34,6 @@ const Staffs = () => {
               <h3>{data.name}</h3>
               <h4>{data.office}</h4>
               <span></span>
-              <p>{data.about}</p>
             </div>
           </div>
         ))}
@@ -56,7 +55,11 @@ const Staffs = () => {
               <h3>{data.name}</h3>
               <h4>{data.office}</h4>
               <span></span>
-              <p>{ data.about}</p>
+              <p>{data.about}</p>
+              <p>{data.about2}</p>
+              <p>{data.about3}</p>
+              <p>{data.about4}</p>
+              <p>{data.about5}</p>
             </div>
           </div>
         </div>

@@ -25,7 +25,7 @@ const Investment = () => {
 
       <section className="record">
         <div>
-          <h2>Operational Expertise and Track Record. </h2>
+          <h2>Operational Expertise and Track Record</h2>
           <img
             src={greenborder2}
             alt="border"
