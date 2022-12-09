@@ -22,68 +22,61 @@ const Investment = () => {
           and greenfield multi-specialist healthcare facility
         </p>
       </div>
-      <div
-        style={{
-          backgroundPosition: "center",
-          backgroundRepeat: "repeat-x",
-        }}
-        className="ecg"
-      >
-        <section className="record">
-          <div>
-            <h2>Operational Expertise and Track Record. </h2>
-            <img
-              src={greenborder2}
-              alt="border"
-              style={{ margin: "1rem 0", maxWidth: "200px" }}
-            />
-            <p>
-              Our flagship investment portfolio, Iwosan Lagoon Hospitals
-              (formerly Lagoon Hospitals), is a renowned provider of integrated
-              healthcare services for millions of Nigerians and foreign
-              nationals. The franchise has bagged numerous awards in areas of
-              quality and service excellence by notable global bodies and is a
-              trusted healthcare partner for private and public organizations
-              around the globe. In 2011, Lagoon Hospitals became the second
-              hospital in Africa to earn the Gold Seal of Approval from the
-              Joint Commission International in recognition of its commitment to
-              improve healthcare quality and patient safety. It has since
-              maintained poll position and its operations have been understudied
-              by scholars, government agencies and notable hospital groups
-              across Africa.
-            </p>
-          </div>
-          <div>
-            <img style={{ width: "100%" }} src={record} alt="record" />
-          </div>
-        </section>
 
-        <section className="dynamics">
-          <figure>
-            <img src={img} alt="industry" />
-          </figure>
-          <div>
-            <h2>Favourable Industry Dynamics</h2>
-            <img
-              src={greenborder2}
-              alt="border"
-              style={{ margin: "1rem 0", maxWidth: "200px" }}
-            />
-            <p>
-              The influx of healthcare startups in the African business
-              ecosystem can bridge the infrastructure gap that has long plagued
-              many countries and foster long term opportunities for the sector.
-              The amount raised by Nigerian start-ups has been on a steady rise,
-              and in 2021, for the first time, digital start-ups in Nigeria
-              raised over $1 billion in a year.
-              The value of deals announced by Nigerian start-ups in 2021 peaked
-              at $1.096 billion, 62% more than what was raised between 2018 and
-              2020. Out of the $4.9billion raised in 2021 by tech start-ups in
-              Africa, healthcare and biotech cropped about 8% of the windfall.
-            </p>
-          </div>
-        </section>
-      </div>
+      <section className="record">
+        <div>
+          <h2>Operational Expertise and Track Record. </h2>
+          <img
+            src={greenborder2}
+            alt="border"
+            style={{ margin: "1rem 0", maxWidth: "200px" }}
+          />
+          <p>
+            Our flagship investment portfolio, Iwosan Lagoon Hospitals
+            (formerly Lagoon Hospitals), is a renowned provider of integrated
+            healthcare services for millions of Nigerians and foreign
+            nationals. The franchise has bagged numerous awards in areas of
+            quality and service excellence by notable global bodies and is a
+            trusted healthcare partner for private and public organizations
+            around the globe. In 2011, Lagoon Hospitals became the second
+            hospital in Africa to earn the Gold Seal of Approval from the
+            Joint Commission International in recognition of its commitment to
+            improve healthcare quality and patient safety. It has since
+            maintained poll position and its operations have been understudied
+            by scholars, government agencies and notable hospital groups
+            across Africa.
+          </p>
+        </div>
+        <div>
+          <img style={{ width: "100%" }} src={record} alt="record" />
+        </div>
+      </section>
+
+      <section className="dynamics">
+        <figure>
+          <img src={img} alt="industry" />
+        </figure>
+        <div>
+          <h2>Favourable Industry Dynamics</h2>
+          <img
+            src={greenborder2}
+            alt="border"
+            style={{ margin: "1rem 0", maxWidth: "200px" }}
+          />
+          <p>
+            The influx of healthcare startups in the African business
+            ecosystem can bridge the infrastructure gap that has long plagued
+            many countries and foster long term opportunities for the sector.
+            The amount raised by Nigerian start-ups has been on a steady rise,
+            and in 2021, for the first time, digital start-ups in Nigeria
+            raised over $1 billion in a year.
+            The value of deals announced by Nigerian start-ups in 2021 peaked
+            at $1.096 billion, 62% more than what was raised between 2018 and
+            2020. Out of the $4.9billion raised in 2021 by tech start-ups in
+            Africa, healthcare and biotech cropped about 8% of the windfall.
+          </p>
+        </div>
+      </section>
       <section className="benefits">
         <div>
           <h2>Diversification Benefits</h2>
@@ -131,43 +124,35 @@ const Investment = () => {
           </p>
         </div>
       </section>
-      <div
-        style={{
-          backgroundPosition: "bottom",
-          backgroundRepeat: "repeat-x",
-        }}
-        className="ecg"
-      >
-        <section className="leadership">
-          <div>
-            <h2>Strong Leadership Vision</h2>
-            <img
-              src={greenborder2}
-              alt="border"
-              style={{ margin: "1rem 0", maxWidth: "200px" }}
-            />
-            <p>
-              Our prime investors and promoters have several decades of
-              experience providing funding and technical expertise for a diverse
-              range of highly successful global businesses.
-            </p>
-            <p>
-              We have leveraged this unrivalled expert advisory to institute a
-              fluid corporate governance system at each Iwosan facility with the
-              aim of achieving data-driven healthcare administration and quality
-              outcomes.
-            </p>
-            <p>
-              Under the leadership of their respective Managing Directors, each
-              hospital is structured to function independently and compete
-              favourably based on the preset performance indices.
-            </p>
-          </div>
-          <div>
-            <img style={{ display: "block", width: "100%" }} src={leadership} alt="leadership" />
-          </div>
-        </section>
-      </div>
+      <section className="leadership">
+        <div>
+          <h2>Strong Leadership Vision</h2>
+          <img
+            src={greenborder2}
+            alt="border"
+            style={{ margin: "1rem 0", maxWidth: "200px" }}
+          />
+          <p>
+            Our prime investors and promoters have several decades of
+            experience providing funding and technical expertise for a diverse
+            range of highly successful global businesses.
+          </p>
+          <p>
+            We have leveraged this unrivalled expert advisory to institute a
+            fluid corporate governance system at each Iwosan facility with the
+            aim of achieving data-driven healthcare administration and quality
+            outcomes.
+          </p>
+          <p>
+            Under the leadership of their respective Managing Directors, each
+            hospital is structured to function independently and compete
+            favourably based on the preset performance indices.
+          </p>
+        </div>
+        <div>
+          <img style={{ display: "block", width: "100%" }} src={leadership} alt="leadership" />
+        </div>
+      </section>
       <Footer />
     </>
   );
