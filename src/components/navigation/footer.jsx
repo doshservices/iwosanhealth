@@ -27,8 +27,7 @@ const Footer = () => {
                 <Link to="/news">News</Link>
               </li>
               <li>
-                <Link to="/career">Career</Link>
-              </li>
+                <a href="https://www.lagoonhospitals.com/" target="_blank">Portfolio</a></li>
               <li>
                 <Link to="/team">About Us</Link>
               </li>

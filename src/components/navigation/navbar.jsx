@@ -80,15 +80,16 @@ const Navbar = () => {
           </li>
 
           <li>
-            <Link
+            <a
               onClick={() => {
                 setIsOpen(!isOpen);
               }}
-              to="career"
+              href="https://www.lagoonhospitals.com/"
+              target="_blank"
               className="header__link"
             >
-              CAREERS
-            </Link>
+              PORTFOLIO
+            </a>
           </li>
           <li>
             <Link
