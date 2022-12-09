@@ -20,7 +20,7 @@ const Home = () => {
       <section className="about-us flex">
         <iframe className="flex-400-item" width="727" height="409" src="https://www.youtube.com/embed/LewOnV575U8" title="How To Improve Nigeria's Healthcare System" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowFullScreen></iframe>
         <div className="flex-400-item">
-          <h2>Here is a little about who we are.</h2>
+          <h2>What We Do</h2>
           <img src={Bordergreen} alt="border" />
           <p>
             Iwosan Investments Limited is a privately held healthcare asset
@@ -36,7 +36,7 @@ const Home = () => {
         </div>
       </section>
       <section className="what-we-do">
-        <h2>What We Do</h2>
+        <h2>Our Core Values</h2>
         <img src={Bordergreen} alt="border" />
         <div className="flex">
           <div className="flex-280-item">
@@ -74,8 +74,7 @@ const Home = () => {
         <div className="mail flex-350-item">
           <h2>Join Our Mailing List</h2>
           <p>
-            Sign up via our free email subscription service to receive
-            notifications when new information is available.
+            Nigeria’s healthcare industry is booming with activities and we would like to keep you updated on the most relevant news only. Sign up to receive our newsletters:
           </p>
         </div>
         <div className="suscribe flex-350-item">
@@ -85,8 +84,8 @@ const Home = () => {
           </div>
         </div>
       </section>
-      <Count />
-      <Testimony />
+      {/* <Count /> */}
+      {/* <Testimony /> */}
       <Footer />
     </>
   );

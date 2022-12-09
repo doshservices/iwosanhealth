@@ -62,46 +62,10 @@ const Blog = () => {
               </blockquote>
             </div>
           </section>
-          {/* <section className="flex-columns">
-            <div className="columns">
-              <img src="" alt="" />
-              <h3 className="topic">
-                Healthy food and exercise routine for health
-              </h3>
-              <h4 className="name">Cipay Agustrian</h4>
-              <p className="date">14 January, 2020</p>
-              <blockquote>
-                Healthy foods can improve your health if they are consumed
-                properly Healthy foods can improve your health if they are
-                consumed properly
-              </blockquote>
-            </div>
 
-            <div className="columns">
-              <img src="" alt="" />
-              <h3>Healthy food and exercise routine for health</h3>
-              <h4>Cipay Agustrian</h4>
-              <p>14 January, 2020</p>
-              <blockquote>
-                Healthy foods can improve your health if they are consumed
-                properly Healthy foods can improve your health if they are
-                consumed properly
-              </blockquote>
-            </div>
-            <div className="columns">
-              <img src="" alt="" />
-              <h3>Healthy food and exercise routine for health</h3>
-              <h4>Cipay Agustrian</h4>
-              <p>14 January, 2020</p>
-              <blockquote>
-                Healthy foods can improve your health if they are consumed
-                properly Healthy foods can improve your health if they are
-                consumed properly
-              </blockquote>
-            </div>
-          </section> */}
         </div>
       </section>
+      <Footer />
     </>
   );
 };

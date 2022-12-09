@@ -36,12 +36,10 @@ const Team = () => {
       <section className="team">
         <div className="brains">
           <div>
-            <h2>Brains behind what we do around here</h2>
+            <h2>Meet Our Industry Leaders</h2>
             <img src={border} alt="" />
             <p>
-              The best doctors and medical personnel from around the world
-              with international certificates and also extraordinary
-              experiences
+              Our Leadership team comprises renowned and highly accomplished business and clinical professionals who have built visionary business and practices and are unreservedly passionate about healthcare development in Africa.
             </p>
           </div>
           <div className="members">
