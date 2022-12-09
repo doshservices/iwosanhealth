@@ -65,7 +65,7 @@ button:focus {
 
 .ecg {
   background: url("./images/ecg.svg");
-  background-size: 1200px;
+  background-size: 1500px;
   background-repeat: repeat-x;
   position: absolute;
   height: 500px;
