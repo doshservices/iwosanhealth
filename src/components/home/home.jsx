@@ -41,30 +41,32 @@ const Home = () => {
         <div className="flex">
           <div className="flex-280-item">
             <img src={Patient} alt="" />
-            <h3>We are a Patient First organization</h3>
-            <p>
-              We are a consistently patient-first, world-class healthcare
-              services provider.
-            </p>
+            <h3>Empathetic</h3>
+
           </div>
           <div className="flex-280-item">
             <img src={Innovative} alt="" />
             <h3>
-              We are Innovative <br />
-              and so much more
+              Ethical
             </h3>
-            <p>
-              We are empathetic, ethical, knowledge-driven, innovative, and
-              accessible.
-            </p>
           </div>
           <div className="flex-280-item">
             <img src={Verified} alt="" />
             <h3>
-              We are Innovative <br />
-              and so much more
+              Knowledge-driven
             </h3>
-            <p>We will look after you.</p>
+          </div>
+          <div className="flex-280-item">
+            <img src={Verified} alt="" />
+            <h3>
+              Innovative
+            </h3>
+          </div>
+          <div className="flex-280-item">
+            <img src={Verified} alt="" />
+            <h3>
+              Accessible
+            </h3>
           </div>
         </div>
       </section>
@@ -84,8 +86,6 @@ const Home = () => {
           </div>
         </div>
       </section>
-      {/* <Count /> */}
-      {/* <Testimony /> */}
       <Footer />
     </>
   );

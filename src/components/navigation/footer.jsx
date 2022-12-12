@@ -44,10 +44,10 @@ const Footer = () => {
             <div className="social-links">
               <h4>Follow Us</h4>
               <div>
-                <a href="">
+                <a href="https://www.instagram.com/p/Cjaow1IsuwE/?igshid=YmMyMTA2M2Y=" target="_blank">
                   <img src={Instagram} alt="" />
                 </a>
-                <a href="">
+                <a href="https://www.linkedin.com/company/iwosan-investments-limited/" target="_blank">
                   <img src={Linkedin} alt="" />
                 </a>
               </div>
