@@ -68,7 +68,7 @@
 }
 
 .what-we-do {
-    padding: 2rem clamp(1rem, 4vw, 8rem);
+    padding: 2rem clamp(1rem, 3vw, 8rem);
     margin: clamp(.5rem, 4vw, 4rem);
     background: whitesmoke;
 }
@@ -81,21 +81,23 @@
 
 .what-we-do h3 {
     margin: 1rem 0;
-    font-size: 1.5rem;
+    font-size: 1.3rem;
     font-family: "Work Sans";
 }
 
 .what-we-do>div {
-    gap: 2rem;
+    gap: 1rem;
     margin: 2rem 0;
+    justify-content: space-between;
 }
 
 .what-we-do>div div {
     background: hsl(191, 100%, 43%);
-    padding: clamp(1.5rem, 3vw, 4rem);
+    padding: clamp(1rem, 2vw, 3rem);
     border-radius: 3px;
     color: white;
-    max-width: 450px;
+    max-width: 200px;
+    max-height: 190px;
     margin: 0 auto;
 }
 
@@ -113,7 +115,7 @@
     color: white;
     padding: 4rem clamp(1rem, 7vw, 8rem);
     align-items: center;
-    margin: 3rem 0;
+    /* margin: 3rem 0; */
     gap: 2rem;
 }
 
