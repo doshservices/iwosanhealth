@@ -7,6 +7,8 @@ import Footer from "../navigation/footer";
 import curvedbg1 from "../../images/curved-bg1.svg";
 import leadership from "../../images/leadership.jpg";
 import record from "../../images/record.jpg";
+import diversity from "../../images/DIVERSITY.jpg";
+import stratergy from "../../images/INNOVATIVE FINANCIAL STRATEGY.jpg"
 
 const Investment = () => {
   return (
@@ -100,11 +102,11 @@ const Investment = () => {
           </p>
         </div>
         <figure>
-          <img src={img2} alt="doctors" />
+          <img src={diversity} alt="doctors" />
         </figure>
       </section>
       <section className="strategy">
-        <img src={finance} alt="finance" />
+        <img src={stratergy} alt="finance" />
         <div>
           <h2>Innovative Financial Strategy</h2>
           <img src={greenborder2} alt="" />
