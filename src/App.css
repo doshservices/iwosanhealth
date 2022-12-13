@@ -11,3 +11,57 @@
   color: white;
   cursor: pointer;
 }
+
+.cookie__wrapper {
+  position: relative;
+  background: hsl(217, 73%, 12%);
+  padding-top: 13rem;
+}
+
+.cookie__wrapper h2 {
+  font-size: 1.5rem;
+}
+
+.cookie__wrapper p {
+  margin: 0;
+  font-size: .9rem;
+}
+
+.cookie__wrapper>div {
+  position: fixed;
+  width: 100%;
+  bottom: 0;
+  z-index: 2;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+  gap: 2rem;
+  color: white;
+  background: hsl(217, 73%, 12%);
+  padding: 2rem clamp(2rem, 6vw, 8rem);
+}
+
+.cookie__text {
+  flex-grow: 1.5;
+  flex-basis: 300px;
+}
+
+.cookie__btn {
+  cursor: pointer;
+  background: #47B549;
+  color: white;
+  font-size: 1rem;
+  font-weight: 500;
+  border: none;
+  padding: .6rem 1.3rem;
+  transition: all .3s ease;
+  flex-grow: .5;
+  flex-basis: 300px;
+  max-width: fit-content;
+  display: block;
+}
+
+.cookie__btn:hover {
+  transform: scale(1.1);
+}

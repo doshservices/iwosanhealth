@@ -1,11 +1,11 @@
 import Slideshow from "../slideShow/slideShow";
 import "./home.css";
 import Bordergreen from "../../images/border.svg";
-import Verified from "../../images/verified.svg";
-import Innovative from "../../images/innovative.svg";
-import Patient from "../../images/patient.svg";
-import Testimony from "../testimonial";
-import Count from "./count";
+import Empathetic from "../../images/Emphatic.svg";
+import Ethical from "../../images/Ethical.svg";
+import knowledge from "../../images/Knowledge driven.svg";
+import Innovative from "../../images/Innovative.svg";
+import Accesible from "../../images/Accessible.svg";
 import Footer from "../navigation/footer";
 import curvedbg1 from "../../images/curved-bg1.svg"
 
@@ -13,10 +13,8 @@ const Home = () => {
   return (
     <>
       <div className="home-slider">
-
         <Slideshow />
       </div>
-
       <section className="about-us flex">
         <iframe className="flex-400-item" width="727" height="409" src="https://www.youtube.com/embed/LewOnV575U8" title="How To Improve Nigeria's Healthcare System" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowFullScreen></iframe>
         <div className="flex-400-item">
@@ -40,30 +38,30 @@ const Home = () => {
         <img src={Bordergreen} alt="border" />
         <div className="flex">
           <div className="flex-280-item">
-            <img src={Patient} alt="" />
+            <img src={Empathetic} alt="" />
             <h3>Empathetic</h3>
 
           </div>
           <div className="flex-280-item">
-            <img src={Innovative} alt="" />
+            <img src={Ethical} alt="" />
             <h3>
               Ethical
             </h3>
           </div>
           <div className="flex-280-item">
-            <img src={Verified} alt="" />
+            <img src={knowledge} alt="" />
             <h3>
               Knowledge-driven
             </h3>
           </div>
           <div className="flex-280-item">
-            <img src={Verified} alt="" />
+            <img src={Innovative} alt="" />
             <h3>
               Innovative
             </h3>
           </div>
           <div className="flex-280-item">
-            <img src={Verified} alt="" />
+            <img src={Accesible} alt="" />
             <h3>
               Accessible
             </h3>

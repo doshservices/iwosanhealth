@@ -105,7 +105,8 @@
     border-radius: 50%;
     height: 4rem;
     width: 4rem;
-    background: rgb(255, 255, 255, 0.2);
+    background: rgba(37, 227, 154, 0.6);
+    padding: 1rem;
 }
 
 .join {
@@ -115,7 +116,6 @@
     color: white;
     padding: 4rem clamp(1rem, 7vw, 8rem);
     align-items: center;
-    /* margin: 3rem 0; */
     gap: 2rem;
 }
 
