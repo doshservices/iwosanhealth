@@ -1,4 +1,4 @@
-import { useState, useEffect, useRef } from "react";
+import { useState, useEffect } from "react";
 import { sliderData } from "./sliderData";
 import "./slideshow.css";
 import { AiOutlineArrowLeft, AiOutlineArrowRight } from "react-icons/ai";
@@ -36,8 +36,9 @@ const Slideshow = () => {
   return (
     <>
       <div className="slideshow">
-        <AiOutlineArrowLeft className="arrow prev" onClick={prevSlide} />
-        <AiOutlineArrowRight className="arrow next" onClick={nextSlide} />
+        {/* <AiOutlineArrowLeft className="arrow prev" onClick={prevSlide} /> */}
+        {/* <button></button> */}
+        {/* <AiOutlineArrowRight className="arrow next" onClick={nextSlide} /> */}
         {sliderData.map((slide, index) => {
           return (
             <div className={index === currentSlide ? "slide current" : "slide"} key={index}>
