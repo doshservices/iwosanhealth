@@ -8,7 +8,7 @@ import curvedbg1 from "../../images/curved-bg1.svg";
 import leadership from "../../images/leadership.jpg";
 import record from "../../images/record.jpg";
 import diversity from "../../images/DIVERSITY.jpg";
-import stratergy from "../../images/INNOVATIVE FINANCIAL STRATEGY.jpg"
+import stratergy from "../../images/INNOVATIVE FINANCIAL STRATEGY.jpg";
 
 const Investment = () => {
   return (
