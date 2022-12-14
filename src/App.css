@@ -19,7 +19,8 @@
 }
 
 .cookie__wrapper h2 {
-  font-size: 1.5rem;
+  font-size: 1.2rem;
+  margin: 0 0 6px 0;
 }
 
 .cookie__wrapper p {
@@ -40,7 +41,7 @@
   gap: 2rem;
   color: white;
   background: hsl(217, 73%, 12%);
-  padding: 2rem clamp(2rem, 6vw, 8rem);
+  padding: 1rem clamp(2rem, 6vw, 8rem);
 }
 
 .cookie__text {
