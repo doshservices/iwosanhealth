@@ -101,12 +101,17 @@
     margin: 0 auto;
 }
 
-.what-we-do>div img {
+.what-we-do>div img,
+.what-we-do svg {
     border-radius: 50%;
     height: 4rem;
     width: 4rem;
     background: rgba(37, 227, 154, 0.6);
     padding: 1rem;
+}
+
+.what-we-do svg path {
+    fill: white;
 }
 
 .join {
