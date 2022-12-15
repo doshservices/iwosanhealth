@@ -1,8 +1,14 @@
 import "./contact.css";
 import Footer from "../navigation/footer";
 import curve1 from "../../images/curved-bg1.svg";
+import { useRef } from "react";
 
 const Contact = () => {
+  const form = useRef();
+  const sendEmail = () => {
+
+  }
+
   return (
     <>
       <div className="contact-page">
@@ -16,7 +22,7 @@ const Contact = () => {
             investment company dedicated to financing and developing brownfield
             and greenfield multi-specialist healthcare facility
           </p>
-          <form className="contact-form">
+          <form ref={form} onSubmit={sendEmail} className="contact-form">
             <div>
               <label htmlFor="name">
                 Your name*
