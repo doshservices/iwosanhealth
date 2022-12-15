@@ -7,25 +7,17 @@ import knowledge from "../../images/Knowledge driven.svg";
 import Accesible from "../../images/Accessible.svg";
 import Footer from "../navigation/footer";
 import curvedbg1 from "../../images/curved-bg1.svg";
-import pdf from "../../images/iwosan-pdf.png";
-import { Document, Page } from "react-pdf";
-import { useState } from "react";
-import pdfile from "./iwosan.pdf";
+import pdfile from "../../images/iwosan-pdf.png";
+import jsPDF from "jspdf";
 
 const Home = () => {
-  const [numPages, setNumPages] = useState(null);
-  const [pageNumber, setPageNumber] = useState(1);
-
-  function onDocumentLoadSuccess({ numPages }) {
-    setNumPages(numPages);
-  }
   return (
     <>
       <div className="home-slider">
         <Slideshow />
       </div>
       <section className="about-us flex">
-        <img src={pdf} alt="Onakoya" />
+        <img src={pdfile} alt="Onakoya" />
         <div className="flex-400-item">
           <h2>What We Do</h2>
           <img src={Bordergreen} alt="border" />
@@ -40,14 +32,14 @@ const Home = () => {
             our paper on how banking institutions can finance healthcare in
             Nigeria.
           </p>
-          <a href="" download className="contact-btn">
+          <a
+            href="iwosan.pdf"
+            download="iwosan.pdf"
+            className="contact-btn"
+            role="button"
+          >
             Download
           </a>
-
-          <Document
-            file="./iwosan.pdf"
-            onLoadSuccess={onDocumentLoadSuccess}
-          ></Document>
         </div>
       </section>
       <section className="what-we-do">
