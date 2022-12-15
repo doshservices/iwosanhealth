@@ -1,6 +1,4 @@
-import investmentbg from "../../images/investment-hero.png";
 import greenborder2 from "../../images/greenborder2.svg";
-import whiteborder from "../../images/whiteborder.svg";
 import compliance from "../../images/compliance.jpg";
 import clinical from "../../images/clinacal.png";
 import whitsle from "../../images/Screen Shot 2022-11-16 at 5.19 1.png";
@@ -8,7 +6,6 @@ import Footer from "../navigation/footer";
 import patnership from "../../images/patnership.jpg";
 import sustain from "../../images/sustainability.jpg";
 import curvedbg1 from "../../images/curved-bg1.svg";
-import curvedbg2 from "../../images/curved-bg2.svg";
 import { useState } from "react";
 
 const Governance = () => {
