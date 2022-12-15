@@ -16,22 +16,22 @@ const Slideshow = () => {
     console.log("prev");
   };
   const nextSlide = () => {
-    setCurrentSlide(currentSlide === slideLength - 1 ? 0 : currentSlide + 1)
-  }
+    setCurrentSlide(currentSlide === slideLength - 1 ? 0 : currentSlide + 1);
+  };
   const auto = () => {
-    slideInterval = setInterval(nextSlide, intervalTime)
-  }
+    slideInterval = setInterval(nextSlide, intervalTime);
+  };
 
   useEffect(() => {
-    setCurrentSlide(0)
-  }, [])
+    setCurrentSlide(0);
+  }, []);
 
   useEffect(() => {
     if (autoScroll) {
-      auto()
+      auto();
     }
-    return () => clearInterval(slideInterval)
-  }, [currentSlide])
+    return () => clearInterval(slideInterval);
+  }, [currentSlide]);
 
   return (
     <>
@@ -40,36 +40,39 @@ const Slideshow = () => {
         <AiOutlineArrowRight className="arrow next" onClick={nextSlide} />
         {sliderData.map((slide, index) => {
           return (
-            <div className={index === currentSlide ? "slide current" : "slide"} key={index}>
-              {
-                index === currentSlide && (
-                  <>
-                    <div
-                      style={{
-                        backgroundRepeat: "repeat-x",
-                        position: "absolute",
-                        height: "500px",
-                        width: "100vw",
-                        top: "20%",
-                        zIndex: "1",
-                        opacity: ".5"
-                      }}
-                      className="ecg"
-                    > </div>
-                    <img src={slide.image} alt="slide" className="sliderimg" />
-                    <div className="wrapper">
-                      <div className="content">
-                        <div>
-                          <h1>{slide.heading}</h1>
-                          <p>{slide.paragragh}</p>
-                        </div>
+            <div
+              className={index === currentSlide ? "slide current" : "slide"}
+              key={index}
+            >
+              {index === currentSlide && (
+                <>
+                  <div
+                    style={{
+                      backgroundRepeat: "repeat-x",
+                      position: "absolute",
+                      height: "500px",
+                      width: "100vw",
+                      top: "10%",
+                      zIndex: "1",
+                      opacity: ".5",
+                    }}
+                    className="ecg"
+                  >
+                    {" "}
+                  </div>
+                  <img src={slide.image} alt="slide" className="sliderimg" />
+                  <div className="wrapper">
+                    <div className="content">
+                      <div>
+                        <h1>{slide.heading}</h1>
+                        <p>{slide.paragragh}</p>
                       </div>
                     </div>
-                  </>
-                )
-              }
+                  </div>
+                </>
+              )}
             </div>
-          )
+          );
         })}
       </div>
     </>

@@ -38,8 +38,8 @@
     gap: 3rem;
 }
 
-.about-us iframe {
-    max-height: clamp(300px, 100vh, 320px);
+.about-us>img {
+    width: 50%;
 }
 
 .about-us h2,
