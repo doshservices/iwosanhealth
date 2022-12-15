@@ -36,9 +36,8 @@ const Slideshow = () => {
   return (
     <>
       <div className="slideshow">
-        {/* <AiOutlineArrowLeft className="arrow prev" onClick={prevSlide} /> */}
-        {/* <button></button> */}
-        {/* <AiOutlineArrowRight className="arrow next" onClick={nextSlide} /> */}
+        <AiOutlineArrowLeft className="arrow prev" onClick={prevSlide} />
+        <AiOutlineArrowRight className="arrow next" onClick={nextSlide} />
         {sliderData.map((slide, index) => {
           return (
             <div className={index === currentSlide ? "slide current" : "slide"} key={index}>
