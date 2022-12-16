@@ -2,12 +2,30 @@ import "./contact.css";
 import Footer from "../navigation/footer";
 import curve1 from "../../images/curved-bg1.svg";
 import { useRef } from "react";
+import emailjs from "@emailjs/browser";
 
 const Contact = () => {
   const form = useRef();
-  const sendEmail = () => {
 
-  }
+  const sendEmail = (e) => {
+    e.preventDefault();
+
+    emailjs
+      .sendForm(
+        "service_njc5ljg",
+        "template_r8xeep1",
+        form.current,
+        "DRN_vB7PkDwvIdX1O"
+      )
+      .then(
+        (result) => {
+          console.log(result.text);
+        },
+        (error) => {
+          console.log(error.text);
+        }
+      );
+  };
 
   return (
     <>
@@ -27,13 +45,17 @@ const Contact = () => {
               <label htmlFor="name">
                 Your name*
                 <br />
-                <input type="text" name="name" placeholder="name" />
+                <input type="text" name="user_name" placeholder="name" />
               </label>
 
               <label htmlFor="email">
                 Contact email*
                 <br />
-                <input type="email" name="email" placeholder="you@example.com" />
+                <input
+                  type="email"
+                  name="user_email"
+                  placeholder="you@example.com"
+                />
               </label>
             </div>
             <div>
@@ -56,7 +78,7 @@ const Contact = () => {
               Your message*
             </label>
             <textarea
-              name=""
+              name="message"
               id=""
               cols="30"
               rows="5"
@@ -67,7 +89,9 @@ const Contact = () => {
               our Privacy Policy which explains how we may collect, use and
               disclose your personal information including to third parties.
             </p>
-            <button className="contact-btn">Contact Us</button>
+            <button type="submit" className="contact-btn">
+              Contact Us
+            </button>
           </form>
         </div>
         <div className="map">
