@@ -24,7 +24,7 @@
 }
 
 .wrapper {
-  background: hsl(0, 0%, 0%, 0.4);
+  /* background: hsl(0, 0%, 0%, 0.4); */
   position: absolute;
   top: 0;
   left: 0;

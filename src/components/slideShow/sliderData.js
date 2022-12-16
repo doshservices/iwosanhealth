@@ -5,7 +5,7 @@ import slide5 from "../../images/slider5.jpg";
 
 export const sliderData = [
     {
-        image: slide2,
+        image: slide4,
         heading: "Transforming Africa Into A Global Healthcare Frontier",
         // paragragh: "We do this within a system that is ethical, knowledge-driven, innovative, and accessible. We ensure that empathy for the patient runs through all our actions while we benchmark against world class standards.",
     },
@@ -15,7 +15,7 @@ export const sliderData = [
         // paragragh: "We do this within a system that is ethical, knowledge-driven, innovative, and accessible. We ensure that empathy for the patient runs through all our actions while we benchmark against world class standards.",
     },
     {
-        image: slide5,
+        image: slide3,
         heading: " Promoting Investor Confidence Through Optimal Value Delivery",
         // paragragh: "We do this within a system that is ethical, knowledge-driven, innovative, and accessible. We ensure that empathy for the patient runs through all our actions while we benchmark against world class standards.",
     },

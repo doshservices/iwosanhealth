@@ -38,8 +38,15 @@
     gap: 3rem;
 }
 
+.about-us>div {
+    flex-basis: 300px;
+    flex-grow: 1;
+}
+
 .about-us>img {
     width: 50%;
+    flex-basis: 300px;
+    flex-grow: 1;
 }
 
 .about-us h2,

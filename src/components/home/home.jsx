@@ -8,7 +8,6 @@ import Accesible from "../../images/Accessible.svg";
 import Footer from "../navigation/footer";
 import curvedbg1 from "../../images/curved-bg1.svg";
 import pdfile from "../../images/iwosan-pdf.png";
-import jsPDF from "jspdf";
 
 const Home = () => {
   return (
@@ -17,8 +16,8 @@ const Home = () => {
         <Slideshow />
       </div>
       <section className="about-us flex">
-        <img src={pdfile} alt="Onakoya" />
-        <div className="flex-400-item">
+        <img src={pdfile} alt="file" />
+        <div>
           <h2>What We Do</h2>
           <img src={Bordergreen} alt="border" />
           <p>
