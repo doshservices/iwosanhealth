@@ -1,12 +1,11 @@
 import "./about.css";
 import finance from "../../images/finance.jpg";
-import img from "../about/imgs/work.jpg";
-import img2 from "../about/imgs/PHOTO-2022-11-25-08-33-30 3.jpg";
+import img from "../../images/favour.jpg";
 import greenborder2 from "../../images/greenborder2.svg";
 import Footer from "../navigation/footer";
 import curvedbg1 from "../../images/curved-bg1.svg";
 import leadership from "../../images/leadership.jpg";
-import record from "../../images/record.jpg";
+import record from "../../images/operation.jpg";
 import diversity from "../../images/DIVERSITY.jpg";
 import stratergy from "../../images/INNOVATIVE FINANCIAL STRATEGY.jpg";
 
@@ -34,19 +33,18 @@ const Investment = () => {
             style={{ margin: "1rem 0", maxWidth: "200px" }}
           />
           <p>
-            Our flagship investment portfolio, Iwosan Lagoon Hospitals
-            (formerly Lagoon Hospitals), is a renowned provider of integrated
-            healthcare services for millions of Nigerians and foreign
-            nationals. The franchise has bagged numerous awards in areas of
-            quality and service excellence by notable global bodies and is a
-            trusted healthcare partner for private and public organizations
-            around the globe. In 2011, Lagoon Hospitals became the second
-            hospital in Africa to earn the Gold Seal of Approval from the
-            Joint Commission International in recognition of its commitment to
-            improve healthcare quality and patient safety. It has since
-            maintained poll position and its operations have been understudied
-            by scholars, government agencies and notable hospital groups
-            across Africa.
+            Our flagship investment portfolio, Iwosan Lagoon Hospitals (formerly
+            Lagoon Hospitals), is a renowned provider of integrated healthcare
+            services for millions of Nigerians and foreign nationals. The
+            franchise has bagged numerous awards in areas of quality and service
+            excellence by notable global bodies and is a trusted healthcare
+            partner for private and public organizations around the globe. In
+            2011, Lagoon Hospitals became the second hospital in Africa to earn
+            the Gold Seal of Approval from the Joint Commission International in
+            recognition of its commitment to improve healthcare quality and
+            patient safety. It has since maintained poll position and its
+            operations have been understudied by scholars, government agencies
+            and notable hospital groups across Africa.
           </p>
         </div>
         <div>
@@ -66,16 +64,16 @@ const Investment = () => {
             style={{ margin: "1rem 0", maxWidth: "200px" }}
           />
           <p>
-            The influx of healthcare startups in the African business
-            ecosystem can bridge the infrastructure gap that has long plagued
-            many countries and foster long term opportunities for the sector.
-            The amount raised by Nigerian start-ups has been on a steady rise,
-            and in 2021, for the first time, digital start-ups in Nigeria
-            raised over $1 billion in a year.
-            The value of deals announced by Nigerian start-ups in 2021 peaked
-            at $1.096 billion, 62% more than what was raised between 2018 and
-            2020. Out of the $4.9billion raised in 2021 by tech start-ups in
-            Africa, healthcare and biotech cropped about 8% of the windfall.
+            The influx of healthcare startups in the African business ecosystem
+            can bridge the infrastructure gap that has long plagued many
+            countries and foster long term opportunities for the sector. The
+            amount raised by Nigerian start-ups has been on a steady rise, and
+            in 2021, for the first time, digital start-ups in Nigeria raised
+            over $1 billion in a year. The value of deals announced by Nigerian
+            start-ups in 2021 peaked at $1.096 billion, 62% more than what was
+            raised between 2018 and 2020. Out of the $4.9billion raised in 2021
+            by tech start-ups in Africa, healthcare and biotech cropped about 8%
+            of the windfall.
           </p>
         </div>
       </section>
@@ -91,14 +89,12 @@ const Investment = () => {
             Ineffective healthcare administration poses a significant threat to
             treatment outcomes and the surge in emigration rate of qualified
             healthcare personnel could potentially hamper the quality of care
-            received by patients.
-            Therefore, we have set out to optimize the interoperability of our
-            health systems by ensuring we retain the best hands and allow our
-            people to explore the diverse options available to them within the
-            system.
-            Ultimately, our flagship portfolio, Iwosan Lagoon Hospitals would
-            become global citadels of clinical practice and healthcare personnel
-            capacity development.
+            received by patients. Therefore, we have set out to optimize the
+            interoperability of our health systems by ensuring we retain the
+            best hands and allow our people to explore the diverse options
+            available to them within the system. Ultimately, our flagship
+            portfolio, Iwosan Lagoon Hospitals would become global citadels of
+            clinical practice and healthcare personnel capacity development.
           </p>
         </div>
         <figure>
@@ -135,9 +131,9 @@ const Investment = () => {
             style={{ margin: "1rem 0", maxWidth: "200px" }}
           />
           <p>
-            Our prime investors and promoters have several decades of
-            experience providing funding and technical expertise for a diverse
-            range of highly successful global businesses.
+            Our prime investors and promoters have several decades of experience
+            providing funding and technical expertise for a diverse range of
+            highly successful global businesses.
           </p>
           <p>
             We have leveraged this unrivalled expert advisory to institute a
@@ -152,7 +148,11 @@ const Investment = () => {
           </p>
         </div>
         <div>
-          <img style={{ display: "block", width: "100%" }} src={leadership} alt="leadership" />
+          <img
+            style={{ display: "block", width: "100%" }}
+            src={leadership}
+            alt="leadership"
+          />
         </div>
       </section>
       <Footer />
