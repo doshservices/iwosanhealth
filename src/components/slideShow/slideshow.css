@@ -48,6 +48,7 @@
 .content div {
   max-width: 500px;
   margin: clamp(2rem, 10vw, 8rem) clamp(2rem, 6vw, 8rem);
+  padding-top: 3%;
 }
 
 .content>* {
@@ -64,6 +65,9 @@
   visibility: hidden;
   transition: all .4s ease;
   transform: scale(.7);
+  background: hsl(121, 44%, 49%);
+  line-height: 3rem;
+  display: inline;
 }
 
 .content p {
