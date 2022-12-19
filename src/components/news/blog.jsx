@@ -7,8 +7,7 @@ import lagoonLog2 from "../../images/Iwosan-Lagoon_Banner_Square_2.jpg";
 import { useState } from "react";
 
 const Blog = () => {
-
-  const [noOfLines, setNoOfLines] = useState(false)
+  const [noOfLines, setNoOfLines] = useState(false);
   return (
     <>
       <section className="blog">
@@ -24,45 +23,117 @@ const Blog = () => {
           </p>
         </section>
         <div className="posts">
-          <section className="news">
-            <img className="news__picture" src={iwosanImg} alt="Iwosan-Lagoon_Banner_Square" />
+          <article className="news">
+            <img
+              className="news__picture"
+              src={iwosanImg}
+              alt="Iwosan-Lagoon_Banner_Square"
+            />
             <div className="news__post">
               <p className="news__time">May 26, 2022</p>
               <h2>IWOSAN Investments Limited acquires Lagoon Hospitals</h2>
               <blockquote className="news__blockquote">
                 <p>
-                  May 23, 2022 – IWOSAN Investments Limited announces the acquisition of the Lagoon Hospitals Group, with its facilities around Lagos – Ikeja, Apapa, Victoria Island and Ikoyi.  IWOSAN, is a premier healthcare investment company which is dedicated to investing in the Nigerian Healthcare market. The Company was recently launched to transform and to improve Nigeria’s healthcare landscape by making investments in key healthcare infrastructure across the country.
+                  May 23, 2022 – IWOSAN Investments Limited announces the
+                  acquisition of the Lagoon Hospitals Group, with its facilities
+                  around Lagos – Ikeja, Apapa, Victoria Island and Ikoyi.
+                  IWOSAN, is a premier healthcare investment company which is
+                  dedicated to investing in the Nigerian Healthcare market. The
+                  Company was recently launched to transform and to improve
+                  Nigeria’s healthcare landscape by making investments in key
+                  healthcare infrastructure across the country.
                 </p>
                 <p>
-                  “This acquisition is extremely beneficial for all our stakeholders –  our patients, team members and the medical community at large”, said Mrs. Fola Laoye, co-founder and CEO of IWOSAN. “It is an opportunity to launch IWOSAN’s vision with Lagoon’s solid platform of strong clinical services and standards, which are internationally benchmarked through its JCI accreditation.
+                  “This acquisition is extremely beneficial for all our
+                  stakeholders – our patients, team members and the medical
+                  community at large”, said Mrs. Fola Laoye, co-founder and CEO
+                  of IWOSAN. “It is an opportunity to launch IWOSAN’s vision
+                  with Lagoon’s solid platform of strong clinical services and
+                  standards, which are internationally benchmarked through its
+                  JCI accreditation.
                 </p>
-                <button className={noOfLines ? "none" : "news__button"}
-                  onClick={() => setNoOfLines(!noOfLines)} >Read More</button>
+                <button
+                  className={noOfLines ? "none" : "news__button"}
+                  onClick={() => setNoOfLines(!noOfLines)}
+                >
+                  Read More
+                </button>
                 {noOfLines && (
                   <div>
-                    <img style={{ maxWidth: "320px" }} src={lagoonLogo} alt="lagoonlogo" />
+                    <img
+                      style={{ maxWidth: "320px" }}
+                      src={lagoonLogo}
+                      alt="lagoonlogo"
+                    />
                     <p>
-                      Our goal is to build by developing innovative strategies, focused capacity development that guarantee global standards of safety and quality in healthcare systems.  We anticipate a seamless transition and are confident that our talented team members of nurses and physicians are focused on quality and excellent care.”
-                      The vision of IWOSAN is to consistently provide patient-first, world-class healthcare services. “The patient is at the heart of all our operations and we have a mission to be consistently empathetic, ethical, innovative and accessible to best serve their needs,” Mr. Fola Adeola, co-founder and Chairman of IWOSAN said. “IWOSAN’s investment in Lagoon Hospitals is a demonstration of our commitment to actively improve the healthcare sector across the country”
+                      Our goal is to build by developing innovative strategies,
+                      focused capacity development that guarantee global
+                      standards of safety and quality in healthcare systems. We
+                      anticipate a seamless transition and are confident that
+                      our talented team members of nurses and physicians are
+                      focused on quality and excellent care.” The vision of
+                      IWOSAN is to consistently provide patient-first,
+                      world-class healthcare services. “The patient is at the
+                      heart of all our operations and we have a mission to be
+                      consistently empathetic, ethical, innovative and
+                      accessible to best serve their needs,” Mr. Fola Adeola,
+                      co-founder and Chairman of IWOSAN said. “IWOSAN’s
+                      investment in Lagoon Hospitals is a demonstration of our
+                      commitment to actively improve the healthcare sector
+                      across the country”
                     </p>
-                    <p>The name, IWOSAN means “to cure” or “to heal”.  This accurately projects the company’s mission to provideinvestments, build local capacity and drive access to quality healthcare services. </p>
                     <p>
-                      The founders of IWOSAN are reputable citizens, investors, and catalysts in the communities they serve. Mr. Fola Adeola OFR, co-founder of Guaranty Trust Bank, a seasoned businessman and investor who transformed the banking industry and was instrumental in Pension Reform in Nigeria. Mr. Dapo Oshinusi, with over 2 decades of experience as an energy industry leader across the EMEA region. Finally, Mrs. Fola Laoyeembodies a wealth of experience and leadership in the Nigerian healthcare environment, leading several initiatives and systems that are dedicated to the sector’s improvement. Together, the team brings long-term capital, multi-dimensional expertise, and significant operational skills to achieve impact in our community.
+                      The name, IWOSAN means “to cure” or “to heal”. This
+                      accurately projects the company’s mission to
+                      provideinvestments, build local capacity and drive access
+                      to quality healthcare services.{" "}
                     </p>
-                    <img style={{ maxWidth: "320px" }} src={lagoonLog2} alt="" />
                     <p>
-                      Today, Lagoon Hospitals has now been re-branded as IWOSAN Lagoon Hospitals and its new ownership will enable the upgrade and expansion of its existing facilities, embedding technology and process improvement and will also allow for opening of new locations and clinical services whichwill expand accessibility to its target populations around Lagos and beyond.
+                      The founders of IWOSAN are reputable citizens, investors,
+                      and catalysts in the communities they serve. Mr. Fola
+                      Adeola OFR, co-founder of Guaranty Trust Bank, a seasoned
+                      businessman and investor who transformed the banking
+                      industry and was instrumental in Pension Reform in
+                      Nigeria. Mr. Dapo Oshinusi, with over 2 decades of
+                      experience as an energy industry leader across the EMEA
+                      region. Finally, Mrs. Fola Laoyeembodies a wealth of
+                      experience and leadership in the Nigerian healthcare
+                      environment, leading several initiatives and systems that
+                      are dedicated to the sector’s improvement. Together, the
+                      team brings long-term capital, multi-dimensional
+                      expertise, and significant operational skills to achieve
+                      impact in our community.
+                    </p>
+                    <img
+                      style={{ maxWidth: "320px" }}
+                      src={lagoonLog2}
+                      alt=""
+                    />
+                    <p>
+                      Today, Lagoon Hospitals has now been re-branded as IWOSAN
+                      Lagoon Hospitals and its new ownership will enable the
+                      upgrade and expansion of its existing facilities,
+                      embedding technology and process improvement and will also
+                      allow for opening of new locations and clinical services
+                      whichwill expand accessibility to its target populations
+                      around Lagos and beyond.
                     </p>
                     <p>
-                      Lagoon Hospitals serve and will continue to serve a broad population of Nigerians, focused on delivering on our brand promise “we will look after you”.
+                      Lagoon Hospitals serve and will continue to serve a broad
+                      population of Nigerians, focused on delivering on our
+                      brand promise “we will look after you”.
                     </p>
-                    <button className="news__button" onClick={() => setNoOfLines(!noOfLines)}>Close</button>
+                    <button
+                      className="news__button"
+                      onClick={() => setNoOfLines(!noOfLines)}
+                    >
+                      Close
+                    </button>
                   </div>
                 )}
               </blockquote>
             </div>
-          </section>
-
+          </article>
         </div>
       </section>
       <Footer />

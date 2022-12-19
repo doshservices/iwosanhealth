@@ -87,17 +87,24 @@
     margin: 1rem clamp(.5rem, 4vw, 4rem);
 }
 
+.record figure img {
+    max-width: 100%;
+    min-height: calc(100% - 1.5rem);
+    object-fit: cover;
+}
+
 .record p {
     margin-top: 0;
 }
 
 .record h2 {
-    margin-top: 1rem;
+    margin-top: 0;
 }
 
-
 .record div,
+.record figure,
 .leadership div,
+.leadership figure,
 .sustain div,
 .patnership div {
     flex-basis: 350px;
@@ -213,8 +220,10 @@
     flex-grow: 1;
 }
 
-.dynamics img {
+.dynamics figure img {
     width: 100%;
+    min-height: calc(100% - 2rem);
+    object-fit: cover;
 }
 
 .mail {
@@ -263,8 +272,10 @@
     margin-top: 0;
 }
 
-.benefits img {
+.benefits figure img {
     width: 100%;
+    min-height: calc(100% - 2rem);
+    object-fit: cover;
 }
 
 .benefits figure,

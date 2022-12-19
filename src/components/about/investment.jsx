@@ -1,5 +1,4 @@
 import "./about.css";
-import finance from "../../images/finance.jpg";
 import img from "../../images/favour.jpg";
 import greenborder2 from "../../images/greenborder2.svg";
 import Footer from "../navigation/footer";
@@ -47,9 +46,9 @@ const Investment = () => {
             and notable hospital groups across Africa.
           </p>
         </div>
-        <div>
-          <img style={{ width: "100%" }} src={record} alt="record" />
-        </div>
+        <figure>
+          <img src={record} alt="record" />
+        </figure>
       </section>
 
       <section className="dynamics">
@@ -147,13 +146,18 @@ const Investment = () => {
             favourably based on the preset performance indices.
           </p>
         </div>
-        <div>
+        <figure>
           <img
-            style={{ display: "block", width: "100%" }}
+            style={{
+              display: "block",
+              width: "100%",
+              minHeight: "100%",
+              objectFit: "cover",
+            }}
             src={leadership}
             alt="leadership"
           />
-        </div>
+        </figure>
       </section>
       <Footer />
     </>
