@@ -48,14 +48,48 @@ const Home = () => {
           <div className="flex-280-item">
             <img src={Empathetic} alt="" />
             <h3>Empathetic</h3>
+            <div className="content-p">
+              <p>
+                We take great care to understand the needs, pains, thoughts and
+                feelings of our patients and we put ourselves in their shoes to
+                enable us to appreciate the situation better and deliver
+                appropriate care that will bring succor to them. We are with our
+                patients at every step of their way to recovery.
+              </p>
+            </div>
           </div>
           <div className="flex-280-item">
             <img src={Ethical} alt="" />
             <h3>Ethical</h3>
+            <div className="content-p">
+              <p>
+                We are committed to the tenets of moral and professional
+                principles, and this guide our behaviors. We uphold the four
+                pillars of ethics, and this guides our medical practice. We have
+                a commitment of “Beneficence” to our patients and clients, and
+                this means that we must always do good to them. Our second
+                commitment to our patients is “non-Maleficence” which means that
+                we must not harm our patients. Our third commitment is
+                “Autonomy” which means that the opinion of our patients or
+                clients matter, and we must carry them along at every step of
+                the way as we manage their care. Our fourth commitment is
+                “Justice”, which means that we treat everybody equally and
+                fairly.
+              </p>
+            </div>
           </div>
           <div className="flex-280-item">
             <img src={knowledge} alt="" />
             <h3>Knowledge-driven</h3>
+            <div className="content-p">
+              <p>
+                We keep up to date with recent trends in healthcare and this
+                enables our team of highly skilled professionals to provide
+                excellent healthcare services to our clients. Continuous
+                improvement and learning help us maintain the standard of
+                excellence in patient care at all times.
+              </p>
+            </div>
           </div>
           <div className="flex-280-item">
             <svg
@@ -115,10 +149,32 @@ const Home = () => {
               />
             </svg>
             <h3>Innovative</h3>
+            <div className="content-p">
+              <p>
+                The hallmark of every invention in the world today is creative
+                thinking, generation of ideas, and coming up with new ways of
+                doing things. We consistently stay ahead of the curve by
+                offering world-class healthcare services to our esteemed
+                customers, coming up with new ways of improving our services,
+                adopting new technology in our delivery of healthcare, and
+                rewarding ingenuity as a way of creating an environment where
+                employees innovate. These are the values that make our employees
+                stand out and enable them to deliver best in class care to our
+                patients.
+              </p>
+            </div>
           </div>
           <div className="flex-280-item">
             <img src={Accesible} alt="" />
             <h3>Accessible</h3>
+            <div className="content-p">
+              <p>
+                We are friendly, welcoming, approachable, and reachable. Our
+                customers can reach us at any time and receive top quality
+                healthcare services from us. We ensure that we follow through on
+                all the promises we make to our patients and clients.
+              </p>
+            </div>
           </div>
         </div>
       </section>

@@ -11,7 +11,7 @@ header {
   height: 2.2rem;
 }
 
-.active-link {
+.active {
   color: hsl(121, 44%, 49%);
 }
 

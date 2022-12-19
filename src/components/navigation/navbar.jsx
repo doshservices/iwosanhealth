@@ -2,7 +2,7 @@ import Logo from "../../images/Logo.svg";
 import Arrowdown from "../../images/arrow-down.svg";
 import "./navigation.css";
 import { useState, useEffect, useRef } from "react";
-import { Link } from "react-router-dom";
+import { Link, NavLink } from "react-router-dom";
 
 const Navbar = () => {
   const [isOpen, setIsOpen] = useState(false);
@@ -18,7 +18,7 @@ const Navbar = () => {
           }}
         >
           <li>
-            <Link
+            <NavLink
               onClick={() => {
                 setIsOpen(!isOpen);
               }}
@@ -26,16 +26,16 @@ const Navbar = () => {
               className="header__link"
             >
               HOME
-            </Link>
+            </NavLink>
           </li>
           <li
             onClick={() => {
               setIsOpen(!isOpen);
             }}
           >
-            <Link to="/investment" className="header__link">
+            <NavLink to="/investment" className="header__link">
               OUR INVESTMENTS ATTRIBUTES
-            </Link>
+            </NavLink>
           </li>
           {/* dropdown */}
           <div className="dropdown-container">
@@ -50,25 +50,25 @@ const Navbar = () => {
                     setIsOpen(!isOpen);
                   }}
                 >
-                  <Link to="/team" className="dropdown__link fade">
+                  <NavLink to="/team" className="dropdown__link fade">
                     OUR TEAM
-                  </Link>
+                  </NavLink>
                 </li>
                 <li
                   onClick={() => {
                     setIsOpen(!isOpen);
                   }}
                 >
-                  <Link to="/gorvenance" className="dropdown__link">
+                  <NavLink to="/gorvenance" className="dropdown__link">
                     CORPORATE GOVERNANCE
-                  </Link>
+                  </NavLink>
                 </li>
               </ul>
             </li>
           </div>
           {/* end of dropdown */}
           <li>
-            <Link
+            <NavLink
               onClick={() => {
                 setIsOpen(!isOpen);
               }}
@@ -76,7 +76,7 @@ const Navbar = () => {
               className="header__link"
             >
               NEWS
-            </Link>
+            </NavLink>
           </li>
 
           <li>
@@ -92,7 +92,7 @@ const Navbar = () => {
             </a>
           </li>
           <li>
-            <Link
+            <NavLink
               onClick={() => {
                 setIsOpen(!isOpen);
               }}
@@ -100,7 +100,7 @@ const Navbar = () => {
               className="header__link last"
             >
               CONTACT US
-            </Link>
+            </NavLink>
           </li>
         </ul>
         <div
