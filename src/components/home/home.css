@@ -89,7 +89,7 @@
 
 .what-we-do h3 {
     margin: .5rem 0;
-    font-size: 1.3rem;
+    font-size: 1.4rem;
     font-family: "Work Sans";
 }
 
@@ -101,7 +101,7 @@
 
 .what-we-do>div>div {
     background: hsl(191, 100%, 43%);
-    padding: 2rem 1rem;
+    padding: 1.3rem 1rem;
     border-radius: 3px;
     color: white;
     max-width: 300px;
@@ -110,10 +110,6 @@
     overflow: hidden;
 }
 
-.content-p {
-    height: 100px;
-    overflow-y: scroll;
-}
 
 .what-we-do>div img,
 .what-we-do svg {
@@ -122,6 +118,60 @@
     width: 4rem;
     background: rgba(37, 227, 154, 0.6);
     padding: 1rem;
+}
+
+.seemore-btn {
+    cursor: pointer;
+    background: hsl(121, 44%, 49%);
+    color: white;
+    border: none;
+    padding: .7rem 1.3rem;
+}
+
+.show-card {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 2;
+    background: hsl(191, 100%, 43%);
+    height: fit-content;
+    width: clamp(300px, 80vw, 400px);
+    padding: 1rem;
+    transition: all .6s ease;
+    box-shadow: 0px 0px 20px hsl(217, 73%, 12%, .5);
+}
+
+.show-card p {
+    font-size: .9rem;
+}
+
+.show-card button {
+    color: white;
+    background: hsl(217, 73%, 12%);
+    position: absolute;
+    font-size: 1rem;
+    border-radius: 50%;
+    border: none;
+    height: 25px;
+    width: 25px;
+    top: -45px;
+    right: -30px;
+    cursor: pointer;
+}
+
+.hide-card {
+    display: none;
+}
+
+.what-we-do .main-content {
+    font-size: .9rem;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    display: -webkit-box;
+    -webkit-line-clamp: 3;
+    line-clamp: 3;
+    -webkit-box-orient: vertical;
 }
 
 .what-we-do svg path {
@@ -312,5 +362,16 @@
 @media(max-width: 1100px) {
     .testimony .bg2 {
         display: none;
+    }
+}
+
+@media(max-width: 300px) {
+    .show-card {
+        top: 60%;
+    }
+
+    .show-card button {
+        top: -45px;
+        right: -15px;
     }
 }

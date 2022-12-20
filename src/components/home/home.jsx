@@ -8,8 +8,14 @@ import Accesible from "../../images/Accessible.svg";
 import Footer from "../navigation/footer";
 import curvedbg1 from "../../images/curved-bg1.svg";
 import pdfile from "../../images/iwosan-pdf.png";
+import { useState } from "react";
 
 const Home = () => {
+  const [modal1, setModal1] = useState(false);
+  const [modal2, setModal2] = useState(false);
+  const [modal3, setModal3] = useState(false);
+  const [modal4, setModal4] = useState(false);
+  const [modal5, setModal5] = useState(false);
   return (
     <>
       <div className="home-slider">
@@ -48,47 +54,93 @@ const Home = () => {
           <div className="flex-280-item">
             <img src={Empathetic} alt="" />
             <h3>Empathetic</h3>
-            <div className="content-p">
-              <p>
-                We take great care to understand the needs, pains, thoughts and
-                feelings of our patients and we put ourselves in their shoes to
-                enable us to appreciate the situation better and deliver
-                appropriate care that will bring succor to them. We are with our
-                patients at every step of their way to recovery.
-              </p>
+            <p className="main-content">
+              We take great care to understand the needs, pains, thoughts and
+              feelings of our patients and we put ourselves in their shoes to
+              enable us to appreciate the situation better and deliver
+              appropriate care that will bring succor to them. We are with our
+              patients at every step of their way to recovery.
+            </p>
+            <button className="seemore-btn" onClick={() => setModal1(!modal1)}>
+              Read More
+            </button>
+            <div className={modal1 ? "show-card" : "hide-card"}>
+              <div style={{ position: "relative" }}>
+                <button onClick={() => setModal1(!modal1)}>x</button>
+                <p>
+                  We take great care to understand the needs, pains, thoughts
+                  and feelings of our patients and we put ourselves in their
+                  shoes to enable us to appreciate the situation better and
+                  deliver appropriate care that will bring succor to them. We
+                  are with our patients at every step of their way to recovery.
+                </p>
+              </div>
             </div>
           </div>
           <div className="flex-280-item">
             <img src={Ethical} alt="" />
             <h3>Ethical</h3>
-            <div className="content-p">
-              <p>
-                We are committed to the tenets of moral and professional
-                principles, and this guide our behaviors. We uphold the four
-                pillars of ethics, and this guides our medical practice. We have
-                a commitment of “Beneficence” to our patients and clients, and
-                this means that we must always do good to them. Our second
-                commitment to our patients is “non-Maleficence” which means that
-                we must not harm our patients. Our third commitment is
-                “Autonomy” which means that the opinion of our patients or
-                clients matter, and we must carry them along at every step of
-                the way as we manage their care. Our fourth commitment is
-                “Justice”, which means that we treat everybody equally and
-                fairly.
-              </p>
+            <p className="main-content">
+              We are committed to the tenets of moral and professional
+              principles, and this guide our behaviors. We uphold the four
+              pillars of ethics, and this guides our medical practice. We have a
+              commitment of “Beneficence” to our patients and clients, and this
+              means that we must always do good to them. Our second commitment
+              to our patients is “non-Maleficence” which means that we must not
+              harm our patients. Our third commitment is “Autonomy” which means
+              that the opinion of our patients or clients matter, and we must
+              carry them along at every step of the way as we manage their care.
+              Our fourth commitment is “Justice”, which means that we treat
+              everybody equally and fairly.
+            </p>
+            <button onClick={() => setModal2(!modal2)} className="seemore-btn">
+              Read More
+            </button>
+            <div className={modal2 ? "show-card" : "hide-card"}>
+              <div style={{ position: "relative" }}>
+                <button onClick={() => setModal2(!modal2)}>x</button>
+                <p>
+                  We are committed to the tenets of moral and professional
+                  principles, and this guide our behaviors. We uphold the four
+                  pillars of ethics, and this guides our medical practice. We
+                  have a commitment of “Beneficence” to our patients and
+                  clients, and this means that we must always do good to them.
+                  Our second commitment to our patients is “non-Maleficence”
+                  which means that we must not harm our patients. Our third
+                  commitment is “Autonomy” which means that the opinion of our
+                  patients or clients matter, and we must carry them along at
+                  every step of the way as we manage their care. Our fourth
+                  commitment is “Justice”, which means that we treat everybody
+                  equally and fairly.
+                </p>
+              </div>
             </div>
           </div>
           <div className="flex-280-item">
             <img src={knowledge} alt="" />
             <h3>Knowledge-driven</h3>
-            <div className="content-p">
-              <p>
-                We keep up to date with recent trends in healthcare and this
-                enables our team of highly skilled professionals to provide
-                excellent healthcare services to our clients. Continuous
-                improvement and learning help us maintain the standard of
-                excellence in patient care at all times.
-              </p>
+
+            <p className="main-content">
+              We keep up to date with recent trends in healthcare and this
+              enables our team of highly skilled professionals to provide
+              excellent healthcare services to our clients. Continuous
+              improvement and learning help us maintain the standard of
+              excellence in patient care at all times.
+            </p>
+            <button onClick={() => setModal3(!modal3)} className="seemore-btn">
+              Read More
+            </button>
+            <div className={modal3 ? "show-card" : "hide-card"}>
+              <div style={{ position: "relative" }}>
+                <button onClick={() => setModal3(!modal3)}>x</button>
+                <p>
+                  We keep up to date with recent trends in healthcare and this
+                  enables our team of highly skilled professionals to provide
+                  excellent healthcare services to our clients. Continuous
+                  improvement and learning help us maintain the standard of
+                  excellence in patient care at all times.
+                </p>
+              </div>
             </div>
           </div>
           <div className="flex-280-item">
@@ -149,31 +201,60 @@ const Home = () => {
               />
             </svg>
             <h3>Innovative</h3>
-            <div className="content-p">
-              <p>
-                The hallmark of every invention in the world today is creative
-                thinking, generation of ideas, and coming up with new ways of
-                doing things. We consistently stay ahead of the curve by
-                offering world-class healthcare services to our esteemed
-                customers, coming up with new ways of improving our services,
-                adopting new technology in our delivery of healthcare, and
-                rewarding ingenuity as a way of creating an environment where
-                employees innovate. These are the values that make our employees
-                stand out and enable them to deliver best in class care to our
-                patients.
-              </p>
+            <p className="main-content">
+              The hallmark of every invention in the world today is creative
+              thinking, generation of ideas, and coming up with new ways of
+              doing things. We consistently stay ahead of the curve by offering
+              world-class healthcare services to our esteemed customers, coming
+              up with new ways of improving our services, adopting new
+              technology in our delivery of healthcare, and rewarding ingenuity
+              as a way of creating an environment where employees innovate.
+              These are the values that make our employees stand out and enable
+              them to deliver best in class care to our patients.
+            </p>
+            <button onClick={() => setModal4(!modal4)} className="seemore-btn">
+              Read More
+            </button>
+            <div className={modal4 ? "show-card" : "hide-card"}>
+              <div style={{ position: "relative" }}>
+                <button onClick={() => setModal4(!modal4)}>x</button>
+                <p>
+                  The hallmark of every invention in the world today is creative
+                  thinking, generation of ideas, and coming up with new ways of
+                  doing things. We consistently stay ahead of the curve by
+                  offering world-class healthcare services to our esteemed
+                  customers, coming up with new ways of improving our services,
+                  adopting new technology in our delivery of healthcare, and
+                  rewarding ingenuity as a way of creating an environment where
+                  employees innovate. These are the values that make our
+                  employees stand out and enable them to deliver best in class
+                  care to our patients.
+                </p>
+              </div>
             </div>
           </div>
           <div className="flex-280-item">
             <img src={Accesible} alt="" />
             <h3>Accessible</h3>
-            <div className="content-p">
-              <p>
-                We are friendly, welcoming, approachable, and reachable. Our
-                customers can reach us at any time and receive top quality
-                healthcare services from us. We ensure that we follow through on
-                all the promises we make to our patients and clients.
-              </p>
+            <p className="main-content">
+              We are friendly, welcoming, approachable, and reachable. Our
+              customers can reach us at any time and receive top quality
+              healthcare services from us. We ensure that we follow through on
+              all the promises we make to our patients and clients.
+            </p>
+            <button onClick={() => setModal5(!modal5)} className="seemore-btn">
+              Read More
+            </button>
+            <div className={modal5 ? "show-card" : "hide-card"}>
+              <div style={{ position: "relative" }}>
+                <button onClick={() => setModal5(!modal5)}>x</button>
+                <p>
+                  We are friendly, welcoming, approachable, and reachable. Our
+                  customers can reach us at any time and receive top quality
+                  healthcare services from us. We ensure that we follow through
+                  on all the promises we make to our patients and clients.
+                </p>
+              </div>
             </div>
           </div>
         </div>
