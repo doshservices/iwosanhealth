@@ -6,10 +6,9 @@ import lagoonLogo from "../../images/Iwosan-Lagoon-Logo.png";
 import lagoonLog2 from "../../images/Iwosan-Lagoon_Banner_Square_2.jpg";
 import { useState } from "react";
 
-console.log("im happy");
 const Blog = () => {
   const [noOfLines, setNoOfLines] = useState(false);
-  console.log("hello world");
+
   return (
     <>
       <section className="blog">
