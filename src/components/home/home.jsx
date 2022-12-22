@@ -28,10 +28,9 @@ const Home = () => {
           <img src={Bordergreen} alt="border" />
           <p>
             We are transforming the standards of healthcare delivery and
-            administration in Nigeria in keeping with global best practices. By
+            management in Nigeria in keeping with global best practices. By
             leveraging industry relations, we also support institutional
-            stakeholders who seek to advance the cause of healthcare on the
-            African continent.
+            stakeholders who seek to advance the cause of healthcare in Nigeria.
             <br />
             <br /> <span style={{ fontWeight: "600" }}>Click to download </span>
             our paper on how banking institutions can finance healthcare in

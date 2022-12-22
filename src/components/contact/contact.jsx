@@ -105,7 +105,7 @@ const Contact = () => {
             referrerPolicy="no-referrer-when-downgrade"
           ></iframe>
 
-          <p>Unit C, 4 Onisiwo Street, Ikoyi</p>
+          <p>Lagos, Nigeria</p>
         </div>
         <section className="join flex">
           <img src={curve1} className="bg1" alt="" />

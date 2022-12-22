@@ -27,7 +27,10 @@ const Footer = () => {
                 <Link to="/news">News</Link>
               </li>
               <li>
-                <a href="https://www.lagoonhospitals.com/" target="_blank">Portfolio</a></li>
+                <a href="https://www.lagoonhospitals.com/" target="_blank">
+                  Portfolio
+                </a>
+              </li>
               <li>
                 <Link to="/team">About Us</Link>
               </li>
@@ -39,15 +42,21 @@ const Footer = () => {
               <h4>Contact Us</h4>
 
               <a href="mailto:m.info@iwosanhealth.com">info@iwosanhealth.com</a>
-              <p>Unit C, 4 Onisiwo Street, Ikoyi</p>
+              <p>Lagos, Nigeria</p>
             </div>
             <div className="social-links">
               <h4>Follow Us</h4>
               <div>
-                <a href="https://www.instagram.com/iwosaninvestments/" target="_blank">
+                <a
+                  href="https://www.instagram.com/iwosaninvestments/"
+                  target="_blank"
+                >
                   <img src={Instagram} alt="" />
                 </a>
-                <a href="https://www.linkedin.com/company/iwosan-investments-limited/" target="_blank">
+                <a
+                  href="https://www.linkedin.com/company/iwosan-investments-limited/"
+                  target="_blank"
+                >
                   <img src={Linkedin} alt="" />
                 </a>
               </div>
