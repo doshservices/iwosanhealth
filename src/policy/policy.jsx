@@ -1,12 +1,16 @@
+import "./policy.css";
+
 const Policy = () => {
   return (
     <>
       <article className="policy">
-        <h2>PRIVACY NOTCE</h2>
+        <h2 className="policy__main-heading">PRIVACY NOTICE</h2>
         <h3>PRIVACY & COOKIES POLICY</h3>
-        <h4>Last updated: November 26, 2022</h4>
+        <h4>
+          Last updated: <span role="time"> November 26, 2022</span>
+        </h4>
+        <h3>PERSONAL INFORMATION PRIVACY NOTICE</h3>
         <section>
-          <h3>PERSONAL INFORMATION PRIVACY NOTICE</h3>
           <h4>PRIVACY NOTICE - OVERVIEW</h4>
           <p>
             Privacy matters to Iwosan Investment Limited (IWIL), so we follow a
@@ -45,11 +49,13 @@ const Policy = () => {
             share it with, the circumstances under which we may share it and
             what steps are taken to make sure it stays private and secure. The
             policy also clearly outlines the right of customers in respect of
-            information collected in the course of business. It is important to
-            know that the policy continues to apply notwithstanding the fact
-            that the agreement between IWIL and the party using our services
-            ends. It covers every and any service which customers (Private,
-            Corporate, HMO) have with IWIL.
+            information collected in the course of business.
+          </p>
+          <p>
+            It is important to know that the policy continues to apply
+            notwithstanding the fact that the agreement between IWIL and the
+            party using our services ends. It covers every and any service which
+            customers (Private, Corporate, HMO) have with IWIL.
           </p>
         </section>
         <section>
@@ -61,11 +67,69 @@ const Policy = () => {
             requested and / or agreed services. By submitting personal
             information to IWIL, you are also acknowledging that IWIL may use
             this information in accordance with its Data Protection Policy
-            including this Notice. Your personal information is not used for
-            purposes other than those listed in this document, unless we obtain
-            your permission, or unless otherwise required by law. In general, we
-            collect and generate the following categories of information:
+            including this Notice.
           </p>
+          <p>
+            Your personal information is not used for purposes other than those
+            listed in this document, unless we obtain your permission, or unless
+            otherwise required by law. In general, we collect and generate the
+            following categories of information:
+          </p>
+
+          <table>
+            <tbody>
+              <tr>
+                <th>Personal Data</th>
+                <td>
+                  Such as name, surname, ID card number, face image, gender,
+                  date of birth, passport number or other identifiable numbers,
+                  Closed circuit television (CCTV) in and around IWIL facilities
+                  (these may collect photos or videos of you).
+                </td>
+              </tr>
+              <tr>
+                <th>Contact Data</th>
+                <td>Such as address, telephone number, e-mail address</td>
+              </tr>
+              <tr>
+                <th>Financial Data</th>
+                <td>
+                  Such as billing information, credit or debit information,
+                  receipt information, invoice information
+                </td>
+              </tr>
+              <tr>
+                <th>Marketing Data</th>
+                <td>
+                  Such as registration information used for subscribe and
+                  marketing participation, details of the services we offer and
+                  your preferences
+                </td>
+              </tr>
+              <tr>
+                <th>Technical Data</th>
+                <td>
+                  Such as IP Address of computer, type of browser, Cookies
+                  information time zone setting, operating system, platform and
+                  technology of devices used for accessing website and Online
+                  Appointment System
+                </td>
+              </tr>
+              <tr>
+                <th>Health Data</th>
+                <td>
+                  such as treatment information, reports about physical or
+                  mental health condition, health cares of service receivers,
+                  laboratory test results, diagnosis, diagnostic disease,
+                  information about drug use and drug allergy, history of food
+                  allergy, blood result, laboratory result, pathological result,
+                  radiological images and radiological report, list of
+                  prescribed medication, necessary information for medical
+                  services, information of feedback and treatments{" "}
+                </td>
+              </tr>
+            </tbody>
+          </table>
           <section>
             <h4>SOURCES OF PERSONAL DATA</h4>
             <p>
@@ -82,8 +146,8 @@ const Policy = () => {
               services from IWIL, including registration via electronic media
             </p>
             <ul>
-              <li>
-                Personal data indirectly collected from you such as
+              <li>Personal data indirectly collected from you such as</li>
+              <ul>
                 <li>
                   Persons who are close to you such as relatives, spouse etc.
                 </li>
@@ -100,7 +164,7 @@ const Policy = () => {
                   sector, or state enterprise who refers you for investigation
                   services to IWIL or is a payer for your service expense
                 </li>
-              </li>
+              </ul>
             </ul>
           </section>
           <section>
@@ -118,44 +182,54 @@ const Policy = () => {
             </p>
             <ul>
               <li>
-                Performance of a contract: This is when the processing of your
-                personal information is necessary in order to perform our
-                obligations under a contract but also to be able to complete our
-                acceptance procedure so as to enter into a contract;
+                <strong>Performance of a contract: </strong>
+                This is when the processing of your personal information is
+                necessary in order to perform our obligations under a contract
+                but also to be able to complete our acceptance procedure so as
+                to enter into a contract;
               </li>
               <li>
-                Legal obligation or for public interest: This is when we are
-                required to process your personal information in order to comply
-                with a legal obligation, such as keeping records for complying
-                with any tax obligations, regulatory purposes, or providing
-                information to a public body or law enforcement organization;
+                <strong>Legal obligation or for public interest: </strong> This
+                is when we are required to process your personal information in
+                order to comply with a legal obligation, such as keeping records
+                for complying with any tax obligations, regulatory purposes, or
+                providing information to a public body or law enforcement
+                organization;
               </li>
               <li>
-                Legitimate interests: where necessary, we may process
-                information about you where there is a legitimate interest for
-                us or a third party with respect to your health interests,
-                except where such interests are overridden by your interests,
-                fundamental rights and freedoms; or you expressly deny.
+                <strong>Legitimate interests: </strong>
+                where necessary, we may process information about you where
+                there is a legitimate interest for us or a third party with
+                respect to your health interests, except where such interests
+                are overridden by your interests, fundamental rights and
+                freedoms; or you expressly deny.
               </li>
               <li>
-                Consent: We may occasionally ask you for specific permission to
-                process some of your personal information for some or more
-                specific purposes such as research and studies, and we will only
-                process your personal information in this way if you so agree.
+                <strong> Consent: </strong>
+                We may occasionally ask you for specific permission to process
+                some of your personal information for some or more specific
+                purposes such as research and studies, and we will only process
+                your personal information in this way if you so agree.
+              </li>
+              <ul>
                 <li>
-                  What constitutes consent? Your consent is given when you
-                  consume our services, navigate our website, tick our online
-                  forms or boxes, subscribe to our email alerts, and attend our
-                  online/offline events and other events, or when you
-                  voluntarily submit your personal data to us.
+                  <strong>What constitutes consent? </strong>
+                  Your consent is given when you consume our services, navigate
+                  our website, tick our online forms or boxes, subscribe to our
+                  email alerts, and attend our online/offline events and other
+                  events, or when you voluntarily submit your personal data to
+                  us.
                 </li>
                 <li>
-                  How do you withdraw your consent? You may withdraw your
-                  consent at any time by unsubscribing to our email alerts or
-                  other digital platforms or by contacting the IWIL’s Data
-                  Protection Officer (DPO) via ⦁ privacy@lagoonhospitals.com
+                  <strong>How do you withdraw your consent? </strong>
+                  You may withdraw your consent at any time by unsubscribing to
+                  our email alerts or other digital platforms or by contacting
+                  the IWIL’s Data Protection Officer (DPO) via{" "}
+                  <a href="mailto:privacy@lagoonhospitals.com">
+                    privacy@lagoonhospitals.com
+                  </a>
                 </li>
-              </li>
+              </ul>
             </ul>
           </section>
           <h4>RETENTION OF INFORMATION</h4>
@@ -194,24 +268,26 @@ const Policy = () => {
             permitted by law. These include:
           </p>
           <p>
-            Service providers: IWIL works with reputable partners and service
-            providers so they can process your personal information on our
-            behalf where required. IWIL will only transfer personal information
-            to them when they meet our standards set in our policy on the
-            processing of data and security. We only share personal information
-            that allows them to provide their services.
+            <strong>Service providers: </strong>
+            IWIL works with reputable partners and service providers so they can
+            process your personal information on our behalf where required. IWIL
+            will only transfer personal information to them when they meet our
+            standards set in our policy on the processing of data and security.
+            We only share personal information that allows them to provide their
+            services.
           </p>
           <p>
-            Courts, law enforcement or regulatory bodies: IWIL may disclose
-            personal information in order to respond to requests of courts,
-            government or law enforcement entities or where it is necessary to
-            comply with applicable laws, court orders or rules, or government
-            regulations.
+            <strong>Courts, law enforcement or regulatory bodies: </strong>
+            IWIL may disclose personal information in order to respond to
+            requests of courts, government or law enforcement entities or where
+            it is necessary to comply with applicable laws, court orders or
+            rules, or government regulations.
           </p>
           <p>
-            Audits: Disclosures of personal information may also be needed for
-            data privacy or security audits and/or to investigate or respond to
-            a complaint or security threat.
+            <strong>Audits: </strong>
+            Disclosures of personal information may also be needed for data
+            privacy or security audits and/or to investigate or respond to a
+            complaint or security threat.
           </p>
           <p>
             In addition, IWIL may transfer certain personal information to
@@ -343,12 +419,13 @@ const Policy = () => {
           <p>
             If you have questions, requests, or complaints related to your
             privacy or would like to exercise data protection rights, please
-            contact
+            contact{" "}
             <a
               href="mailto: Privacy@lagoonhospitals.com"
               target="_blank"
               rel="noopener noreferrer"
             >
+              {" "}
               Privacy@lagoonhospitals.com
             </a>
           </p>

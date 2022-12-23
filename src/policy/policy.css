@@ -1,0 +1,77 @@
+.policy {
+    margin: auto;
+    padding: 3rem clamp(1rem, calc(10vw - 10px), 10rem);
+    background: hsl(0, 0%, 90%);
+}
+
+.policy__main-heading {
+    margin-bottom: 1rem;
+    font-size: 1.6rem;
+    color: hsl(121, 44%, 49%);
+}
+
+.policy h3 {
+    font-size: 1.1rem;
+    color: hsl(217, 73%, 12%);
+    margin: 1rem 0;
+}
+
+.policy h4 {
+    color: hsl(217, 73%, 12%);
+    font-size: 1rem;
+    font-weight: 500;
+}
+
+.policy p {
+    color: hsl(217, 73%, 12%);
+    font-size: .9rem;
+    line-height: 1.5rem;
+    margin: .6rem 0;
+}
+
+.policy a {
+    color: inherit;
+    font-weight: 600;
+    font-size: 1rem;
+}
+
+.policy li {
+    list-style: unset;
+    margin: 1rem 0;
+    line-height: 1.5rem;
+    color: hsl(217, 73%, 12%);
+    font-size: .9rem;
+}
+
+.policy ul {
+    padding-left: 3vw;
+    list-style: unset;
+}
+
+.policy section {
+    margin: 2rem 0;
+}
+
+.policy table {
+    border: 1px solid hsl(217, 73%, 12%);
+    margin: 1rem 0;
+    border-collapse: collapse;
+}
+
+.policy th,
+.policy td {
+    color: hsl(217, 73%, 12%);
+    border: 1px solid hsl(217, 73%, 12%);
+    border-collapse: collapse;
+    font-size: .9rem;
+    font-weight: 500;
+    padding: 1rem .5rem;
+}
+
+.policy th {
+    width: 7.5rem;
+}
+
+.policy td {
+    line-height: 1.5rem;
+}

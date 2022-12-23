@@ -52,7 +52,10 @@ const Council = () => {
         img: ogunsola,
         name: "PROF. FOLASADE OGUNSOLA",
         office: "Member",
-        about: "",
+        about:
+          "Professor Ogunsola is a Professor of Medical Microbiology with specialty in disease control, particularly HIV/AIDS. She was a founding member of the Nigerian Society for Infection control in 1998 and is also a member of the Global Infection Prevention and control Network. She has been the Chairman of Infection Control Committee of Lagos University Teaching Hospital (LUTH)",
+        about2:
+          "In 2014, she was elected as the first female Provost of the College of Medicine, University of Lagos (CMUL) and in 2017, she was appointed as the Deputy Vice Chancellor (Development Services) of the University of Lagos. In November 2022, she was sworn in as the first female Vice Chancellor of the prestigious University of Lagos (UNILAG).",
       },
       {
         id: 4,
