@@ -1,6 +1,7 @@
 import React from "react";
 import "./App.css";
 import { Route, Routes, Navigate } from "react-router-dom";
+import { useState, useEffect } from "react";
 import Navbar from "./components/navigation/navbar";
 import Home from "./components/home/home";
 import Team from "./components/about/team";
@@ -9,9 +10,9 @@ import Investment from "./components/about/investment";
 import Contact from "./components/contact/contact";
 import Carrer from "./components/carrers/carres";
 import Blog from "./components/news/blog";
-import { useState, useEffect } from "react";
 import ScrollToTop from "./ScrollToTop";
 import Cookies from "./Cookie";
+import Policy from "./policy/policy";
 
 const App = () => {
   const [backToTopButton, setbackToTopButton] = useState(false);
@@ -45,6 +46,7 @@ const App = () => {
           <Route path="/contact" element={<Contact />} />
           <Route path="/career" element={<Carrer />} />
           <Route path="/news" element={<Blog />} />
+          <Route path="/privacy-policy" element={<Policy />} />
         </Routes>
       </main>
       {backToTopButton && (
