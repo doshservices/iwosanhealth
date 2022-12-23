@@ -1,7 +1,10 @@
 import React from "react";
 import nelson from "../../../images/Prof Nelson Oyesiku.jpg";
-import demo from "../../../images/demo.webp";
+// import demo from "../../../images/demo.webp";
 import onakoya from "../../../images/Onakoya.JPG";
+import kemi from "../../../images/Kemi.jpg";
+import ogunsola from "../../../images/Prof Ogunsola.jpg";
+import laloye from "../../../images/Fola Laoye.jpg";
 import { useState } from "react";
 
 const Council = () => {
@@ -46,10 +49,38 @@ const Council = () => {
 
       {
         id: 3,
-        img: demo,
+        img: ogunsola,
         name: "PROF. FOLASADE OGUNSOLA",
         office: "Member",
         about: "",
+      },
+      {
+        id: 4,
+        img: laloye,
+        name: "FOLA LAOYE",
+        office: "Member",
+        about:
+          "Fola Laoye is the co-Founder and CEO of Iwosan Investments Limited, a Health Investments Holding Company. She is also the Founder and CEO of Health Markets Africa, a healthcare advisory and investment company, and was Director at Investment Fund for Health in Africa (IFHA), a pioneer private equity fund focused on Healthcare in Africa.",
+        about2:
+          "She is a founding board member of Hygeia Group Nigeria, promoters of Lagoon Hospitals and Hygeia HMO, and while there, she recorded laudable feats as CEO(2002- 2012) and as Chairperson (2012 - 2015).She is also a Trustee of the board of the Society for Quality in Healthcare in Nigeria(SQHN).",
+        about3:
+          "She is Chairperson of the boards of Old Mutual Life Assurance and FSDH Asset Management.As part of her philanthropic dispositions, she currently chairs the Elebute- LUTH Welfare Board and co - chairs the Africa Regional Board of the Young Presidents Organization(YPO).She is also a member of Harvard Business School Africa Advisory Board.",
+        about4:
+          "She holds an MBA from Harvard Business School(class of 1999) and a Bachelors’s Degree in Accounting from the University of Lagos, Nigeria.She is a Chartered Accountant with vast training from Ernst & Young, Lagos, and Coopers & Lybrand(now PwC), London.She is a Member of the Institute of Chartered Acccountants in England & Wales and the Institute of Chartered Accountants of Nigeria.",
+      },
+      {
+        id: 5,
+        img: kemi,
+        name: "DR. KEMI BABAGBEMI",
+        office: "Member",
+        about:
+          "Dr. Babagbemi is an Associate Professor   of   Clinical   Radiology   and   Vice   Chair   for Diversity,   Equity,   and   Inclusion   at   the   Department   of   Radiology   at   Weill   Cornell Medical College, Cornell University.",
+        about2:
+          " She received her medical training and residency at Harvard Medical School. During her time at Weill Medicine Radiology, she served as Faculty Scholar in Health Equity for the Diversity Center for Excellence from 2019 - 2020   and   Assistant   Program   Director  of   the   Radiology   Residency   Program   from 2006 - 2014.",
+        about3:
+          "  She is an expert in Women's Imaging, with core specialty in Breast Imaging and Pelvic Ultrasound.Lately, her work has focused on improving diversity and inclusion  in  health  care  settings and  in  understanding and  addressing  health disparities   as   it   relates   to   the   access   to   diagnosis   and   treatment   of   diseases.",
+        about4:
+          " In recognition of her sterling efforts, she was recently granted the Jeanne and Herbert Siegel Award for Excellence in Medical Education at Weill Cornell Medical College (thereby   becoming   the   first   radiologist   to   receive   this   highest   honor   from   the medical   school),   and   was   recognized   as   Fellow   of   the   American   College   of Radiology, a feat attained by only the top 15% in the field.",
       },
     ],
   };
