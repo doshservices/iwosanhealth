@@ -85,7 +85,7 @@ const Investment = () => {
             style={{ margin: "1rem 0", maxWidth: "200px" }}
           />
           <p>
-            Ineffective healthcare administration poses a significant threat to
+            Ineffective healthcare management poses a significant threat to
             treatment outcomes and the surge in emigration rate of qualified
             healthcare personnel could potentially hamper the quality of care
             received by patients. Therefore, we have set out to optimize the
