@@ -65,14 +65,13 @@ const Investment = () => {
           <p>
             The influx of healthcare startups in the African business ecosystem
             can bridge the infrastructure gap that has long plagued many
-            countries and foster long term opportunities for the sector. The
-            amount raised by Nigerian start-ups has been on a steady rise, and
-            in 2021, for the first time, digital start-ups in Nigeria raised
-            over $1 billion in a year. The value of deals announced by Nigerian
-            start-ups in 2021 peaked at $1.096 billion, 62% more than what was
-            raised between 2018 and 2020. Out of the $4.9billion raised in 2021
-            by tech start-ups in Africa, healthcare and biotech cropped about 8%
-            of the windfall.
+            countries and foster long term opportunities for the sector. Out of
+            the $4.9billion raised in 2021 by tech start-ups in Africa,
+            healthcare and biotech cropped about 8% of the windfall. With a
+            growing population and an expansion of healthcare services across
+            various value chains, especially in the private sector, the trend of
+            medical tourism can be reversed much to the benefit of the citizens,
+            the government and investors.
           </p>
         </div>
       </section>
