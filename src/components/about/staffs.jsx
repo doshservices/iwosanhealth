@@ -1,15 +1,14 @@
 import staffData from "./staffData";
 import "./about.css";
 import "./staff.css";
-import { useState } from "react";
+import { useState, useRef, useEffect } from "react";
 
 const Staffs = () => {
   const scroll = ["<", ">"];
   const [showModal, setShowModal] = useState(false);
   const [data, setData] = useState(null);
   const handleClick = (e, data) => {
-    console.log(data);
-    setData(data)
+    setData(data);
     setShowModal(!showModal);
   };
 
@@ -21,12 +20,28 @@ const Staffs = () => {
     let slider = document.getElementById("slider");
     slider.scrollLeft = slider.scrollLeft + 300;
   };
+  let menuRef = useRef();
 
+  useEffect(() => {
+    let handler = (e) => {
+      if (!menuRef.current.contains(e.target)) {
+        setShowModal(false);
+      }
+    };
+    document.addEventListener("mousedown", handler);
+    return () => {
+      document.removeEventListener("mousedown", handler);
+    };
+  });
   return (
     <>
       <section id="slider" className="staffs">
         {staffData.staffs.map((data) => (
-          <div onClick={(e) => handleClick(e, data)} className="staff" key={data.id}>
+          <div
+            onClick={(e) => handleClick(e, data)}
+            className="staff"
+            key={data.id}
+          >
             <figure>
               <img src={data.img} alt={data.name} />
             </figure>
@@ -40,7 +55,7 @@ const Staffs = () => {
       </section>
       {showModal && (
         <div className="modal">
-          <div>
+          <div ref={menuRef}>
             <button
               onClick={() => {
                 setShowModal(!showModal);

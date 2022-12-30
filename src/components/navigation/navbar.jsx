@@ -36,7 +36,7 @@ const Navbar = () => {
             }}
           >
             <NavLink to="/investment" className="header__link">
-              OUR INVESTMENTS ATTRIBUTES
+              OUR INVESTMENT ATTRIBUTES
             </NavLink>
           </li>
           {/* dropdown */}
