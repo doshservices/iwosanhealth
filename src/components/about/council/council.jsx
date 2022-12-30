@@ -5,7 +5,7 @@ import onakoya from "../../../images/Onakoya.JPG";
 import kemi from "../../../images/Kemi.jpg";
 import ogunsola from "../../../images/Prof Ogunsola.jpg";
 import laloye from "../../../images/Fola Laoye.jpg";
-import { useState } from "react";
+import { useState, useRef, useEffect } from "react";
 
 const Council = () => {
   const scroll = ["<", ">"];
@@ -36,7 +36,7 @@ const Council = () => {
         id: 2,
         img: onakoya,
         name: "DR. OLAKUNLE ONAKOYA",
-        office: "Director",
+        office: "Member",
         about:
           "Dr. Onakoya is renowned clinical practice juggernaut with major interests in Major Limb Trauma and Joint Replacement Surgery. He is ATLS certified, and a Fellow of the West African College of Surgeons.",
         about2:
@@ -93,6 +93,20 @@ const Council = () => {
     setManage(manage);
     setShowModal(!showModal);
   };
+
+  let menuRef = useRef();
+
+  useEffect(() => {
+    let handler = (e) => {
+      if (!menuRef.current.contains(e.target)) {
+        setShowModal(false);
+      }
+    };
+    document.addEventListener("mousedown", handler);
+    return () => {
+      document.removeEventListener("mousedown", handler);
+    };
+  });
   return (
     <>
       <section id="slider" className="management">
@@ -116,7 +130,7 @@ const Council = () => {
       </section>
       {showModal && (
         <div className="modal">
-          <div>
+          <div ref={menuRef}>
             <button
               onClick={() => {
                 setShowModal(!showModal);
