@@ -1,24 +1,15 @@
 import "./about.css";
 import "./staff.css";
 import border from "../../images/border.svg";
-import staffData from "./staffData";
-import Management from "./manage";
+import Management from "../management/manage";
 import { useState } from "react";
-import Staffs from "./staffs";
-import Council from "./council/council";
+import Council from "../council/council";
 import Footer from "../navigation/footer";
 import curvedbg1 from "../../images/curved-bg1.svg";
+import Board from "../board/board";
 
 const Team = () => {
   const [board, setBoard] = useState("CEO");
-  const toggleTab = (index) => {
-    setBoard(index);
-  };
-
-  const [focus, setFocus] = useState(false);
-  const handleClick = (id) => {
-    setFocus((current) => !current);
-  };
 
   return (
     <>
@@ -39,7 +30,10 @@ const Team = () => {
             <h2>Meet Our Industry Leaders</h2>
             <img src={border} alt="" />
             <p>
-              Our Leadership team comprises renowned and highly accomplished business and clinical professionals who have built visionary business and practices and are unreservedly passionate about healthcare development in Africa.
+              Our Leadership team comprises renowned and highly accomplished
+              business and clinical professionals who have built visionary
+              business and practices and are unreservedly passionate about
+              healthcare development in Africa.
             </p>
           </div>
           <div className="members">
@@ -65,7 +59,7 @@ const Team = () => {
         </div>
 
         <section>
-          {board === "CEO" && <Staffs />}
+          {board === "CEO" && <Board />}
           {board === "management" && <Management />}
           {board === "council" && <Council />}
         </section>
