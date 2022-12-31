@@ -37,7 +37,7 @@ const management = [
     {
         id: 3,
         img: Isaiah,
-        name: "MUKORO ISAIAH ONORIODE",
+        name: "ISAIAH MUKORO ONORIODE",
         office: "Group Financial Controller",
         about:
             "Isaiah is a seasoned Chartered Accountant with multifaceted experience spanning Finance, Auditing, Tax, Financial Management, and International Banking. He is a wellaccomplished Finance Expert and possesses more than 24 years’ experience across the public sector, private sector, and professional audit firms. Some of his professional stints include Akintola Williams Deloitte, Platinum Bank, Lagos Metropolitan Area Authority (LAMATA) – A World Bank Assisted Project, Gateway Telecom Integrated Services Limited, Hygeia Limited, among others.",
@@ -80,7 +80,7 @@ const management = [
     {
         id: 6,
         img: vivian,
-        name: "Vivian Akwuaka.",
+        name: "Vivian Akwuaka",
         office: "Group Head, Quality & Sustainability",
         about:
             "Vivian possesses a strong background in Nursing Science and has actively championed advancements in Healthcare Quality for more 7+ years. Her passion for healthcare quality improvement has been evident all through her career as a Nurse and even now as a Healthcare Quality Improvement Specialist.",
@@ -92,7 +92,7 @@ const management = [
     {
         id: 7,
         img: adetomi,
-        name: "Adetomi Olaobaju.",
+        name: "Adetomi Olaobaju",
         office: "Group Head, Legal, Risk & Compliance",
         about:
             "Adetomi is an established and seasoned Legal Practitioner, with over a decade of experience in niche areas of law spanning across Corporate and Commercial Law, Medical Law and Ethics, Regulatory Compliance, Company Secretariat, Corporate Governance and Risk Management.",
