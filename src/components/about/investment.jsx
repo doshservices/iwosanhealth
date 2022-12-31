@@ -1,5 +1,5 @@
 import "./about.css";
-import img from "../../images/favour.jpg";
+import img from "../../images/favour.png";
 import greenborder2 from "../../images/greenborder2.svg";
 import Footer from "../navigation/footer";
 import curvedbg1 from "../../images/curved-bg1.svg";
