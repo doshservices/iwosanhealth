@@ -20,7 +20,7 @@ export const sliderData = [
         // paragragh: "We do this within a system that is ethical, knowledge-driven, innovative, and accessible. We ensure that empathy for the patient runs through all our actions while we benchmark against world class standards.",
     },
     {
-        image: slide4,
+        image: 'https://res.cloudinary.com/dqst5wwrv/image/upload/v1672844352/DOCH0103-01_amuquh.jpg',
         heading: "We Will Look After You",
         // paragragh: "We do this within a system that is ethical, knowledge-driven, innovative, and accessible. We ensure that empathy for the patient runs through all our actions while we benchmark against world class standards.",
     },
