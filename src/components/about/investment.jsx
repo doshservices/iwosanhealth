@@ -63,15 +63,14 @@ const Investment = () => {
             style={{ margin: "1rem 0", maxWidth: "200px" }}
           />
           <p>
-            The influx of healthcare startups in the African business ecosystem
-            can bridge the infrastructure gap that has long plagued many
-            countries and foster long term opportunities for the sector. Out of
-            the $4.9billion raised in 2021 by tech start-ups in Africa,
-            healthcare and biotech cropped about 8% of the windfall. With a
-            growing population and an expansion of healthcare services across
-            various value chains, especially in the private sector, the trend of
-            medical tourism can be reversed much to the benefit of the citizens,
-            the government and investors.
+            The Nigerian healthcare business sector is poised to undergo
+            significant advancements in healthcare delivery considering the
+            milestones recorded via public-private collaboration. The private
+            sector can particularly bridge the infrastructure gap and foster
+            long term opportunities for all stakeholders. With a growing
+            population and an expansion of healthcare services across various
+            value chains, the trend of medical tourism can also be reversed much
+            to the benefit of the citizens, the government and investors.
           </p>
         </div>
       </section>
