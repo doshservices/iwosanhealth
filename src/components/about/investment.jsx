@@ -38,12 +38,12 @@ const Investment = () => {
             franchise has bagged numerous awards in areas of quality and service
             excellence by notable global bodies and is a trusted healthcare
             partner for private and public organizations around the globe. In
-            2011, Lagoon Hospitals became the second hospital in Africa to earn
-            the Gold Seal of Approval from the Joint Commission International in
-            recognition of its commitment to improve healthcare quality and
-            patient safety. It has since maintained poll position and its
-            operations have been understudied by scholars, government agencies
-            and notable hospital groups across Africa.
+            2011, Lagoon Hospitals became the first hospital in Sub-Saharan
+            Africa to earn the Gold Seal of Approval from the Joint Commission
+            International in recognition of its commitment to improve healthcare
+            quality and patient safety. It has since maintained poll position
+            and its operations have been understudied by scholars, government
+            agencies and notable hospital groups across Africa.
           </p>
         </div>
         <figure>
