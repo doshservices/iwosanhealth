@@ -11,7 +11,7 @@ const management = [
         id: 1,
         img: laloye,
         name: "FOLA LAOYE",
-        office: "Co-Founder and CEO",
+        office: "Co-Founder & CEO",
         about:
             "Fola Laoye is the co-Founder and CEO of Iwosan Investments Limited, a Health Investments Holding Company. She is also the Founder and CEO of Health Markets Africa, a healthcare advisory and investment company, and was Director at Investment Fund for Health in Africa (IFHA), a pioneer private equity fund focused on Healthcare in Africa.",
         about2:
@@ -67,7 +67,7 @@ const management = [
         id: 5,
         img: adesegun,
         name: "Adesegun Damazio",
-        office: "Group Head, Marketing and Growth",
+        office: "Group Head, Marketing & Growth",
         about:
             "Adesegun is a skilled corporate industry professional with sound experience building sustainable businesses and delivering growth, strategy, communications, and marketing solutions for innovative brands. His core interests lie in fostering viable business environments for people and institutions using modern, cost-effective, and adaptable approaches.",
         about2:
@@ -81,7 +81,7 @@ const management = [
         id: 6,
         img: vivian,
         name: "Vivian Akwuaka",
-        office: "Group Head, Quality and Sustainability",
+        office: "Group Head, Quality & Sustainability",
         about:
             "Vivian possesses a strong background in Nursing Science and has actively championed advancements in Healthcare Quality for more 7+ years. Her passion for healthcare quality improvement has been evident all through her career as a Nurse and even now as a Healthcare Quality Improvement Specialist.",
         about2:
@@ -93,7 +93,7 @@ const management = [
         id: 7,
         img: adetomi,
         name: "Adetomi Olaobaju",
-        office: "Group Head, Legal, Risk and Compliance",
+        office: "Group Head, Legal, Risk & Compliance",
         about:
             "Adetomi is an established and seasoned Legal Practitioner, with over a decade of experience in niche areas of law spanning across Corporate and Commercial Law, Medical Law and Ethics, Regulatory Compliance, Company Secretariat, Corporate Governance and Risk Management.",
 
