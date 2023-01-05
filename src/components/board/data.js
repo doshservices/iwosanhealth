@@ -9,7 +9,7 @@ const boardData = [
         id: 1,
         img: fola,
         name: "Fola Adeola, OFR; mni",
-        office: "Chairman / Co-founder",
+        office: "Chairman & Co-founder",
         about:
             "Fola Adeola is Chairman of Main One Cable Company Limited, owner-managers of thefirst open access submarine cable in West Africa. He is also the Chairman of FATEFoundation. He is a member of the Board of Trustees of the International Crises Group.Prior to these, Fola founded Guaranty Trust Bank Plc and served as its first ManagingDirector.",
         about2:
@@ -21,7 +21,7 @@ const boardData = [
         id: 2,
         img: laloye,
         name: "Fola Laoye",
-        office: "Co-Founder / CEO",
+        office: "Co-Founder & CEO",
         about:
             "Fola Laoye is the co-Founder and CEO of Iwosan Investments Limited, a HealthInvestments Holding Company. She is also the Founder and CEO of Health Markets Africa, a healthcare advisory and investment company, and was Director at Investment Fundfor Health in Africa (IFHA), a pioneer private equity fund focused on Healthcare in Africa.",
         about2:
@@ -37,7 +37,7 @@ const boardData = [
         id: 3,
         img: oladapo,
         name: "Oladapo Oshinusi",
-        office: "Co-founder / Board Member",
+        office: "Co-founder & Board Member",
         about:
             "He is the Founder and CEO of Mansfield Energy, a leading provider of oil and gas services in West and South Africa. He was President of Reslink for Africa after working with a multinational oil and gas services company for more than 20 years in Europe, Middle East, and Africa.",
 
