@@ -11,7 +11,13 @@ export default function Board() {
   // const [current, setCurrent] = useState(0);
   const [data, setData] = useState();
   const [showModal, setShowModal] = useState(false);
-  const length = boardData.length;
+  // const length = boardData.length;
+  const transformLeft = {
+    transform: "translate(0, -20%)",
+  };
+  const transformRight = {
+    transform: "translate(0, 20%)",
+  };
   const handleClick = (e, data) => {
     setData(data);
     setShowModal(!showModal);
@@ -54,7 +60,7 @@ export default function Board() {
     <>
       <Swiper
         freeMode={true}
-        grabCursor={false}
+        grabCursor={true}
         modules={[FreeMode]}
         slidesPerView={5}
         spaceBetween={30}

@@ -8,10 +8,10 @@ import "swiper/css/free-mode";
 
 const Management = () => {
   const scroll = ["<", ">"];
-  const [current, setCurrent] = useState(0);
+  // const [current, setCurrent] = useState(0);
   const [data, setData] = useState();
   const [showModal, setShowModal] = useState(false);
-  const length = management.length;
+  // const length = management.length;
   const handleClick = (e, data) => {
     setData(data);
     setShowModal(!showModal);
@@ -56,7 +56,7 @@ const Management = () => {
         freeMode={true}
         grabCursor={false}
         modules={[FreeMode]}
-        slidesPerView={5}
+        slidesPerView={7}
         spaceBetween={30}
         className="board-carousel"
         id="data-carousel"
@@ -79,6 +79,14 @@ const Management = () => {
           },
           1690: {
             slidesPerView: 5,
+            spaceBetween: 10,
+          },
+          2000: {
+            slidesPerView: 6,
+            spaceBetween: 10,
+          },
+          2400: {
+            slidesPerView: 7,
             spaceBetween: 10,
           },
         }}

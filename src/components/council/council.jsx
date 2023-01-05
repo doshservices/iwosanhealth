@@ -8,10 +8,10 @@ import "swiper/css/free-mode";
 
 const Council = () => {
   const scroll = ["<", ">"];
-  const [current, setCurrent] = useState(0);
+  // const [current, setCurrent] = useState(0);
   const [data, setData] = useState();
   const [showModal, setShowModal] = useState(false);
-  const length = councilData.length;
+  // const length = councilData.length;
   const handleClick = (e, data) => {
     setData(data);
     setShowModal(!showModal);
