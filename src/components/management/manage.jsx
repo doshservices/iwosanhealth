@@ -42,12 +42,12 @@ const Management = () => {
   // }
   const slideLeft = () => {
     let slider = document.getElementById("data-carousel");
-    slider.scrollLeft = slider.scrollLeft - 800;
+    slider.scrollLeft = slider.scrollLeft - 293;
   };
 
   const slideRight = () => {
     let slider = document.getElementById("data-carousel");
-    slider.scrollLeft = slider.scrollLeft + 800;
+    slider.scrollLeft = slider.scrollLeft + 293;
   };
 
   return (
