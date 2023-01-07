@@ -1,8 +1,9 @@
 .board-carousel {
     display: flex;
+    flex-wrap: wrap;
     justify-content: center;
-    /* gap: 1rem; */
-    overflow-x: scroll;
+    gap: 1rem;
+    margin-top: 3rem;
 }
 
 .animate {
@@ -20,7 +21,7 @@
     min-width: 14rem;
     max-width: 17rem;
     height: 21.3rem;
-    margin: 1rem auto 1rem auto;
+    /* margin: 1rem 0; */
     border-radius: 2px 2px 2px 40px;
     position: relative;
     overflow: hidden;

@@ -52,48 +52,49 @@ const Management = () => {
 
   return (
     <>
-      <Swiper
-        freeMode={true}
-        grabCursor={false}
-        modules={[FreeMode]}
-        slidesPerView={7}
-        spaceBetween={30}
+      <section
+        role="region"
+        // freeMode={true}
+        // grabCursor={false}
+        // modules={[FreeMode]}
+        // slidesPerView={7}
+        // spaceBetween={30}
         className="board-carousel"
         id="data-carousel"
-        breakpoints={{
-          0: {
-            slidesPerView: 1,
-            spaceBetween: 10,
-          },
-          600: {
-            slidesPerView: 2,
-            spaceBetween: 10,
-          },
-          950: {
-            slidesPerView: 3,
-            spaceBetween: 10,
-          },
-          1250: {
-            slidesPerView: 4,
-            spaceBetween: 10,
-          },
-          1690: {
-            slidesPerView: 5,
-            spaceBetween: 10,
-          },
-          2000: {
-            slidesPerView: 6,
-            spaceBetween: 10,
-          },
-          2400: {
-            slidesPerView: 7,
-            spaceBetween: 10,
-          },
-        }}
+        // breakpoints={{
+        //   0: {
+        //     slidesPerView: 1,
+        //     spaceBetween: 10,
+        //   },
+        //   600: {
+        //     slidesPerView: 2,
+        //     spaceBetween: 10,
+        //   },
+        //   950: {
+        //     slidesPerView: 3,
+        //     spaceBetween: 10,
+        //   },
+        //   1250: {
+        //     slidesPerView: 4,
+        //     spaceBetween: 10,
+        //   },
+        //   1690: {
+        //     slidesPerView: 5,
+        //     spaceBetween: 10,
+        //   },
+        //   2000: {
+        //     slidesPerView: 6,
+        //     spaceBetween: 10,
+        //   },
+        //   2400: {
+        //     slidesPerView: 7,
+        //     spaceBetween: 10,
+        //   },
+        // }}
       >
         {management.map((data, index) => {
           return (
-            <SwiperSlide
+            <section
               key={data.id}
               // className={index === current ? "animate true" : "animate"}
             >
@@ -115,7 +116,7 @@ const Management = () => {
                 </div>
               </>
               {/* )} */}
-            </SwiperSlide>
+            </section>
           );
         })}
         {showModal && (
@@ -144,15 +145,15 @@ const Management = () => {
             </div>
           </div>
         )}
-      </Swiper>
-      <div className="scroller">
+      </section>
+      {/* <div className="scroller">
         <button onClick={slideLeft} className="scroller">
           {scroll[0]}
         </button>
         <button onClick={slideRight} className="scroller">
           {scroll[1]}
         </button>
-      </div>
+      </div> */}
     </>
   );
 };
