@@ -32,18 +32,18 @@ const Investment = () => {
             style={{ margin: "1rem 0", maxWidth: "200px" }}
           />
           <p>
-            Our flagship investment portfolio, Iwosan Lagoon Hospitals (formerly
-            Lagoon Hospitals), is a renowned provider of integrated healthcare
-            services for millions of Nigerians and foreign nationals. The
-            franchise has bagged numerous awards in areas of quality and service
-            excellence by notable global bodies and is a trusted healthcare
-            partner for private and public organizations around the globe. In
-            2011, Lagoon Hospitals became the first hospital in Sub-Saharan
+            Our flagship portfolio investment, Iwosan Lagoon Hospitals, is a
+            renowned provider of integrated healthcare services for millions of
+            Nigerians and foreign nationals. The franchise has bagged numerous
+            awards in areas of quality and service excellence by notable global
+            bodies and is a trusted healthcare partner for private and public
+            organizations around the globe.
+          </p>
+          <p>
+            In 2011, Lagoon Hospitals became the first hospital in Sub-Saharan
             Africa to earn the Gold Seal of Approval from the Joint Commission
             International in recognition of its commitment to improve healthcare
-            quality and patient safety. It has since maintained poll position
-            and its operations have been understudied by scholars, government
-            agencies and notable hospital groups across Africa.
+            quality and patient safety.
           </p>
         </div>
         <figure>
@@ -89,9 +89,9 @@ const Investment = () => {
             received by patients. Therefore, we have set out to optimize the
             interoperability of our health systems by ensuring we retain the
             best hands and allow our people to explore the diverse options
-            available to them within the system. Ultimately, our flagship
-            portfolio, Iwosan Lagoon Hospitals would become global citadels of
-            clinical practice and healthcare personnel capacity development.
+            available to them within the system. Our facilities have also earned
+            accreditations to train the next generation of healthcare
+            professionals and clinical experts.
           </p>
         </div>
         <figure>
@@ -111,11 +111,11 @@ const Investment = () => {
             the value chain.
           </p>
           <p>
-            Iwosan’s financial strategy of structured permanent capital, mainly
+            Iwosan's financial strategy of structured permanent capital, mainly
             from local investors, can systematically unlock a significant pool
             of resources needed to build strong and viable healthcare facilities
-            and thereby reduce the burden of hospital bed shortages prevalent in
-            Africa.
+            and thereby reduce the burden of hospital bed shortages
+            prevalent in Nigeria.
           </p>
         </div>
       </section>
@@ -136,13 +136,18 @@ const Investment = () => {
             We have leveraged this unrivalled expert advisory to institute a
             fluid corporate governance system at each Iwosan facility with the
             aim of achieving data-driven healthcare administration and quality
-            outcomes.
+            outcomes. Under the leadership of their respective Managing
+            Directors, each hospital is structured to compete favourably based
+            on the preset performance indices. Our Centre of Excellence model is
+            also designed to provide a dynamic experience for every member of
+            the diverse audience we cater for whereby each facility is known for
+            its own unique service offering.
           </p>
-          <p>
+          {/* <p>
             Under the leadership of their respective Managing Directors, each
             hospital is structured to function independently and compete
             favourably based on the preset performance indices.
-          </p>
+          </p> */}
         </div>
         <figure>
           <img
