@@ -36,9 +36,8 @@ const Contact = () => {
           <img src={curve1} className="curve3" alt="" />
           <h1>Contact Us</h1>
           <p>
-            Iwosan Investments Limited is a privately held healthcare asset and
-            investment company dedicated to financing and developing brownfield
-            and greenfield multi-specialist healthcare facility
+            Iwosan Investments is a healthcare investment company dedicated to
+            investing in the Nigerian healthcare market.
           </p>
           <form ref={form} onSubmit={sendEmail} className="contact-form">
             <div>
