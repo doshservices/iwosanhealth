@@ -37,7 +37,7 @@ const management = [
     {
         id: 3,
         img: Isaiah,
-        name: "ISAIAH MUKORO ONORIODE",
+        name: "ISAIAH MUKORO",
         office: "Group Financial Controller",
         about:
             "Isaiah is a seasoned Chartered Accountant with multifaceted experience spanning Finance, Auditing, Tax, Financial Management, and International Banking. He is a wellaccomplished Finance Expert and possesses more than 24 years’ experience across the public sector, private sector, and professional audit firms. Some of his professional stints include Akintola Williams Deloitte, Platinum Bank, Lagos Metropolitan Area Authority (LAMATA) – A World Bank Assisted Project, Gateway Telecom Integrated Services Limited, Hygeia Limited, among others.",
