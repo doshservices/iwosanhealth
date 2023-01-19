@@ -44,7 +44,12 @@ const Contact = () => {
               <label htmlFor="name">
                 Your name*
                 <br />
-                <input type="text" name="user_name" placeholder="name" />
+                <input
+                  type="text"
+                  name="user_name"
+                  placeholder="name"
+                  required
+                />
               </label>
 
               <label htmlFor="email">
@@ -54,6 +59,7 @@ const Contact = () => {
                   type="email"
                   name="user_email"
                   placeholder="you@example.com"
+                  required
                 />
               </label>
             </div>
@@ -65,12 +71,18 @@ const Contact = () => {
                   type="text"
                   name="Company name"
                   placeholder="Company name"
+                  required
                 />
               </label>
               <label htmlFor="name">
                 Country*
                 <br />
-                <input type="text" name="Country" placeholder="Country" />
+                <input
+                  type="text"
+                  name="Country"
+                  placeholder="Country"
+                  required
+                />
               </label>
             </div>
             <label htmlFor="message" className="message">
@@ -82,6 +94,7 @@ const Contact = () => {
               cols="30"
               rows="5"
               placeholder="Type your message..."
+              required
             ></textarea>
             <p>
               By submitting this form you agree to our terms and conditions and

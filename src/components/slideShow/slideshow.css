@@ -132,6 +132,21 @@
   }
 }
 
+@keyframes slide-up2 {
+  0% {
+    opacity: .8;
+    visibility: visible;
+    transform: scale(.9);
+  }
+
+  100% {
+    opacity: 1;
+    visibility: visible;
+    opacity: 1;
+    transform: scale(1);
+  }
+}
+
 @media (max-width: 500px) {
   .content div {
     margin: clamp(2rem, 10vw, 8rem) .5rem clamp(2rem, 6vw, 8rem) .5rem;
@@ -145,5 +160,20 @@
   .prev {
     top: 90%;
     left: .5rem;
+  }
+}
+
+@media (max-width: 730px) {
+  .content {
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    opacity: 0;
+    animation: slide-up2 1s ease .5s;
+    animation-fill-mode: forwards;
+    visibility: hidden;
+    transition: all .4s ease;
   }
 }
