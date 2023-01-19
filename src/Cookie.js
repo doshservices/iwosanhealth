@@ -1,8 +1,16 @@
 import "./App.css"
-import { useState } from "react";
+import { useState, useEffect } from "react";
 
 const Cookies = () => {
-    const [close, setClose] = useState(true)
+    const [close, setClose] = useState(JSON.parse(localStorage.getItem("IWOSAN_COOKIE_CONSENT") || true));
+    useEffect(() => {
+        localStorage.setItem("IWOSAN_COOKIE_CONSENT", JSON.stringify(close));
+    }, [close]);
+
+    useEffect(() => {
+        const data = localStorage.getItem("IWOSAN_COOKIE_CONSENT");
+        if (data !== null) setClose(JSON.parse(data));
+    }, [close]);
 
     return (
         <>
