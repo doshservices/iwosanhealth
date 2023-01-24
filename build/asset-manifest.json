@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.e163c753.css",
-    "main.js": "/static/js/main.c4e4b55a.js",
+    "main.css": "/static/css/main.3327a40a.css",
+    "main.js": "/static/js/main.551d2b43.js",
     "static/js/787.89edd211.chunk.js": "/static/js/787.89edd211.chunk.js",
     "static/media/Kemi.jpg": "/static/media/Kemi.498915997afe3d3c845c.jpg",
     "static/media/Fola Laoye.jpg": "/static/media/Fola Laoye.da78089efcb7a52fd241.jpg",
@@ -50,12 +50,12 @@
     "static/media/arrow-down.svg": "/static/media/arrow-down.920d5839a4edf7c7f9df50e95fc0459a.svg",
     "static/media/greenborder2.svg": "/static/media/greenborder2.b3d08534f4b75de796025d26ab54f143.svg",
     "static/media/border.svg": "/static/media/border.b3ff470b6f43c37793d1c83feaed6621.svg",
-    "main.e163c753.css.map": "/static/css/main.e163c753.css.map",
-    "main.c4e4b55a.js.map": "/static/js/main.c4e4b55a.js.map",
+    "main.3327a40a.css.map": "/static/css/main.3327a40a.css.map",
+    "main.551d2b43.js.map": "/static/js/main.551d2b43.js.map",
     "787.89edd211.chunk.js.map": "/static/js/787.89edd211.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.e163c753.css",
-    "static/js/main.c4e4b55a.js"
+    "static/css/main.3327a40a.css",
+    "static/js/main.551d2b43.js"
   ]
 }

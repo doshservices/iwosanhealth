@@ -3,6 +3,7 @@ import Footer from "../navigation/footer";
 import curve1 from "../../images/curved-bg1.svg";
 import { useRef } from "react";
 import emailjs from "@emailjs/browser";
+import { toast } from "react-toastify";
 
 const Contact = () => {
   const form = useRef();
@@ -12,19 +13,43 @@ const Contact = () => {
 
     emailjs
       .sendForm(
-        "service_njc5ljg",
-        "template_r8xeep1",
+        "service_fd2rsbi",
+        "template_hcfrf8x",
         form.current,
-        "DRN_vB7PkDwvIdX1O"
+        "3rQ4WR9QXHUBHsBZ4"
       )
       .then(
         (result) => {
           console.log(result.text);
+          toast.success(
+            "Email Sent Successfully. We will get back to you Shortly",
+            {
+              position: "top-right",
+              autoClose: 5000,
+              hideProgressBar: false,
+              closeOnClick: true,
+              pauseOnHover: true,
+              draggable: true,
+              progress: undefined,
+              theme: "colored",
+            }
+          );
         },
         (error) => {
           console.log(error.text);
+          toast.error(error, {
+            position: "top-right",
+            autoClose: 5000,
+            hideProgressBar: false,
+            closeOnClick: true,
+            pauseOnHover: true,
+            draggable: true,
+            progress: undefined,
+            theme: "colored",
+          });
         }
       );
+    e.target.reset();
   };
 
   return (
@@ -44,12 +69,7 @@ const Contact = () => {
               <label htmlFor="name">
                 Your name*
                 <br />
-                <input
-                  type="text"
-                  name="user_name"
-                  placeholder="name"
-                  required
-                />
+                <input type="text" name="name" placeholder="name" required />
               </label>
 
               <label htmlFor="email">
@@ -57,7 +77,7 @@ const Contact = () => {
                 <br />
                 <input
                   type="email"
-                  name="user_email"
+                  name="email"
                   placeholder="you@example.com"
                   required
                 />
@@ -69,7 +89,7 @@ const Contact = () => {
                 <br />
                 <input
                   type="text"
-                  name="Company name"
+                  name="company"
                   placeholder="Company name"
                   required
                 />
@@ -79,7 +99,7 @@ const Contact = () => {
                 <br />
                 <input
                   type="text"
-                  name="Country"
+                  name="country"
                   placeholder="Country"
                   required
                 />
@@ -114,6 +134,7 @@ const Contact = () => {
             style={{ border: "0" }}
             allowFullScreen=""
             loading="lazy"
+            title="maps"
             referrerPolicy="no-referrer-when-downgrade"
           ></iframe>
 

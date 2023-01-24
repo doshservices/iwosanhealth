@@ -12,7 +12,7 @@ const Footer = () => {
       <footer>
         <section className="flex">
           <div className="about-logo">
-            <Link to="/home">
+            <Link to="/">
               <img className="footer__logo" src={Logo} alt="" />
             </Link>
             <p>
