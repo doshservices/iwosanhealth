@@ -1,6 +1,6 @@
 import React from "react";
 import "./App.css";
-import { Route, Routes, Navigate } from "react-router-dom";
+import { Route, Routes } from "react-router-dom";
 import { useState, useEffect } from "react";
 import Navbar from "./components/navigation/navbar";
 import Home from "./components/home/home";
@@ -38,8 +38,7 @@ const App = () => {
       <Navbar />
       <main>
         <Routes>
-          <Route path="/" element={<Navigate to="/home" replace />} />
-          <Route path="/home" element={<Home />} />
+          <Route path="/" element={<Home />} />
           <Route path="/team" element={<Team />} />
           <Route path="/gorvenance" element={<Governance />} />
           <Route path="/investment" element={<Investment />} />

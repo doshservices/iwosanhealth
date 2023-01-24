@@ -10,7 +10,7 @@ const Navbar = () => {
   return (
     <header>
       <nav className="header__nav">
-        <Link to="/home">
+        <Link to="/">
           <img src={Logo} alt="iwosan" className="header__logo" />
         </Link>
         <ul
