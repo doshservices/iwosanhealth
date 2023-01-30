@@ -13,27 +13,24 @@ const Contact = () => {
 
     emailjs
       .sendForm(
-        "service_fd2rsbi",
-        "template_hcfrf8x",
+        "service_e717gdz",
+        "template_qhycaxq",
         form.current,
-        "3rQ4WR9QXHUBHsBZ4"
+        "zTvkZgdoxszFwzbn0"
       )
       .then(
         (result) => {
           console.log(result.text);
-          toast.success(
-            "Email Sent Successfully. We will get back to you Shortly",
-            {
-              position: "top-right",
-              autoClose: 5000,
-              hideProgressBar: false,
-              closeOnClick: true,
-              pauseOnHover: true,
-              draggable: true,
-              progress: undefined,
-              theme: "colored",
-            }
-          );
+          toast.success("Message Sent", {
+            position: "top-right",
+            autoClose: 5000,
+            hideProgressBar: false,
+            closeOnClick: true,
+            pauseOnHover: true,
+            draggable: true,
+            progress: undefined,
+            theme: "colored",
+          });
         },
         (error) => {
           console.log(error.text);
