@@ -1,7 +1,6 @@
 import slide1 from "../../images/banner1.jpg";
 import slide2 from "../../images/banner2.jpg";
 import slide3 from "../../images/slide3.jpg";
-import slide4 from "../../images/slide4.jpg";
 
 export const sliderData = [
     {

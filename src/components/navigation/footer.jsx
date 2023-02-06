@@ -1,9 +1,7 @@
 import "./navigation.css";
 import Logo from "../../images/Logo.svg";
 import Linkedin from "../../images/icons8-linkedin.svg";
-import Facebook from "../../images/icons8-facebook-f.svg";
 import Instagram from "../../images/icons8-instagram.svg";
-import Twitter from "../../images/twitter-icon.svg";
 import { Link } from "react-router-dom";
 
 const Footer = () => {
@@ -27,7 +25,11 @@ const Footer = () => {
                 <Link to="/news">News</Link>
               </li>
               <li>
-                <a href="https://www.lagoonhospitals.com/" target="_blank">
+                <a
+                  href="https://www.lagoonhospitals.com/"
+                  target="_blank"
+                  rel="noreferrer"
+                >
                   Portfolio
                 </a>
               </li>
@@ -41,7 +43,9 @@ const Footer = () => {
             <div className="contact">
               <h4>Contact Us</h4>
 
-              <a href="mailto:m.info@iwosanhealth.com">info@iwosanhealth.com</a>
+              <a href="mailto:m.info@iwosanhealth.com" rel="noreferrer">
+                info@iwosanhealth.com
+              </a>
               <p>Lagos, Nigeria</p>
             </div>
             <div className="social-links">
@@ -50,12 +54,14 @@ const Footer = () => {
                 <a
                   href="https://www.instagram.com/iwosaninvestments/"
                   target="_blank"
+                  rel="noreferrer"
                 >
                   <img src={Instagram} alt="" />
                 </a>
                 <a
                   href="https://www.linkedin.com/company/iwosan-investments-limited/"
                   target="_blank"
+                  rel="noreferrer"
                 >
                   <img src={Linkedin} alt="" />
                 </a>
