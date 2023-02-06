@@ -1,0 +1,77 @@
+.join {
+    position: relative;
+    overflow-x: hidden;
+    background: hsl(217, 73%, 12%);
+    min-height: 100vh;
+    color: white;
+    padding: 4rem clamp(1rem, 7vw, 8rem);
+    align-items: center;
+    gap: 2rem;
+}
+
+.join .bg1 {
+    position: absolute;
+    opacity: .1;
+    max-height: 100%;
+    left: -1rem;
+    top: -1rem;
+    pointer-events: none;
+}
+
+.join .bg2 {
+    position: absolute;
+    opacity: .1;
+    max-height: 100%;
+    right: -10%;
+    top: -2rem;
+    pointer-events: none;
+    transform: rotate(90deg);
+}
+
+.join h2 {
+    color: hsl(0, 0%, 100%);
+    text-align: center;
+}
+
+.join p {
+    margin: 0;
+    text-align: left;
+}
+
+.join .suscribe {
+    max-width: 630px;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+    margin: 3rem auto 2rem auto;
+}
+
+.join input {
+    font-size: 1rem;
+    font-family: "Work Sans";
+    border: none;
+    height: fit-content;
+    max-width: 300px;
+    margin: auto;
+    background: white;
+    padding: .8rem 1rem;
+    display: block;
+    flex-grow: 1;
+    flex-basis: 330px;
+}
+
+.join button {
+    border-left: 1px solid hsl(217, 73%, 12%, 0.5);
+    background-color: hsl(166, 99%, 41%);
+    color: white;
+    cursor: pointer;
+    font-weight: 500;
+    font-size: 1.1rem;
+    padding: .7rem 2rem;
+    border: none;
+    margin: 1rem auto;
+    display: block;
+    flex-basis: 600px;
+    max-width: 170px;
+}

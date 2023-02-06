@@ -13,6 +13,7 @@ import Blog from "./components/news/blog";
 import ScrollToTop from "./ScrollToTop";
 import Cookies from "./Cookie";
 import Policy from "./policy/policy";
+import NewsLetter from "./components/newsletter/newsletter";
 
 const App = () => {
   const [backToTopButton, setbackToTopButton] = useState(false);
@@ -46,6 +47,7 @@ const App = () => {
           <Route path="/career" element={<Carrer />} />
           <Route path="/news" element={<Blog />} />
           <Route path="/privacy-policy" element={<Policy />} />
+          <Route path="/newsletter" element={<NewsLetter />} />
         </Routes>
       </main>
       {backToTopButton && (

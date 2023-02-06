@@ -6,9 +6,9 @@ import Ethical from "../../images/Ethical.svg";
 import knowledge from "../../images/Knowledge driven.svg";
 import Accesible from "../../images/Accessible.svg";
 import Footer from "../navigation/footer";
-import curvedbg1 from "../../images/curved-bg1.svg";
 import pdfile from "../../images/iwosan-pdf.png";
 import { useState } from "react";
+import NewsLetter from "../newsletter/newsletter";
 
 const Home = () => {
   const [modal1, setModal1] = useState(false);
@@ -16,6 +16,7 @@ const Home = () => {
   const [modal3, setModal3] = useState(false);
   const [modal4, setModal4] = useState(false);
   const [modal5, setModal5] = useState(false);
+
   return (
     <>
       <div className="home-slider">
@@ -255,24 +256,6 @@ const Home = () => {
                 </p>
               </div>
             </div>
-          </div>
-        </div>
-      </section>
-      <section className="join flex">
-        <img src={curvedbg1} className="bg1" alt="" />
-        <img src={curvedbg1} className="bg2" alt="" />
-        <div className="mail flex-350-item">
-          <h2>Join Our Mailing List</h2>
-          <p>
-            Nigeria’s healthcare industry is booming with activities and we
-            would like to keep you updated on the most relevant news only. Sign
-            up to receive our newsletters:
-          </p>
-        </div>
-        <div className="suscribe flex-350-item">
-          <div>
-            <input type="email" placeholder="Enter your email" />
-            <button>Suscribe</button>
           </div>
         </div>
       </section>
