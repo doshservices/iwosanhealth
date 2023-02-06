@@ -227,6 +227,7 @@ const Governance = () => {
               }}
               href="mailto: whistleblow@iwosanhealth.com"
               target="_blank"
+              rel="noreferrer"
             >
               whistleblow@iwosanhealth.com
             </a>
@@ -272,6 +273,7 @@ const Governance = () => {
                     }}
                     href="mailto: whistleblow@iwosanhealth.com"
                     target="_blank"
+                    rel="noreferrer"
                   >
                     whistleblow@iwosanhealth.com
                   </a>
@@ -361,6 +363,7 @@ const Governance = () => {
               }}
               href="mailto:partnerships@iwosanhealth.com"
               target="_blank"
+              rel="noreferrer"
             >
               partnerships@iwosanhealth.com
             </a>

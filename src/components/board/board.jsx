@@ -1,23 +1,18 @@
 import React, { useState, useRef, useEffect } from "react";
 import "./team.css";
 import boardData from "./data";
-import { Swiper, SwiperSlide } from "swiper/react";
-import { FreeMode } from "swiper";
+// import { Swiper, SwiperSlide } from "swiper/react";
+// import { FreeMode } from "swiper";
 import "swiper/css";
 import "swiper/css/free-mode";
 
 export default function Board() {
-  const scroll = ["<", ">"];
+  // const scroll = ["<", ">"];
   // const [current, setCurrent] = useState(0);
   const [data, setData] = useState();
   const [showModal, setShowModal] = useState(false);
   // const length = boardData.length;
-  const transformLeft = {
-    transform: "translate(0, -20%)",
-  };
-  const transformRight = {
-    transform: "translate(0, 20%)",
-  };
+
   const handleClick = (e, data) => {
     setData(data);
     setShowModal(!showModal);
@@ -59,7 +54,7 @@ export default function Board() {
   return (
     <>
       <section
-        role="region"
+        // role="region"
         // freeMode={true}
         // grabCursor={true}
         // modules={[FreeMode]}

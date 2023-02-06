@@ -1,7 +1,7 @@
 import Logo from "../../images/Logo.svg";
 import Arrowdown from "../../images/arrow-down.svg";
 import "./navigation.css";
-import { useState, useEffect, useRef } from "react";
+import { useState } from "react";
 import { Link, NavLink } from "react-router-dom";
 
 const Navbar = () => {
@@ -89,6 +89,7 @@ const Navbar = () => {
               href="https://www.lagoonhospitals.com/"
               target="_blank"
               className="header__link"
+              rel="noreferrer"
             >
               PORTFOLIO
             </a>

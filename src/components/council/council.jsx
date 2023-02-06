@@ -1,13 +1,13 @@
 import React from "react";
 import { useState, useRef, useEffect } from "react";
 import councilData from "./councilData";
-import { Swiper, SwiperSlide } from "swiper/react";
-import { FreeMode } from "swiper";
+// import { Swiper, SwiperSlide } from "swiper/react";
+// import { FreeMode } from "swiper";
 import "swiper/css";
 import "swiper/css/free-mode";
 
 const Council = () => {
-  const scroll = ["<", ">"];
+  // const scroll = ["<", ">"];
   // const [current, setCurrent] = useState(0);
   const [data, setData] = useState();
   const [showModal, setShowModal] = useState(false);
@@ -54,7 +54,7 @@ const Council = () => {
   return (
     <>
       <section
-        role="region"
+        // role="region"
         // freeMode={true}
         // grabCursor={false}
         // modules={[FreeMode]}
