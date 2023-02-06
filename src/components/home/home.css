@@ -181,75 +181,6 @@
     fill: white;
 }
 
-.join {
-    position: relative;
-    overflow: hidden;
-    background: hsl(217, 73%, 12%);
-    color: white;
-    padding: 4rem clamp(1rem, 7vw, 8rem);
-    align-items: center;
-    gap: 2rem;
-}
-
-.join .bg1 {
-    position: absolute;
-    opacity: .1;
-    max-height: 100%;
-    left: 0;
-    pointer-events: none;
-}
-
-.join .bg2 {
-    position: absolute;
-    opacity: .1;
-    max-height: 100%;
-    right: -10%;
-    pointer-events: none;
-    transform: rotate(90deg);
-}
-
-.join h2 {
-    color: hsl(0, 0%, 100%);
-    text-align: left;
-}
-
-.join p {
-    margin: 0;
-    text-align: left;
-}
-
-.join .suscribe {
-    display: flex;
-    justify-content: right;
-    height: fit-content;
-    margin-top: .4rem;
-}
-
-.join .suscribe>div {
-    background: white;
-    width: fit-content;
-    height: fit-content;
-}
-
-.join button,
-.join input {
-    font-size: 1rem;
-    font-family: "Work Sans";
-    border: none;
-    height: fit-content;
-    background: transparent;
-    height: fit-content;
-    padding: 0 1rem;
-    margin: 1rem 0;
-}
-
-.join button {
-    border-left: 1px solid hsl(217, 73%, 12%, 0.5);
-    color: hsl(166, 99%, 41%);
-    cursor: pointer;
-    font-weight: 500;
-}
-
 .testimony {
     color: white;
     padding: 2rem clamp(1rem, 4vw, 4rem);
@@ -318,6 +249,10 @@
 }
 
 @media(max-width: 400px) {
+    .join input {
+        width: 100%;
+    }
+
     .join button {
         border: 0px;
     }

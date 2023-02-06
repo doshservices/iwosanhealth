@@ -104,6 +104,17 @@ const Navbar = () => {
               CONTACT US
             </NavLink>
           </li>
+          <li>
+            <NavLink
+              onClick={() => {
+                setIsOpen(!isOpen);
+              }}
+              to="/newsletter"
+              className="header__link last"
+            >
+              NEWSLETTER
+            </NavLink>
+          </li>
         </ul>
         <div
           onClick={() => {
