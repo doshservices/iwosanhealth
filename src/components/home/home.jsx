@@ -8,8 +8,7 @@ import Accesible from "../../images/Accessible.svg";
 import Footer from "../navigation/footer";
 import pdfile from "../../images/iwosan-pdf.png";
 import { useState } from "react";
-import NewsLetter from "../newsletter/newsletter";
-
+import { Suscribe } from "../suscribe/suscribe";
 const Home = () => {
   const [modal1, setModal1] = useState(false);
   const [modal2, setModal2] = useState(false);
@@ -259,6 +258,7 @@ const Home = () => {
           </div>
         </div>
       </section>
+      <Suscribe />
       <Footer />
     </>
   );

@@ -1,0 +1,86 @@
+.suscribe {
+    background: hsl(217, 73%, 12%);
+    position: relative;
+    padding: 3rem clamp(1rem, 4vw, 8rem);
+    color: white;
+    overflow: hidden;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 2rem;
+}
+
+.suscribe .bg1 {
+    position: absolute;
+    opacity: .1;
+    max-height: 100%;
+    left: -1rem;
+    top: -1rem;
+    pointer-events: none;
+}
+
+.suscribe .bg2 {
+    position: absolute;
+    opacity: .1;
+    max-height: 100%;
+    right: -20%;
+    top: -8rem;
+    pointer-events: none;
+    transform: rotate(90deg);
+}
+
+.suscribe p {
+    max-width: 500px;
+}
+
+.suscribe form {
+    background: white;
+    width: fit-content;
+    padding: .8rem 0;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.suscribe form input {
+    border: none;
+    font-size: 1rem;
+    padding: 0 .8rem;
+    color: hsl(0, 0%, 20%);
+    display: block;
+    padding: 0 1rem;
+}
+
+.suscribe form button {
+    border: none;
+    padding: 0 1.5rem;
+    font-size: 1rem;
+    background: white;
+    color: hsl(166, 99%, 41%);
+    border-left: .5px solid hsl(0, 0%, 40%);
+    display: block;
+    cursor: pointer;
+}
+
+@media(max-width: 810px) {
+    .suscribe .bg2 {
+        display: none;
+    }
+}
+
+@media(max-width: 420px) {
+    .suscribe .bg2 {
+        display: none;
+    }
+}
+
+@media(max-width: 370px) {
+    .suscribe form {
+        gap: 1.1rem;
+    }
+
+    .suscribe form button {
+        border-left: none;
+        padding: 0 1rem;
+    }
+}

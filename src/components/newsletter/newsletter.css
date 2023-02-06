@@ -2,7 +2,7 @@
     position: relative;
     overflow-x: hidden;
     background: hsl(217, 73%, 12%);
-    min-height: 100vh;
+    min-height: 92vh;
     color: white;
     padding: 4rem clamp(1rem, 7vw, 8rem);
     align-items: center;
@@ -22,7 +22,7 @@
     position: absolute;
     opacity: .1;
     max-height: 100%;
-    right: -10%;
+    right: -20%;
     top: -2rem;
     pointer-events: none;
     transform: rotate(90deg);
@@ -39,7 +39,7 @@
     max-width: 650px;
 }
 
-.join .suscribe {
+.join .newsletter>div {
     max-width: 630px;
     margin: auto;
     display: flex;
@@ -59,7 +59,7 @@
     padding: .8rem 1rem;
     display: block;
     flex-grow: 1;
-    flex-basis: 330px;
+    flex-basis: 350px;
 }
 
 .join button {
@@ -73,6 +73,5 @@
     border: none;
     margin: 1rem auto;
     display: block;
-    flex-basis: 600px;
-    max-width: 170px;
+    max-width: 200px;
 }
