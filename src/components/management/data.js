@@ -5,6 +5,7 @@ import adesegun from "./imgs/Adesegun Damazio.jpg";
 import idowu from "./imgs/Dr. Idowu Adebiyi.jpg";
 import vivian from "./imgs/Vivian Akwuaka.jpg";
 import Oyiza from "./imgs/Oyiza Salu.jpg";
+import oladipo from '../../images/Oladipo Olugbemi-03.jpg'
 
 const management = [
     {
@@ -48,21 +49,35 @@ const management = [
     },
     {
         id: 4,
-        img: Oyiza,
-        name: "Oyiza Salu",
+        img: oladipo,
+        name: "Oladipo Olugbemi",
         office: "Group Head, Human Resources",
         about:
-            "Oyiza Salu is a versatile and results-oriented professional with expertise in human capital and leadership development. She brings significant experience from the financial services industry having previously worked in Stanbic IBTC Bank (a member of the Standard Bank Group) and Guaranty Trust Bank, where she championed several high impact initiatives in her role as Group Head, Human Resources.",
+            "Oladipo is a passionate Human Resource Management Practitioner. He possesses detailed knowledge and understanding of HR functions, including but not limited to Performance Management/Analytics, Talent Management, Manpower Planning, Recruitment & Selection, Employee Relations, and HR strategy. Oladipo brings significant experience from the telecoms and financial services industries, having previously worked at Globacom Nigeria Ltd and United Bank for Africa Plc.",
 
         about2:
-            "She is a Member of the Chartered Institute of Personnel Management of Nigeria, a Senior Certified Professional of the Society for Human Resource Management, USA, and an Honorary Senior Member of the Chartered Institute of Bankers of Nigeria.",
+            "He obtained a Bachelor’s degree in Urban and Regional Planning and a Masters in Employee Relations and Human Resources Management from the University of Lagos. He holds a Senior Professional in Human Resources – International Certification from the Human Resources Certification Institute (HRCI).",
 
         about3:
-            "She obtained a Bachelor’s Degree in Chemical Engineering from the Ahmadu Bello University, Zaria, and a Masters in Business Administration from the University of Liverpool, United Kingdom.",
-
-        about4:
-            "Oyiza has completed immersive trainings from renowned institutions such as IE Business School, Madrid, Ross School of Business – University of Michigan, and the Lagos Business School(Advanced Management Programme – AMP 32).",
+            "He has handled various process improvement initiatives and HR projects in the course of his career and is a team builder with proven leadership and team management competencies.",
     },
+    // {
+    //     id: 4,
+    //     img: Oyiza,
+    //     name: "Oyiza Salu",
+    //     office: "Group Head, Human Resources",
+    //     about:
+    //         "Oyiza Salu is a versatile and results-oriented professional with expertise in human capital and leadership development. She brings significant experience from the financial services industry having previously worked in Stanbic IBTC Bank (a member of the Standard Bank Group) and Guaranty Trust Bank, where she championed several high impact initiatives in her role as Group Head, Human Resources.",
+
+    //     about2:
+    //         "She is a Member of the Chartered Institute of Personnel Management of Nigeria, a Senior Certified Professional of the Society for Human Resource Management, USA, and an Honorary Senior Member of the Chartered Institute of Bankers of Nigeria.",
+
+    //     about3:
+    //         "She obtained a Bachelor’s Degree in Chemical Engineering from the Ahmadu Bello University, Zaria, and a Masters in Business Administration from the University of Liverpool, United Kingdom.",
+
+    //     about4:
+    //         "Oyiza has completed immersive trainings from renowned institutions such as IE Business School, Madrid, Ross School of Business – University of Michigan, and the Lagos Business School(Advanced Management Programme – AMP 32).",
+    // },
     {
         id: 5,
         img: adesegun,
