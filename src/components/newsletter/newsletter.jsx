@@ -65,7 +65,7 @@ const NewsLetter = () => {
             onChange={handleChange}
           />
         </div>
-        <button type="submit">Suscribe</button>
+        <button type="submit">Subscribe</button>
       </form>
     </section>
   );
