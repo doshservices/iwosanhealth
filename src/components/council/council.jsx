@@ -1,10 +1,6 @@
 import React from "react";
 import { useState, useRef, useEffect } from "react";
 import councilData from "./councilData";
-// import { Swiper, SwiperSlide } from "swiper/react";
-// import { FreeMode } from "swiper";
-import "swiper/css";
-import "swiper/css/free-mode";
 
 const Council = () => {
   // const scroll = ["<", ">"];
