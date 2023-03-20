@@ -39,8 +39,9 @@ export const Suscribe = () => {
           onChange={handleChange}
           type="email"
           placeholder="Email Address"
+          required
         />
-        <button type="submit">Suscribe</button>
+        <button type="submit">Subscribe</button>
       </form>
     </div>
   );

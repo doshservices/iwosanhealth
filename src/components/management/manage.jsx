@@ -1,10 +1,6 @@
 import React from "react";
 import { useState, useRef, useEffect } from "react";
 import management from "./data";
-// import { Swiper, SwiperSlide } from "swiper/react";
-// import { FreeMode } from "swiper";
-import "swiper/css";
-import "swiper/css/free-mode";
 
 const Management = () => {
   // const scroll = ["<", ">"];

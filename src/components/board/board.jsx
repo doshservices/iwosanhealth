@@ -1,10 +1,6 @@
 import React, { useState, useRef, useEffect } from "react";
 import "./team.css";
 import boardData from "./data";
-// import { Swiper, SwiperSlide } from "swiper/react";
-// import { FreeMode } from "swiper";
-import "swiper/css";
-import "swiper/css/free-mode";
 
 export default function Board() {
   // const scroll = ["<", ">"];
