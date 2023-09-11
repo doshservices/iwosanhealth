@@ -4,7 +4,7 @@ import adetomi from "./imgs/Adetomi Olaobaju.jpg";
 import adesegun from "./imgs/Adesegun Damazio.jpg";
 import idowu from "./imgs/Dr. Idowu Adebiyi.jpg";
 import vivian from "./imgs/Vivian Akwuaka.jpg";
-import Oyiza from "./imgs/Oyiza Salu.jpg";
+// import Oyiza from "./imgs/Oyiza Salu.jpg";
 import oladipo from '../../images/Oladipo Olugbemi-03.jpg'
 
 const management = [
@@ -14,13 +14,14 @@ const management = [
         name: "FOLA LAOYE",
         office: "Co-Founder & CEO",
         about:
-            "Fola Laoye is the co-Founder and CEO of Iwosan Investments Limited, a Health Investments Holding Company. She is also the Founder and CEO of Health Markets Africa, a healthcare advisory and investment company, and was Director at Investment Fund for Health in Africa (IFHA), a pioneer private equity fund focused on Healthcare in Africa.",
+            "Fola Laoye is the co-Founder and CEO of Iwosan Investments Limited, owners of Iwosan Lagoon Hospitals. She was also a Director at Investment Fund for Health in Africa (IFHA), a pioneer private equity fund focused on Healthcare in Africa.",
         about2:
-            "She is a founding board member of Hygeia Group Nigeria, promoters of Lagoon Hospitals and Hygeia HMO, and while there, she recorded laudable feats as CEO(2002- 2012) and as Chairperson (2012 - 2015).She is also a Trustee of the board of the Society for Quality in Healthcare in Nigeria(SQHN).",
+            "She is a founding board member of Hygeia Group Nigeria and while there, she recorded laudable feats as CEO (2002-2012) and as Chairperson (2012-2015). She is also a Trustee of the board of the Society for Quality in Healthcare in Nigeria (SQHN).",
         about3:
-            "She is Chairperson of the boards of Old Mutual Life Assurance and FSDH Asset Management.As part of her philanthropic dispositions, she currently chairs the Elebute- LUTH Welfare Board and co - chairs the Africa Regional Board of the Young Presidents Organization(YPO).She is also a member of Harvard Business School Africa Advisory Board.",
+            "She is Chairperson of the boards of Old Mutual Life Assurance and FSDH Asset Management and is a board member of Retail Supermarkets(ShopRite Nigeria).As part of her philanthropic dispositions, she currently chairs the Elebute- LUTH Welfare Board and co - chairs the Africa Regional Board of the Young Presidents Organization(YPO).She is also a member of Harvard Business School Africa Advisory Board.",
         about4:
-            "She holds an MBA from Harvard Business School(class of 1999) and a Bachelors’s Degree in Accounting from the University of Lagos, Nigeria.She is a Chartered Accountant with vast training from Ernst & Young, Lagos, and Coopers & Lybrand(now PwC), London.She is a Member of the Institute of Chartered Acccountants in England & Wales and the Institute of Chartered Accountants of Nigeria.",
+            "She holds an MBA from Harvard Business School (class of 1999) and a Bachelor’s Degree in Accounting from the University of Lagos, Nigeria. She is a Chartered Accountant with vast training from Ernst & Young, Lagos, and Coopers & Lybrand (now PwC), London. She is a Member of the Institute of Chartered Accountants in England & Wales and the Institute of Chartered Accountants of Nigeria.",
+        about5: "In 2011, Fola was nominated as a Young Global Leader by the World Economic Forum, and in 2013, she was awarded the Harvard Business School Africa Business Club Leadership Excellence Award."
     },
     {
         id: 2,
@@ -120,7 +121,7 @@ const management = [
         about4:
             "She holds a Bachelor of Laws degree from the Obafemi Awolowo University, Ife.She is a Barrister and Solicitor of the Supreme Court of Nigeria and a member of the Chartered Instorporate Governance Institute, UK.She is a member of several professional bodies, associations, and institutions, including the Nigerian Bar Association – Section on Business Law(NBA- SBL), World Association of Medical Law, Medical Law Professionals Association of Nigeria.",
         about5:
-            "  She enjoys watching crime and medical series, listening to gospel music, spending time with family and friends, and travelling.",
+            " She enjoys watching crime and medical series, listening to gospel music, spending time with family and friends, and travelling.",
     },
 ]
 
