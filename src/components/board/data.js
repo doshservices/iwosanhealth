@@ -11,7 +11,7 @@ const boardData = [
         name: "Fola Adeola, OFR; mni",
         office: "Co-Founder & Chairman",
         about:
-            "Fola Adeola is Chairman of Main One Cable Company Limited, owner-managers of thefirst open access submarine cable in West Africa. He is also the Chairman of FATEFoundation. He is a member of the Board of Trustees of the International Crises Group.Prior to these, Fola founded Guaranty Trust Bank Plc and served as its first ManagingDirector.",
+            "Fola Adeola is Chairman of Main One Cable Company Limited, owner-managers of the first open access submarine cable in West Africa. He is also the Chairman of FATEFoundation. He is a member of the Board of Trustees of the International Crises Group.Prior to these, Fola founded Guaranty Trust Bank Plc and served as its first ManagingDirector.",
         about2:
             " In the public sector, Fola served as the first Chairman of the National Pension Commissionin Nigeria; Member of the National Honours and Awards Committee; Member of the SolidMineral Committee(both federally constituted); Member of Council, Institute ofChartered Accountants of Nigeria; and Member of the Global Advisory Committee onPhilanthropy of the World Economic Forum.He served as a Commissioner on theCommission for Africa, prelude to the 2005 G8 meeting in Gleneagles, UK.Until June 2015, he was the Deputy Chairman of the Victims of Terrorism Support Fund in Nigeria.",
         about3:
@@ -23,15 +23,15 @@ const boardData = [
         name: "Fola Laoye",
         office: "Co-Founder & CEO",
         about:
-            "Fola Laoye is the co-Founder and CEO of Iwosan Investments Limited, a HealthInvestments Holding Company. She is also the Founder and CEO of Health Markets Africa, a healthcare advisory and investment company, and was Director at Investment Fundfor Health in Africa (IFHA), a pioneer private equity fund focused on Healthcare in Africa.",
+            "Fola Laoye is the co-Founder and CEO of Iwosan Investments Limited, a Health Investments Holding Company. She is also the Founder and CEO of Health Markets Africa, a healthcare advisory and investment company, and was Director at Investment Fund for Health in Africa (IFHA), a pioneer private equity fund focused on Healthcare in Africa.",
         about2:
-            "She is a founding board member of Hygeia Group Nigeria, promoters of Lagoon Hospitalsand Hygeia HMO, and while there, she recorded laudable feats as CEO(2002- 2012) and as Chairperson (2012 - 2015).She is also a Trustee of the board of the Society for Quality inHealthcare in Nigeria(SQHN).",
+            "She is a founding board member of Hygeia Group Nigeria, promoters of Lagoon Hospitals and Hygeia HMO, and while there, she recorded laudable feats as CEO (2002- 2012) and as Chairperson (2012 - 2015).She is also a Trustee of the board of the Society for Quality inHealthcare in Nigeria(SQHN).",
         about3:
-            "She is Chairperson of the boards of Old Mutual Life Assurance and FSDH AssetManagement.As part of her philanthropic dispositions, she currently chairs the ElebuteLUTH Welfare Board and co- chairs the Africa Regional Board of the Young PresidentsOrganization(YPO).She is also a member of Harvard Business School Africa Advisory Board",
+            "She is Chair person of the boards of Old Mutual Life Assurance and FSDH Asset Management. As part of her philanthropic dispositions, she currently chairs the Elebute LUTH Welfare Board and co- chairs the Africa Regional Board of the Young PresidentsOrganization(YPO). She is also a member of Harvard Business School Africa Advisory Board.",
         about4:
-            ".She holds an MBA from Harvard Business School(class of 1999) and a Bachelors’s Degree in Accounting from the University of Lagos, Nigeria.She is a Chartered Accountant with vast training from Ernst & Young, Lagos, and Coopers & Lybrand(now PwC), London.She is a Member of the Institute of Chartered Accountants in England & Wales and the Institute of Chartered Accountants of Nigeria.",
+            "She holds an MBA from Harvard Business School(class of 1999) and a Bachelors’s Degree in Accounting from the University of Lagos, Nigeria.She is a Chartered Accountant with vast training from Ernst & Young, Lagos, and Coopers & Lybrand(now PwC), London. She is a Member of the Institute of Chartered Accountants in England & Wales and the Institute of Chartered Accountants of Nigeria.",
         about5:
-            "   In 2011, Fola was nominated as a Young Global Leader by the World Economic Forum, and in 2013, she was awarded the Harvard Business School Africa Business Club Leadership Excellence Award.",
+            "In 2011, Fola was nominated as a Young Global Leader by the World Economic Forum, and in 2013, she was awarded the Harvard Business School Africa Business Club Leadership Excellence Award.",
     },
     {
         id: 3,
