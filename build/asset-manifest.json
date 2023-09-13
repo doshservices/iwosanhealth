@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.abbc221a.css",
-    "main.js": "/static/js/main.86a8b564.js",
+    "main.css": "/static/css/main.b3769ec7.css",
+    "main.js": "/static/js/main.27cc3827.js",
     "static/js/787.89edd211.chunk.js": "/static/js/787.89edd211.chunk.js",
     "static/media/Kemi.jpg": "/static/media/Kemi.498915997afe3d3c845c.jpg",
     "static/media/Fola Laoye.jpg": "/static/media/Fola Laoye.da78089efcb7a52fd241.jpg",
@@ -33,26 +33,26 @@
     "static/media/iwosan-pdf.png": "/static/media/iwosan-pdf.0853a6a22dde58235081.png",
     "static/media/Prof Ogunsola.jpg": "/static/media/Prof Ogunsola.a44a68b96e9d945b59cc.jpg",
     "static/media/leadership.jpg": "/static/media/leadership.fea76f8d2dab50775cb5.jpg",
-    "static/media/Logo.svg": "/static/media/Logo.825a0d66c2184143e7f69db7ff2a1f51.svg",
+    "static/media/Logo.svg": "/static/media/Logo.05be68327a976769a2f807a56aeacfda.svg",
     "static/media/Iwosan-Lagoon-Logo.png": "/static/media/Iwosan-Lagoon-Logo.f12de4f6b4a7d8595a11.png",
     "static/media/Emphatic.svg": "/static/media/Emphatic.19565e81736c96b37e0e436ebb3112cc.svg",
     "static/media/Accessible.svg": "/static/media/Accessible.dca876010feb524e13b81594e426b263.svg",
     "static/media/Ethical.svg": "/static/media/Ethical.6a2617b3bade8f3fccafa5a740bc70bc.svg",
     "static/media/Knowledge driven.svg": "/static/media/Knowledge driven.36a7ac867b3d26a22a0869779046e277.svg",
-    "static/media/ecg.svg": "/static/media/ecg.33114a174524d2698e84.svg",
-    "static/media/icons8-instagram.svg": "/static/media/icons8-instagram.b11d3654e2e5da64c2bff7616261b844.svg",
-    "static/media/icons8-linkedin.svg": "/static/media/icons8-linkedin.5452403f8e9c4d2318e0f53f7c9db01f.svg",
+    "static/media/ecg.svg": "/static/media/ecg.50a172f8144523fb491f.svg",
+    "static/media/icons8-instagram.svg": "/static/media/icons8-instagram.69c4481afdbfcb8054b690ea91465be6.svg",
+    "static/media/icons8-linkedin.svg": "/static/media/icons8-linkedin.62901f3a93ce07112eea069c97b41963.svg",
     "index.html": "/index.html",
-    "static/media/curved-bg1.svg": "/static/media/curved-bg1.1b29565d3fed3ff35cb1f5e733ba92bc.svg",
-    "static/media/arrow-down.svg": "/static/media/arrow-down.9eed8240ecb6830932a65da4a0876530.svg",
-    "static/media/greenborder2.svg": "/static/media/greenborder2.e177a44f48ba557f0ee08778ddc2c1e7.svg",
-    "static/media/border.svg": "/static/media/border.b55ba75da8c32d9223b65c5887d88e52.svg",
-    "main.abbc221a.css.map": "/static/css/main.abbc221a.css.map",
-    "main.86a8b564.js.map": "/static/js/main.86a8b564.js.map",
+    "static/media/curved-bg1.svg": "/static/media/curved-bg1.60a48f4882043a5e69b3593623bc3fc4.svg",
+    "static/media/arrow-down.svg": "/static/media/arrow-down.920d5839a4edf7c7f9df50e95fc0459a.svg",
+    "static/media/greenborder2.svg": "/static/media/greenborder2.b3d08534f4b75de796025d26ab54f143.svg",
+    "static/media/border.svg": "/static/media/border.b3ff470b6f43c37793d1c83feaed6621.svg",
+    "main.b3769ec7.css.map": "/static/css/main.b3769ec7.css.map",
+    "main.27cc3827.js.map": "/static/js/main.27cc3827.js.map",
     "787.89edd211.chunk.js.map": "/static/js/787.89edd211.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.abbc221a.css",
-    "static/js/main.86a8b564.js"
+    "static/css/main.b3769ec7.css",
+    "static/js/main.27cc3827.js"
   ]
 }
