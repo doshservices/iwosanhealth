@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.b3769ec7.css",
-    "main.js": "/static/js/main.00541e08.js",
+    "main.js": "/static/js/main.d6a7c617.js",
     "static/js/787.89edd211.chunk.js": "/static/js/787.89edd211.chunk.js",
     "static/media/Kemi.jpg": "/static/media/Kemi.498915997afe3d3c845c.jpg",
     "static/media/Fola Laoye.jpg": "/static/media/Fola Laoye.da78089efcb7a52fd241.jpg",
@@ -16,7 +16,6 @@
     "static/media/Adetomi Olaobaju.jpg": "/static/media/Adetomi Olaobaju.7ad476171aff366696d7.jpg",
     "static/media/Dr. Idowu Adebiyi.jpg": "/static/media/Dr. Idowu Adebiyi.43be65f8d4b5d574e8ce.jpg",
     "static/media/clinacal.png": "/static/media/clinacal.970275ea200bf7f929c9.png",
-    "static/media/Oladipo Olugbemi-03.jpg": "/static/media/Oladipo Olugbemi-03.0be98a7eb3d68eecb322.jpg",
     "static/media/slide3.jpg": "/static/media/slide3.2f058ece795ac85e7ad7.jpg",
     "static/media/banner2.jpg": "/static/media/banner2.837051029cbbfa50fe13.jpg",
     "static/media/operation.jpg": "/static/media/operation.789085f14a274be997e6.jpg",
@@ -29,7 +28,6 @@
     "static/media/Iwosan-Lagoon_Banner_Square.jpg": "/static/media/Iwosan-Lagoon_Banner_Square.db2d55b75b8f67f65f45.jpg",
     "static/media/INNOVATIVE FINANCIAL STRATEGY.jpg": "/static/media/INNOVATIVE FINANCIAL STRATEGY.13d83cf8f5e947f19e0b.jpg",
     "static/media/Iwosan-Lagoon_Banner_Square_2.jpg": "/static/media/Iwosan-Lagoon_Banner_Square_2.c94fedbca56b785192c3.jpg",
-    "static/media/Olukayode Pitan.jpg": "/static/media/Olukayode Pitan.2f728cd2bdee1e8f358f.jpg",
     "static/media/iwosan-pdf.png": "/static/media/iwosan-pdf.0853a6a22dde58235081.png",
     "static/media/Prof Ogunsola.jpg": "/static/media/Prof Ogunsola.a44a68b96e9d945b59cc.jpg",
     "static/media/leadership.jpg": "/static/media/leadership.fea76f8d2dab50775cb5.jpg",
@@ -48,11 +46,11 @@
     "static/media/greenborder2.svg": "/static/media/greenborder2.b3d08534f4b75de796025d26ab54f143.svg",
     "static/media/border.svg": "/static/media/border.b3ff470b6f43c37793d1c83feaed6621.svg",
     "main.b3769ec7.css.map": "/static/css/main.b3769ec7.css.map",
-    "main.00541e08.js.map": "/static/js/main.00541e08.js.map",
+    "main.d6a7c617.js.map": "/static/js/main.d6a7c617.js.map",
     "787.89edd211.chunk.js.map": "/static/js/787.89edd211.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.b3769ec7.css",
-    "static/js/main.00541e08.js"
+    "static/js/main.d6a7c617.js"
   ]
 }

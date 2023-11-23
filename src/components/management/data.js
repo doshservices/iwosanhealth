@@ -5,7 +5,7 @@ import adesegun from "./imgs/Adesegun Damazio.jpg";
 import idowu from "./imgs/Dr. Idowu Adebiyi.jpg";
 import vivian from "./imgs/Vivian Akwuaka.jpg";
 // import Oyiza from "./imgs/Oyiza Salu.jpg";
-import oladipo from '../../images/Oladipo Olugbemi-03.jpg'
+// import oladipo from '../../images/Oladipo Olugbemi-03.jpg'
 
 const management = [
     {
@@ -48,20 +48,20 @@ const management = [
         about3:
             "He graduated from the University of Calabar and holds a Masters in Business Administration(MBA degree, as well as a Master of Science degree in Transport Studies.",
     },
-    {
-        id: 4,
-        img: oladipo,
-        name: "Oladipo Olugbemi",
-        office: "Group Head, Human Resources",
-        about:
-            "Oladipo is a passionate Human Resource Management Practitioner. He possesses detailed knowledge and understanding of HR functions, including but not limited to Performance Management/Analytics, Talent Management, Manpower Planning, Recruitment & Selection, Employee Relations, and HR strategy. Oladipo brings significant experience from the telecoms and financial services industries, having previously worked at Globacom Nigeria Ltd and United Bank for Africa Plc.",
+    // {
+    //     id: 4,
+    //     img: oladipo,
+    //     name: "Oladipo Olugbemi",
+    //     office: "Group Head, Human Resources",
+    //     about:
+    //         "Oladipo is a passionate Human Resource Management Practitioner. He possesses detailed knowledge and understanding of HR functions, including but not limited to Performance Management/Analytics, Talent Management, Manpower Planning, Recruitment & Selection, Employee Relations, and HR strategy. Oladipo brings significant experience from the telecoms and financial services industries, having previously worked at Globacom Nigeria Ltd and United Bank for Africa Plc.",
 
-        about2:
-            "He obtained a Bachelor’s degree in Urban and Regional Planning and a Masters in Employee Relations and Human Resources Management from the University of Lagos. He holds a Senior Professional in Human Resources – International Certification from the Human Resources Certification Institute (HRCI).",
+    //     about2:
+    //         "He obtained a Bachelor’s degree in Urban and Regional Planning and a Masters in Employee Relations and Human Resources Management from the University of Lagos. He holds a Senior Professional in Human Resources – International Certification from the Human Resources Certification Institute (HRCI).",
 
-        about3:
-            "He has handled various process improvement initiatives and HR projects in the course of his career and is a team builder with proven leadership and team management competencies.",
-    },
+    //     about3:
+    //         "He has handled various process improvement initiatives and HR projects in the course of his career and is a team builder with proven leadership and team management competencies.",
+    // },
     // {
     //     id: 4,
     //     img: Oyiza,

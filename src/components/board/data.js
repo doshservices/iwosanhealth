@@ -2,7 +2,7 @@ import fola from "./team-img/Fola Adeola.jpg";
 import laloye from "./team-img/Fola Laoye.jpg";
 import nelson from "./team-img/Prof Nelson Oyesiku.jpg";
 import oladapo from "./team-img/Dapo Oshinusi.jpg";
-import pitan from "./team-img/Olukayode Pitan.jpg";
+// import pitan from "./team-img/Olukayode Pitan.jpg";
 
 const boardData = [
     {
@@ -57,12 +57,12 @@ const boardData = [
         about3:
             "    He was also a member of the Residency Review Committee of Neurosurgery of the ACGME and a Fellow of the American College of Surgeons.He has held leadership positions in the following organizations: the Congress of Neurological Surgeons; the American Academy of Neurological Surgery; the Georgia Neurosurgical Society; theSociety of University Neurosurgeons; and the World Federation of Neurosurgical Societies.",
     },
-    {
-        id: 5,
-        img: pitan,
-        name: "Olukayode Pitan",
-        office: "Board Member",
-        about: "",
-    },
+    // {
+    //     id: 5,
+    //     img: pitan,
+    //     name: "Olukayode Pitan",
+    //     office: "Board Member",
+    //     about: "",
+    // },
 ]
 export default boardData;
